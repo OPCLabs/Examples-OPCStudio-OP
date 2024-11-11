@@ -12,10 +12,10 @@ unit OpcLabs_EasyOpcUAComponents_TLB;
 // ************************************************************************ //
 
 // $Rev: 98336 $
-// File generated on 2/10/2024 17:40:27 from Type Library described below.
+// File generated on 11/3/2024 2:19:50 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcUAComponents.tlb (1)
+// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcUAComponents.tlb (1)
 // LIBID: {5346E434-17C3-4D23-AD1F-43F7B92B2468}
 // LCID: 0
 // Helpfile: 
@@ -23,20 +23,10 @@ unit OpcLabs_EasyOpcUAComponents_TLB;
 // DepndLst: 
 //   (1) v2.4 mscorlib, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb)
 //   (2) v2.4 System, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.tlb)
-//   (3) v5.80 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.BaseLib.tlb)
-//   (4) v5.80 OpcLabs_EasyOpcUA, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcUA.tlb)
+//   (3) v5.81 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.BaseLib.tlb)
+//   (4) v5.81 OpcLabs_EasyOpcUA, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcUA.tlb)
 //   (5) v2.0 stdole, (C:\Windows\SysWOW64\stdole2.tlb)
 // SYS_KIND: SYS_WIN32
-// Errors:
-//   Error creating palette bitmap of (TEasyUAClientManagement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAClient) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASubscriberManagement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASubscriber) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAPublishSubscribeClient) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUACertificateManagementClient) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAGlobalDiscoveryClient) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAApplication) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAAlarmsAndConditionsClient) : Server mscoree.dll contains no icons
 // ************************************************************************ //
 {$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers. 
 {$WARN SYMBOL_PLATFORM OFF}
@@ -60,7 +50,7 @@ Vcl.Graphics, Vcl.OleServer, Winapi.ActiveX;
 const
   // TypeLibrary Major and minor versions
   OpcLabs_EasyOpcUAComponentsMajorVersion = 5;
-  OpcLabs_EasyOpcUAComponentsMinorVersion = 80;
+  OpcLabs_EasyOpcUAComponentsMinorVersion = 81;
 
   LIBID_OpcLabs_EasyOpcUAComponents: TGUID = '{5346E434-17C3-4D23-AD1F-43F7B92B2468}';
 
@@ -127,11 +117,11 @@ type
     function Get_DisplayString: WideString;
     function Get_CustomReference: WideString;
     procedure Set_CustomReference(const pRetVal: WideString);
-    function Get_AdaptableParameters: _EasyUAAdaptableParameters;
-    procedure _Set_AdaptableParameters(const pRetVal: _EasyUAAdaptableParameters);
+    function Get_AdaptableParameters: _EasyUAClientAdaptableParameters;
+    procedure _Set_AdaptableParameters(const pRetVal: _EasyUAClientAdaptableParameters);
     function Get_SharedInstance: _EasyUAClient;
-    function Get_SharedParameters: _EasyUASharedParameters;
-    procedure _Set_SharedParameters(const pRetVal: _EasyUASharedParameters);
+    function Get_SharedParameters: _EasyUAClientSharedParameters;
+    procedure _Set_SharedParameters(const pRetVal: _EasyUAClientSharedParameters);
   public
     constructor Create(AOwner: TComponent); override;
     destructor  Destroy; override;
@@ -148,9 +138,9 @@ type
     property DefaultInterface: _EasyUAClientManagement read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
-    property AdaptableParameters: _EasyUAAdaptableParameters read Get_AdaptableParameters write _Set_AdaptableParameters;
+    property AdaptableParameters: _EasyUAClientAdaptableParameters read Get_AdaptableParameters write _Set_AdaptableParameters;
     property SharedInstance: _EasyUAClient read Get_SharedInstance;
-    property SharedParameters: _EasyUASharedParameters read Get_SharedParameters write _Set_SharedParameters;
+    property SharedParameters: _EasyUAClientSharedParameters read Get_SharedParameters write _Set_SharedParameters;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
   published
     property OnLogEntry: TEasyUAClientManagementLogEntry read FOnLogEntry write FOnLogEntry;
@@ -199,20 +189,20 @@ type
     function Get_DisplayString: WideString;
     function Get_CustomReference: WideString;
     procedure Set_CustomReference(const pRetVal: WideString);
-    function Get_CallbackQueueCapacity: Integer;
-    procedure Set_CallbackQueueCapacity(pRetVal: Integer);
-    function Get_CallbackQueueIdleTimeToSleep: Integer;
-    procedure Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer);
-    function Get_QueueCallbacks: WordBool;
-    procedure Set_QueueCallbacks(pRetVal: WordBool);
+    function Get_NotificationQueueCapacity: Integer;
+    procedure Set_NotificationQueueCapacity(pRetVal: Integer);
+    function Get_NotificationQueueIdleTimeToSleep: Integer;
+    procedure Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer);
+    function Get_QueueNotifications: WordBool;
+    procedure Set_QueueNotifications(pRetVal: WordBool);
     function Get_AliasProvider: _AliasProvider;
     procedure _Set_AliasProvider(const pRetVal: _AliasProvider);
-    function Get_InstanceParameters: _EasyUAInstanceParameters;
-    procedure _Set_InstanceParameters(const pRetVal: _EasyUAInstanceParameters);
+    function Get_InstanceParameters: _EasyUAClientInstanceParameters;
+    procedure _Set_InstanceParameters(const pRetVal: _EasyUAClientInstanceParameters);
     function Get_Isolated: WordBool;
     procedure Set_Isolated(pRetVal: WordBool);
-    function Get_IsolatedParameters: _EasyUAAdaptableParameters;
-    procedure _Set_IsolatedParameters(const pRetVal: _EasyUAAdaptableParameters);
+    function Get_IsolatedParameters: _EasyUAClientAdaptableParameters;
+    procedure _Set_IsolatedParameters(const pRetVal: _EasyUAClientAdaptableParameters);
     function Get_LicenseInfo: _StringObjectDictionary;
     function Get_PullDataChangeNotificationQueueCapacity: Integer;
     procedure Set_PullDataChangeNotificationQueueCapacity(pRetVal: Integer);
@@ -312,13 +302,13 @@ type
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property AliasProvider: _AliasProvider read Get_AliasProvider write _Set_AliasProvider;
-    property InstanceParameters: _EasyUAInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
-    property IsolatedParameters: _EasyUAAdaptableParameters read Get_IsolatedParameters write _Set_IsolatedParameters;
+    property InstanceParameters: _EasyUAClientInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
+    property IsolatedParameters: _EasyUAClientAdaptableParameters read Get_IsolatedParameters write _Set_IsolatedParameters;
     property LicenseInfo: _StringObjectDictionary read Get_LicenseInfo;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
-    property CallbackQueueCapacity: Integer read Get_CallbackQueueCapacity write Set_CallbackQueueCapacity;
-    property CallbackQueueIdleTimeToSleep: Integer read Get_CallbackQueueIdleTimeToSleep write Set_CallbackQueueIdleTimeToSleep;
-    property QueueCallbacks: WordBool read Get_QueueCallbacks write Set_QueueCallbacks;
+    property NotificationQueueCapacity: Integer read Get_NotificationQueueCapacity write Set_NotificationQueueCapacity;
+    property NotificationQueueIdleTimeToSleep: Integer read Get_NotificationQueueIdleTimeToSleep write Set_NotificationQueueIdleTimeToSleep;
+    property QueueNotifications: WordBool read Get_QueueNotifications write Set_QueueNotifications;
     property Isolated: WordBool read Get_Isolated write Set_Isolated;
     property PullDataChangeNotificationQueueCapacity: Integer read Get_PullDataChangeNotificationQueueCapacity write Set_PullDataChangeNotificationQueueCapacity;
     property PullEventNotificationQueueCapacity: Integer read Get_PullEventNotificationQueueCapacity write Set_PullEventNotificationQueueCapacity;
@@ -440,12 +430,12 @@ type
     function Get_DisplayString: WideString;
     function Get_CustomReference: WideString;
     procedure Set_CustomReference(const pRetVal: WideString);
-    function Get_CallbackQueueCapacity: Integer;
-    procedure Set_CallbackQueueCapacity(pRetVal: Integer);
-    function Get_CallbackQueueIdleTimeToSleep: Integer;
-    procedure Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer);
-    function Get_QueueCallbacks: WordBool;
-    procedure Set_QueueCallbacks(pRetVal: WordBool);
+    function Get_NotificationQueueCapacity: Integer;
+    procedure Set_NotificationQueueCapacity(pRetVal: Integer);
+    function Get_NotificationQueueIdleTimeToSleep: Integer;
+    procedure Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer);
+    function Get_QueueNotifications: WordBool;
+    procedure Set_QueueNotifications(pRetVal: WordBool);
     function Get_AliasProvider: _AliasProvider;
     procedure _Set_AliasProvider(const pRetVal: _AliasProvider);
     function Get_InstanceParameters: _EasyUASubscriberInstanceParameters;
@@ -500,9 +490,9 @@ type
     property IsolatedParameters: _EasyUASubscriberAdaptableParameters read Get_IsolatedParameters write _Set_IsolatedParameters;
     property LicenseInfo: _StringObjectDictionary read Get_LicenseInfo;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
-    property CallbackQueueCapacity: Integer read Get_CallbackQueueCapacity write Set_CallbackQueueCapacity;
-    property CallbackQueueIdleTimeToSleep: Integer read Get_CallbackQueueIdleTimeToSleep write Set_CallbackQueueIdleTimeToSleep;
-    property QueueCallbacks: WordBool read Get_QueueCallbacks write Set_QueueCallbacks;
+    property NotificationQueueCapacity: Integer read Get_NotificationQueueCapacity write Set_NotificationQueueCapacity;
+    property NotificationQueueIdleTimeToSleep: Integer read Get_NotificationQueueIdleTimeToSleep write Set_NotificationQueueIdleTimeToSleep;
+    property QueueNotifications: WordBool read Get_QueueNotifications write Set_QueueNotifications;
     property Isolated: WordBool read Get_Isolated write Set_Isolated;
     property PullDataSetMessageQueueCapacity: Integer read Get_PullDataSetMessageQueueCapacity write Set_PullDataSetMessageQueueCapacity;
     property PullResolverAccessQueueCapacity: Integer read Get_PullResolverAccessQueueCapacity write Set_PullResolverAccessQueueCapacity;
@@ -779,6 +769,7 @@ type
     function Get_ApplicationStoreGroup: IUnknown;
     function Get_CertificateGenerationParameters: _CertificateGenerationParameters;
     function Get_CertificateRequestParameters: _UACertificateRequestParameters;
+    function Get_HostNames: _StringCollection;
     function Get_SupportsGds: WordBool;
     function Get_ApplicationParameters: _UAClientServerApplicationParameters;
     procedure _Set_ApplicationParameters(const pRetVal: _UAClientServerApplicationParameters);
@@ -813,6 +804,7 @@ type
     function GetCertificateSubjectName(const certificateSubId: WideString): WideString;
     function GetCertificateSubjectNameDictionary: _StringStringDictionary;
     function GetEffectiveApplicationManifest: _UAApplicationManifest;
+    function GetEffectiveHostNames(alternateHostNames: OleVariant): _StringCollection;
     function GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single;
     function HasOwnCertificate(const certificateSubId: WideString): WordBool;
     function HasPrivateKeyPassword(const certificateSubId: WideString): WordBool;
@@ -842,6 +834,7 @@ type
     property ApplicationStoreGroup: IUnknown read Get_ApplicationStoreGroup;
     property CertificateGenerationParameters: _CertificateGenerationParameters read Get_CertificateGenerationParameters;
     property CertificateRequestParameters: _UACertificateRequestParameters read Get_CertificateRequestParameters;
+    property HostNames: _StringCollection read Get_HostNames;
     property SupportsGds: WordBool read Get_SupportsGds;
     property ApplicationParameters: _UAClientServerApplicationParameters read Get_ApplicationParameters write _Set_ApplicationParameters;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
@@ -1036,12 +1029,12 @@ begin
   DefaultInterface.CustomReference := pRetVal;
 end;
 
-function TEasyUAClientManagement.Get_AdaptableParameters: _EasyUAAdaptableParameters;
+function TEasyUAClientManagement.Get_AdaptableParameters: _EasyUAClientAdaptableParameters;
 begin
   Result := DefaultInterface.AdaptableParameters;
 end;
 
-procedure TEasyUAClientManagement._Set_AdaptableParameters(const pRetVal: _EasyUAAdaptableParameters);
+procedure TEasyUAClientManagement._Set_AdaptableParameters(const pRetVal: _EasyUAClientAdaptableParameters);
 begin
   DefaultInterface.AdaptableParameters := pRetVal;
 end;
@@ -1051,12 +1044,12 @@ begin
   Result := DefaultInterface.SharedInstance;
 end;
 
-function TEasyUAClientManagement.Get_SharedParameters: _EasyUASharedParameters;
+function TEasyUAClientManagement.Get_SharedParameters: _EasyUAClientSharedParameters;
 begin
   Result := DefaultInterface.SharedParameters;
 end;
 
-procedure TEasyUAClientManagement._Set_SharedParameters(const pRetVal: _EasyUASharedParameters);
+procedure TEasyUAClientManagement._Set_SharedParameters(const pRetVal: _EasyUAClientSharedParameters);
 begin
   DefaultInterface.SharedParameters := pRetVal;
 end;
@@ -1203,34 +1196,34 @@ begin
   DefaultInterface.CustomReference := pRetVal;
 end;
 
-function TEasyUAClient.Get_CallbackQueueCapacity: Integer;
+function TEasyUAClient.Get_NotificationQueueCapacity: Integer;
 begin
-  Result := DefaultInterface.CallbackQueueCapacity;
+  Result := DefaultInterface.NotificationQueueCapacity;
 end;
 
-procedure TEasyUAClient.Set_CallbackQueueCapacity(pRetVal: Integer);
+procedure TEasyUAClient.Set_NotificationQueueCapacity(pRetVal: Integer);
 begin
-  DefaultInterface.CallbackQueueCapacity := pRetVal;
+  DefaultInterface.NotificationQueueCapacity := pRetVal;
 end;
 
-function TEasyUAClient.Get_CallbackQueueIdleTimeToSleep: Integer;
+function TEasyUAClient.Get_NotificationQueueIdleTimeToSleep: Integer;
 begin
-  Result := DefaultInterface.CallbackQueueIdleTimeToSleep;
+  Result := DefaultInterface.NotificationQueueIdleTimeToSleep;
 end;
 
-procedure TEasyUAClient.Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer);
+procedure TEasyUAClient.Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer);
 begin
-  DefaultInterface.CallbackQueueIdleTimeToSleep := pRetVal;
+  DefaultInterface.NotificationQueueIdleTimeToSleep := pRetVal;
 end;
 
-function TEasyUAClient.Get_QueueCallbacks: WordBool;
+function TEasyUAClient.Get_QueueNotifications: WordBool;
 begin
-  Result := DefaultInterface.QueueCallbacks;
+  Result := DefaultInterface.QueueNotifications;
 end;
 
-procedure TEasyUAClient.Set_QueueCallbacks(pRetVal: WordBool);
+procedure TEasyUAClient.Set_QueueNotifications(pRetVal: WordBool);
 begin
-  DefaultInterface.QueueCallbacks := pRetVal;
+  DefaultInterface.QueueNotifications := pRetVal;
 end;
 
 function TEasyUAClient.Get_AliasProvider: _AliasProvider;
@@ -1243,12 +1236,12 @@ begin
   DefaultInterface.AliasProvider := pRetVal;
 end;
 
-function TEasyUAClient.Get_InstanceParameters: _EasyUAInstanceParameters;
+function TEasyUAClient.Get_InstanceParameters: _EasyUAClientInstanceParameters;
 begin
   Result := DefaultInterface.InstanceParameters;
 end;
 
-procedure TEasyUAClient._Set_InstanceParameters(const pRetVal: _EasyUAInstanceParameters);
+procedure TEasyUAClient._Set_InstanceParameters(const pRetVal: _EasyUAClientInstanceParameters);
 begin
   DefaultInterface.InstanceParameters := pRetVal;
 end;
@@ -1263,12 +1256,12 @@ begin
   DefaultInterface.Isolated := pRetVal;
 end;
 
-function TEasyUAClient.Get_IsolatedParameters: _EasyUAAdaptableParameters;
+function TEasyUAClient.Get_IsolatedParameters: _EasyUAClientAdaptableParameters;
 begin
   Result := DefaultInterface.IsolatedParameters;
 end;
 
-procedure TEasyUAClient._Set_IsolatedParameters(const pRetVal: _EasyUAAdaptableParameters);
+procedure TEasyUAClient._Set_IsolatedParameters(const pRetVal: _EasyUAClientAdaptableParameters);
 begin
   DefaultInterface.IsolatedParameters := pRetVal;
 end;
@@ -1918,34 +1911,34 @@ begin
   DefaultInterface.CustomReference := pRetVal;
 end;
 
-function TEasyUASubscriber.Get_CallbackQueueCapacity: Integer;
+function TEasyUASubscriber.Get_NotificationQueueCapacity: Integer;
 begin
-  Result := DefaultInterface.CallbackQueueCapacity;
+  Result := DefaultInterface.NotificationQueueCapacity;
 end;
 
-procedure TEasyUASubscriber.Set_CallbackQueueCapacity(pRetVal: Integer);
+procedure TEasyUASubscriber.Set_NotificationQueueCapacity(pRetVal: Integer);
 begin
-  DefaultInterface.CallbackQueueCapacity := pRetVal;
+  DefaultInterface.NotificationQueueCapacity := pRetVal;
 end;
 
-function TEasyUASubscriber.Get_CallbackQueueIdleTimeToSleep: Integer;
+function TEasyUASubscriber.Get_NotificationQueueIdleTimeToSleep: Integer;
 begin
-  Result := DefaultInterface.CallbackQueueIdleTimeToSleep;
+  Result := DefaultInterface.NotificationQueueIdleTimeToSleep;
 end;
 
-procedure TEasyUASubscriber.Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer);
+procedure TEasyUASubscriber.Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer);
 begin
-  DefaultInterface.CallbackQueueIdleTimeToSleep := pRetVal;
+  DefaultInterface.NotificationQueueIdleTimeToSleep := pRetVal;
 end;
 
-function TEasyUASubscriber.Get_QueueCallbacks: WordBool;
+function TEasyUASubscriber.Get_QueueNotifications: WordBool;
 begin
-  Result := DefaultInterface.QueueCallbacks;
+  Result := DefaultInterface.QueueNotifications;
 end;
 
-procedure TEasyUASubscriber.Set_QueueCallbacks(pRetVal: WordBool);
+procedure TEasyUASubscriber.Set_QueueNotifications(pRetVal: WordBool);
 begin
-  DefaultInterface.QueueCallbacks := pRetVal;
+  DefaultInterface.QueueNotifications := pRetVal;
 end;
 
 function TEasyUASubscriber.Get_AliasProvider: _AliasProvider;
@@ -2879,6 +2872,11 @@ begin
   Result := DefaultInterface.CertificateRequestParameters;
 end;
 
+function TEasyUAApplication.Get_HostNames: _StringCollection;
+begin
+  Result := DefaultInterface.HostNames;
+end;
+
 function TEasyUAApplication.Get_SupportsGds: WordBool;
 begin
   Result := DefaultInterface.SupportsGds;
@@ -3017,6 +3015,11 @@ end;
 function TEasyUAApplication.GetEffectiveApplicationManifest: _UAApplicationManifest;
 begin
   Result := DefaultInterface.GetEffectiveApplicationManifest;
+end;
+
+function TEasyUAApplication.GetEffectiveHostNames(alternateHostNames: OleVariant): _StringCollection;
+begin
+  Result := DefaultInterface.GetEffectiveHostNames(alternateHostNames);
 end;
 
 function TEasyUAApplication.GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single;

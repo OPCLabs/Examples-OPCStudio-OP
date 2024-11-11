@@ -12,10 +12,10 @@ unit OpcLabs_BaseLibForms_TLB;
 // ************************************************************************ //
 
 // $Rev: 98336 $
-// File generated on 2/10/2024 17:39:04 from Type Library described below.
+// File generated on 11/3/2024 2:17:13 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.BaseLibForms.tlb (1)
+// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.BaseLibForms.tlb (1)
 // LIBID: {A0D7CA1E-7D8C-4D31-8ECB-84929E77E331}
 // LCID: 0
 // Helpfile: 
@@ -27,7 +27,7 @@ unit OpcLabs_BaseLibForms_TLB;
 //   (4) v2.4 System_Drawing, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Drawing.tlb)
 //   (5) v2.4 System, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.tlb)
 // Parent TypeLibrary:
-//   (0) v5.80 OpcLabs_EasyOpcForms, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcForms.tlb)
+//   (0) v5.81 OpcLabs_EasyOpcForms, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcForms.tlb)
 // SYS_KIND: SYS_WIN32
 // ************************************************************************ //
 {$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers. 
@@ -52,7 +52,7 @@ Vcl.Graphics, Vcl.OleServer, Winapi.ActiveX;
 const
   // TypeLibrary Major and minor versions
   OpcLabs_BaseLibFormsMajorVersion = 5;
-  OpcLabs_BaseLibFormsMinorVersion = 80;
+  OpcLabs_BaseLibFormsMinorVersion = 81;
 
   LIBID_OpcLabs_BaseLibForms: TGUID = '{A0D7CA1E-7D8C-4D31-8ECB-84929E77E331}';
 

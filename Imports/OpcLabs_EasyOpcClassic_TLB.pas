@@ -1,4 +1,4 @@
-unit OpcLabs_EasyOpcClassic_TLB;
+﻿unit OpcLabs_EasyOpcClassic_TLB;
 
 // ************************************************************************ //
 // WARNING                                                                    
@@ -12,10 +12,10 @@ unit OpcLabs_EasyOpcClassic_TLB;
 // ************************************************************************ //
 
 // $Rev: 98336 $
-// File generated on 2/10/2024 17:40:09 from Type Library described below.
+// File generated on 11/3/2024 2:19:23 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcClassic.tlb (1)
+// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcClassic.tlb (1)
 // LIBID: {1F165598-2F77-41C8-A9F9-EAF00C943F9F}
 // LCID: 0
 // Helpfile: 
@@ -23,12 +23,9 @@ unit OpcLabs_EasyOpcClassic_TLB;
 // DepndLst: 
 //   (1) v2.0 stdole, (C:\Windows\SysWOW64\stdole2.tlb)
 //   (2) v2.4 mscorlib, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb)
-//   (3) v5.80 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.BaseLib.tlb)
-//   (4) v5.80 OpcLabs_EasyOpcClassicCore, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcClassicCore.tlb)
+//   (3) v5.81 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.BaseLib.tlb)
+//   (4) v5.81 OpcLabs_EasyOpcClassicCore, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcClassicCore.tlb)
 // SYS_KIND: SYS_WIN32
-// Errors:
-//   Error creating palette bitmap of (TEasyDAClientSelector) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyAEClientSelector) : Server mscoree.dll contains no icons
 // ************************************************************************ //
 {$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers. 
 {$WARN SYMBOL_PLATFORM OFF}
@@ -52,7 +49,7 @@ Vcl.OleServer, Winapi.ActiveX;
 const
   // TypeLibrary Major and minor versions
   OpcLabs_EasyOpcClassicMajorVersion = 5;
-  OpcLabs_EasyOpcClassicMinorVersion = 80;
+  OpcLabs_EasyOpcClassicMinorVersion = 81;
 
   LIBID_OpcLabs_EasyOpcClassic: TGUID = '{1F165598-2F77-41C8-A9F9-EAF00C943F9F}';
 
@@ -191,12 +188,12 @@ type
     function GetService(const serviceType: _Type): OleVariant; safecall;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; safecall;
     function ValueEquals(other: OleVariant): WordBool; safecall;
-    function Get_CallbackQueueCapacity: Integer; safecall;
-    procedure Set_CallbackQueueCapacity(pRetVal: Integer); safecall;
-    function Get_CallbackQueueIdleTimeToSleep: Integer; safecall;
-    procedure Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer); safecall;
-    function Get_QueueCallbacks: WordBool; safecall;
-    procedure Set_QueueCallbacks(pRetVal: WordBool); safecall;
+    function Get_NotificationQueueCapacity: Integer; safecall;
+    procedure Set_NotificationQueueCapacity(pRetVal: Integer); safecall;
+    function Get_NotificationQueueIdleTimeToSleep: Integer; safecall;
+    procedure Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer); safecall;
+    function Get_QueueNotifications: WordBool; safecall;
+    procedure Set_QueueNotifications(pRetVal: WordBool); safecall;
     function Get_AliasProvider: _AliasProvider; safecall;
     procedure _Set_AliasProvider(const pRetVal: _AliasProvider); safecall;
     function Get_InstanceParameters: _EasyDAInstanceParameters; safecall;
@@ -267,9 +264,9 @@ type
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
-    property CallbackQueueCapacity: Integer read Get_CallbackQueueCapacity write Set_CallbackQueueCapacity;
-    property CallbackQueueIdleTimeToSleep: Integer read Get_CallbackQueueIdleTimeToSleep write Set_CallbackQueueIdleTimeToSleep;
-    property QueueCallbacks: WordBool read Get_QueueCallbacks write Set_QueueCallbacks;
+    property NotificationQueueCapacity: Integer read Get_NotificationQueueCapacity write Set_NotificationQueueCapacity;
+    property NotificationQueueIdleTimeToSleep: Integer read Get_NotificationQueueIdleTimeToSleep write Set_NotificationQueueIdleTimeToSleep;
+    property QueueNotifications: WordBool read Get_QueueNotifications write Set_QueueNotifications;
     property AliasProvider: _AliasProvider read Get_AliasProvider write _Set_AliasProvider;
     property InstanceParameters: _EasyDAInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
     property Isolated: WordBool read Get_Isolated write Set_Isolated;
@@ -296,9 +293,9 @@ type
     function GetService(const serviceType: _Type): OleVariant; dispid 1610743816;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; dispid 1610743817;
     function ValueEquals(other: OleVariant): WordBool; dispid 1610743818;
-    property CallbackQueueCapacity: Integer dispid 1610743819;
-    property CallbackQueueIdleTimeToSleep: Integer dispid 1610743821;
-    property QueueCallbacks: WordBool dispid 1610743823;
+    property NotificationQueueCapacity: Integer dispid 1610743819;
+    property NotificationQueueIdleTimeToSleep: Integer dispid 1610743821;
+    property QueueNotifications: WordBool dispid 1610743823;
     property AliasProvider: _AliasProvider dispid 1610743825;
     property InstanceParameters: _EasyDAInstanceParameters dispid 1610743827;
     property Isolated: WordBool dispid 1610743829;
@@ -517,12 +514,12 @@ type
     function GetService(const serviceType: _Type): OleVariant; safecall;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; safecall;
     function ValueEquals(other: OleVariant): WordBool; safecall;
-    function Get_CallbackQueueCapacity: Integer; safecall;
-    procedure Set_CallbackQueueCapacity(pRetVal: Integer); safecall;
-    function Get_CallbackQueueIdleTimeToSleep: Integer; safecall;
-    procedure Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer); safecall;
-    function Get_QueueCallbacks: WordBool; safecall;
-    procedure Set_QueueCallbacks(pRetVal: WordBool); safecall;
+    function Get_NotificationQueueCapacity: Integer; safecall;
+    procedure Set_NotificationQueueCapacity(pRetVal: Integer); safecall;
+    function Get_NotificationQueueIdleTimeToSleep: Integer; safecall;
+    procedure Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer); safecall;
+    function Get_QueueNotifications: WordBool; safecall;
+    procedure Set_QueueNotifications(pRetVal: WordBool); safecall;
     function Get_AliasProvider: _AliasProvider; safecall;
     procedure _Set_AliasProvider(const pRetVal: _AliasProvider); safecall;
     function Get_InstanceParameters: _EasyAEInstanceParameters; safecall;
@@ -568,9 +565,9 @@ type
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
-    property CallbackQueueCapacity: Integer read Get_CallbackQueueCapacity write Set_CallbackQueueCapacity;
-    property CallbackQueueIdleTimeToSleep: Integer read Get_CallbackQueueIdleTimeToSleep write Set_CallbackQueueIdleTimeToSleep;
-    property QueueCallbacks: WordBool read Get_QueueCallbacks write Set_QueueCallbacks;
+    property NotificationQueueCapacity: Integer read Get_NotificationQueueCapacity write Set_NotificationQueueCapacity;
+    property NotificationQueueIdleTimeToSleep: Integer read Get_NotificationQueueIdleTimeToSleep write Set_NotificationQueueIdleTimeToSleep;
+    property QueueNotifications: WordBool read Get_QueueNotifications write Set_QueueNotifications;
     property AliasProvider: _AliasProvider read Get_AliasProvider write _Set_AliasProvider;
     property InstanceParameters: _EasyAEInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
     property Isolated: WordBool read Get_Isolated write Set_Isolated;
@@ -597,9 +594,9 @@ type
     function GetService(const serviceType: _Type): OleVariant; dispid 1610743816;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; dispid 1610743817;
     function ValueEquals(other: OleVariant): WordBool; dispid 1610743818;
-    property CallbackQueueCapacity: Integer dispid 1610743819;
-    property CallbackQueueIdleTimeToSleep: Integer dispid 1610743821;
-    property QueueCallbacks: WordBool dispid 1610743823;
+    property NotificationQueueCapacity: Integer dispid 1610743819;
+    property NotificationQueueIdleTimeToSleep: Integer dispid 1610743821;
+    property QueueNotifications: WordBool dispid 1610743823;
     property AliasProvider: _AliasProvider dispid 1610743825;
     property InstanceParameters: _EasyAEInstanceParameters dispid 1610743827;
     property Isolated: WordBool dispid 1610743829;

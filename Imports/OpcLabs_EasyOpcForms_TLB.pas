@@ -12,10 +12,10 @@ unit OpcLabs_EasyOpcForms_TLB;
 // ************************************************************************ //
 
 // $Rev: 98336 $
-// File generated on 2/10/2024 17:39:05 from Type Library described below.
+// File generated on 11/3/2024 2:17:14 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcForms.tlb (1)
+// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcForms.tlb (1)
 // LIBID: {2C654FA0-6CD6-496D-A64E-CE2D2925F388}
 // LCID: 0
 // Helpfile: 
@@ -23,45 +23,15 @@ unit OpcLabs_EasyOpcForms_TLB;
 // DepndLst: 
 //   (1) v2.0 stdole, (C:\Windows\SysWOW64\stdole2.tlb)
 //   (2) v2.4 mscorlib, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb)
-//   (3) v5.80 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.BaseLib.tlb)
+//   (3) v5.81 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.BaseLib.tlb)
 //   (4) v2.4 System, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.tlb)
-//   (5) v5.80 OpcLabs_BaseLibForms, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.BaseLibForms.tlb)
+//   (5) v5.81 OpcLabs_BaseLibForms, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.BaseLibForms.tlb)
 //   (6) v2.4 System_Windows_Forms, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Windows.Forms.tlb)
-//   (7) v5.80 OpcLabs_EasyOpcUA, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcUA.tlb)
+//   (7) v5.81 OpcLabs_EasyOpcUA, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcUA.tlb)
 //   (8) v2.4 System_Drawing, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.Drawing.tlb)
-//   (9) v5.80 OpcLabs_EasyOpcClassic, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcClassic.tlb)
-//   (10) v5.80 OpcLabs_EasyOpcClassicCore, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcClassicCore.tlb)
+//   (9) v5.81 OpcLabs_EasyOpcClassic, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcClassic.tlb)
+//   (10) v5.81 OpcLabs_EasyOpcClassicCore, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcClassicCore.tlb)
 // SYS_KIND: SYS_WIN32
-// Errors:
-//   Error creating palette bitmap of (TUABrowseInputs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowseInputsOutputs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowseMode) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowseNodeDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowseNodeElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowseOutputs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowseNodeDescriptorCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowseNodeElementCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowseDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEndpointDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAHostAndEndpointDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcBrowseInputs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcBrowseInputsOutputs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcBrowseMode) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcBrowseNodeDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcBrowseNodeElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcBrowseOutputs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcBrowseNodeDescriptorCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcBrowseNodeElementCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcBrowseDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcComputerAndServerDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TOpcServerDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TDAItemDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TDAPropertyDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TAEAreaOrSourceDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TAEAttributeDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TAECategoryConditionDialog) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TAECategoryDialog) : Server mscoree.dll contains no icons
 // ************************************************************************ //
 {$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers. 
 {$WARN SYMBOL_PLATFORM OFF}
@@ -86,7 +56,7 @@ Vcl.OleServer, Winapi.ActiveX;
 const
   // TypeLibrary Major and minor versions
   OpcLabs_EasyOpcFormsMajorVersion = 5;
-  OpcLabs_EasyOpcFormsMinorVersion = 80;
+  OpcLabs_EasyOpcFormsMinorVersion = 81;
 
   LIBID_OpcLabs_EasyOpcForms: TGUID = '{2C654FA0-6CD6-496D-A64E-CE2D2925F388}';
 
@@ -942,6 +912,8 @@ type
     procedure _Set_ClientSelector(const pRetVal: _EasyUAClientSelector); safecall;
     function Get_IncludeProperties: WordBool; safecall;
     procedure Set_IncludeProperties(pRetVal: WordBool); safecall;
+    function Get_LooseReferenceTypes: WordBool; safecall;
+    procedure Set_LooseReferenceTypes(pRetVal: WordBool); safecall;
     function Get_ManualNodes: WordBool; safecall;
     procedure Set_ManualNodes(pRetVal: WordBool); safecall;
     function Get_MultiSelect: WordBool; safecall;
@@ -970,6 +942,7 @@ type
     property SizeFactorName: WideString read Get_SizeFactorName write Set_SizeFactorName;
     property ClientSelector: _EasyUAClientSelector read Get_ClientSelector write _Set_ClientSelector;
     property IncludeProperties: WordBool read Get_IncludeProperties write Set_IncludeProperties;
+    property LooseReferenceTypes: WordBool read Get_LooseReferenceTypes write Set_LooseReferenceTypes;
     property ManualNodes: WordBool read Get_ManualNodes write Set_ManualNodes;
     property MultiSelect: WordBool read Get_MultiSelect write Set_MultiSelect;
     property UserPickEndpoint: WordBool read Get_UserPickEndpoint write Set_UserPickEndpoint;
@@ -1004,18 +977,19 @@ type
     procedure SetTag(Tag: OleVariant); dispid 1610743824;
     property ClientSelector: _EasyUAClientSelector dispid 1610743825;
     property IncludeProperties: WordBool dispid 1610743827;
-    property ManualNodes: WordBool dispid 1610743829;
-    property MultiSelect: WordBool dispid 1610743831;
-    property UserPickEndpoint: WordBool dispid 1610743833;
-    property EndpointDescriptor: _UAEndpointDescriptor dispid 1610743835;
-    property EndpointDescriptors: {NOT_OLEAUTO(PSafeArray)}OleVariant dispid 1610743837;
-    property NodeDescriptor: _UANodeDescriptor dispid 1610743839;
-    property NodeDescriptors: {NOT_OLEAUTO(PSafeArray)}OleVariant dispid 1610743841;
-    property NodeElement: _UANodeElement readonly dispid 1610743843;
-    property NodeElements: {NOT_OLEAUTO(PSafeArray)}OleVariant readonly dispid 1610743844;
-    property StartNodeDescriptor: _UANodeDescriptor dispid 1610743845;
-    procedure SetEndpointDescriptors(var EndpointDescriptors: {NOT_OLEAUTO(PSafeArray)}OleVariant); dispid 1610743847;
-    procedure SetNodeDescriptors(var NodeDescriptors: {NOT_OLEAUTO(PSafeArray)}OleVariant); dispid 1610743848;
+    property LooseReferenceTypes: WordBool dispid 1610743829;
+    property ManualNodes: WordBool dispid 1610743831;
+    property MultiSelect: WordBool dispid 1610743833;
+    property UserPickEndpoint: WordBool dispid 1610743835;
+    property EndpointDescriptor: _UAEndpointDescriptor dispid 1610743837;
+    property EndpointDescriptors: {NOT_OLEAUTO(PSafeArray)}OleVariant dispid 1610743839;
+    property NodeDescriptor: _UANodeDescriptor dispid 1610743841;
+    property NodeDescriptors: {NOT_OLEAUTO(PSafeArray)}OleVariant dispid 1610743843;
+    property NodeElement: _UANodeElement readonly dispid 1610743845;
+    property NodeElements: {NOT_OLEAUTO(PSafeArray)}OleVariant readonly dispid 1610743846;
+    property StartNodeDescriptor: _UANodeDescriptor dispid 1610743847;
+    procedure SetEndpointDescriptors(var EndpointDescriptors: {NOT_OLEAUTO(PSafeArray)}OleVariant); dispid 1610743849;
+    procedure SetNodeDescriptors(var NodeDescriptors: {NOT_OLEAUTO(PSafeArray)}OleVariant); dispid 1610743850;
   end;
 
 // *********************************************************************//
@@ -2853,6 +2827,8 @@ type
     procedure _Set_ClientSelector(const pRetVal: _EasyUAClientSelector);
     function Get_IncludeProperties: WordBool;
     procedure Set_IncludeProperties(pRetVal: WordBool);
+    function Get_LooseReferenceTypes: WordBool;
+    procedure Set_LooseReferenceTypes(pRetVal: WordBool);
     function Get_ManualNodes: WordBool;
     procedure Set_ManualNodes(pRetVal: WordBool);
     function Get_MultiSelect: WordBool;
@@ -2900,6 +2876,7 @@ type
     property SizeFactor: SizeF read Get_SizeFactor write Set_SizeFactor;
     property SizeFactorName: WideString read Get_SizeFactorName write Set_SizeFactorName;
     property IncludeProperties: WordBool read Get_IncludeProperties write Set_IncludeProperties;
+    property LooseReferenceTypes: WordBool read Get_LooseReferenceTypes write Set_LooseReferenceTypes;
     property ManualNodes: WordBool read Get_ManualNodes write Set_ManualNodes;
     property MultiSelect: WordBool read Get_MultiSelect write Set_MultiSelect;
     property UserPickEndpoint: WordBool read Get_UserPickEndpoint write Set_UserPickEndpoint;
@@ -5555,6 +5532,16 @@ end;
 procedure TUADataDialog.Set_IncludeProperties(pRetVal: WordBool);
 begin
   DefaultInterface.IncludeProperties := pRetVal;
+end;
+
+function TUADataDialog.Get_LooseReferenceTypes: WordBool;
+begin
+  Result := DefaultInterface.LooseReferenceTypes;
+end;
+
+procedure TUADataDialog.Set_LooseReferenceTypes(pRetVal: WordBool);
+begin
+  DefaultInterface.LooseReferenceTypes := pRetVal;
 end;
 
 function TUADataDialog.Get_ManualNodes: WordBool;

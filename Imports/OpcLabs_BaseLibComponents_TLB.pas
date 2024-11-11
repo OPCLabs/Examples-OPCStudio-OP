@@ -12,10 +12,10 @@ unit OpcLabs_BaseLibComponents_TLB;
 // ************************************************************************ //
 
 // $Rev: 98336 $
-// File generated on 2/10/2024 17:38:24 from Type Library described below.
+// File generated on 11/3/2024 2:16:27 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.BaseLibComponents.tlb (1)
+// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.BaseLibComponents.tlb (1)
 // LIBID: {1F127C9A-7FB7-4F5E-BCF6-64339872A64B}
 // LCID: 0
 // Helpfile: 
@@ -45,7 +45,7 @@ uses Winapi.Windows, System.Classes, System.Variants, System.Win.StdVCL, Vcl.Gra
 const
   // TypeLibrary Major and minor versions
   OpcLabs_BaseLibComponentsMajorVersion = 5;
-  OpcLabs_BaseLibComponentsMinorVersion = 80;
+  OpcLabs_BaseLibComponentsMinorVersion = 81;
 
   LIBID_OpcLabs_BaseLibComponents: TGUID = '{1F127C9A-7FB7-4F5E-BCF6-64339872A64B}';
 

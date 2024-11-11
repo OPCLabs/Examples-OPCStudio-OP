@@ -12,10 +12,10 @@ unit OpcLabs_BaseLib_TLB;
 // ************************************************************************ //
 
 // $Rev: 98336 $
-// File generated on 2/10/2024 17:40:42 from Type Library described below.
+// File generated on 11/3/2024 2:20:23 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.BaseLib.tlb (1)
+// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.BaseLib.tlb (1)
 // LIBID: {ECF2E77D-3A90-4FB8-B0E2-F529F0CAE9C9}
 // LCID: 0
 // Helpfile: 
@@ -25,7 +25,7 @@ unit OpcLabs_BaseLib_TLB;
 //   (2) v2.4 mscorlib, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb)
 //   (3) v2.4 System, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.tlb)
 // Parent TypeLibrary:
-//   (0) v5.80 OpcLabs_EasyOpcUA, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcUA.tlb)
+//   (0) v5.81 OpcLabs_EasyOpcUA, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcUA.tlb)
 // SYS_KIND: SYS_WIN32
 // Errors:
 //   Hint: Symbol 'Assign' renamed to 'Assign_'
@@ -52,7 +52,7 @@ Winapi.ActiveX;
 const
   // TypeLibrary Major and minor versions
   OpcLabs_BaseLibMajorVersion = 5;
-  OpcLabs_BaseLibMinorVersion = 80;
+  OpcLabs_BaseLibMinorVersion = 81;
 
   LIBID_OpcLabs_BaseLib: TGUID = '{ECF2E77D-3A90-4FB8-B0E2-F529F0CAE9C9}';
 
@@ -88,10 +88,11 @@ const
   CLASS_NotifyingWidget: TGUID = '{A6E5DDFB-EC58-4C4B-BB8B-88C0662EF334}';
   IID__CertificateAcceptancePolicy: TGUID = '{128F27FA-3239-49B8-BE85-11AC5D77A2CE}';
   IID__CertificateGenerationParameters: TGUID = '{A85FE918-9011-4A34-8A83-3D2CFA5C394C}';
+  IID__CertificateQuery: TGUID = '{D942E036-D51B-4BF8-AE66-B3108921A800}';
+  IID__CertificateQueryCollection: TGUID = '{F9E18096-F237-4436-AE1D-E3F66F206539}';
   IID__NetworkSecurity: TGUID = '{D970048B-393C-41B5-A5D0-A187F5B03D25}';
   IID__GetCertificatesEventArgs: TGUID = '{70730F6C-CA55-4ABD-99FB-4CEBE1D883D7}';
   IID__ValidateCertificateEventArgs: TGUID = '{AA3D3A3A-7FD1-4ADD-A540-8CA9636F2D34}';
-  IID__CertificateQuery: TGUID = '{D942E036-D51B-4BF8-AE66-B3108921A800}';
   IID__CertificateSecurityParameters: TGUID = '{1D8A04B8-CE67-40EA-AE04-DCA56F2821DF}';
   IID__StaticCertificateSecurityParameters: TGUID = '{CA858C71-E5D3-467B-89D5-0D2D01C808BF}';
   IID__SecurityKeysInfo: TGUID = '{EAED7EE6-7CB6-43D5-BF8B-D5EB2DF50CA5}';
@@ -116,6 +117,7 @@ const
   CLASS_CertificateAcceptancePolicy: TGUID = '{7495B22D-5ED4-428E-80E7-1B05FA624A0B}';
   CLASS_CertificateGenerationParameters: TGUID = '{DCE07D53-061C-4DA5-B930-B8AB4F5C7A1C}';
   CLASS_CertificateQuery: TGUID = '{88ABB500-3611-47B4-8DCD-B4EA22D62CAD}';
+  CLASS_CertificateQueryCollection: TGUID = '{EFB059B8-13BB-4FCA-887D-7E50D3D27E1D}';
   CLASS_CertificateSecurityHandler: TGUID = '{B4CDCF68-4F46-4F1B-A677-04E5D51868EC}';
   CLASS_CertificateSecurityParameters: TGUID = '{C4C6A5B2-35A5-438C-806E-E62E9AD165A2}';
   IID__CommunicationSecurityRanking: TGUID = '{4221B798-BA7B-419F-BDA3-47B8DEFDC9C7}';
@@ -596,14 +598,16 @@ type
   _CertificateAcceptancePolicyDisp = dispinterface;
   _CertificateGenerationParameters = interface;
   _CertificateGenerationParametersDisp = dispinterface;
+  _CertificateQuery = interface;
+  _CertificateQueryDisp = dispinterface;
+  _CertificateQueryCollection = interface;
+  _CertificateQueryCollectionDisp = dispinterface;
   _NetworkSecurity = interface;
   _NetworkSecurityDisp = dispinterface;
   _GetCertificatesEventArgs = interface;
   _GetCertificatesEventArgsDisp = dispinterface;
   _ValidateCertificateEventArgs = interface;
   _ValidateCertificateEventArgsDisp = dispinterface;
-  _CertificateQuery = interface;
-  _CertificateQueryDisp = dispinterface;
   _CertificateSecurityParameters = interface;
   _CertificateSecurityParametersDisp = dispinterface;
   _StaticCertificateSecurityParameters = interface;
@@ -830,6 +834,7 @@ type
   CertificateAcceptancePolicy = _CertificateAcceptancePolicy;
   CertificateGenerationParameters = _CertificateGenerationParameters;
   CertificateQuery = _CertificateQuery;
+  CertificateQueryCollection = _CertificateQueryCollection;
   CertificateSecurityHandler = _CertificateSecurityHandler;
   CertificateSecurityParameters = _CertificateSecurityParameters;
   GetCertificatesEventArgs = _GetCertificatesEventArgs;
@@ -2057,18 +2062,18 @@ type
     function GetService(const serviceType: _Type): OleVariant; safecall;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; safecall;
     function ValueEquals(other: OleVariant): WordBool; safecall;
-    function Get_CallbackQueueCapacity: Integer; safecall;
-    procedure Set_CallbackQueueCapacity(pRetVal: Integer); safecall;
-    function Get_CallbackQueueIdleTimeToSleep: Integer; safecall;
-    procedure Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer); safecall;
-    function Get_QueueCallbacks: WordBool; safecall;
-    procedure Set_QueueCallbacks(pRetVal: WordBool); safecall;
+    function Get_NotificationQueueCapacity: Integer; safecall;
+    procedure Set_NotificationQueueCapacity(pRetVal: Integer); safecall;
+    function Get_NotificationQueueIdleTimeToSleep: Integer; safecall;
+    procedure Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer); safecall;
+    function Get_QueueNotifications: WordBool; safecall;
+    procedure Set_QueueNotifications(pRetVal: WordBool); safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
-    property CallbackQueueCapacity: Integer read Get_CallbackQueueCapacity write Set_CallbackQueueCapacity;
-    property CallbackQueueIdleTimeToSleep: Integer read Get_CallbackQueueIdleTimeToSleep write Set_CallbackQueueIdleTimeToSleep;
-    property QueueCallbacks: WordBool read Get_QueueCallbacks write Set_QueueCallbacks;
+    property NotificationQueueCapacity: Integer read Get_NotificationQueueCapacity write Set_NotificationQueueCapacity;
+    property NotificationQueueIdleTimeToSleep: Integer read Get_NotificationQueueIdleTimeToSleep write Set_NotificationQueueIdleTimeToSleep;
+    property QueueNotifications: WordBool read Get_QueueNotifications write Set_QueueNotifications;
   end;
 
 // *********************************************************************//
@@ -2088,9 +2093,9 @@ type
     function GetService(const serviceType: _Type): OleVariant; dispid 1610743816;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; dispid 1610743817;
     function ValueEquals(other: OleVariant): WordBool; dispid 1610743818;
-    property CallbackQueueCapacity: Integer dispid 1610743819;
-    property CallbackQueueIdleTimeToSleep: Integer dispid 1610743821;
-    property QueueCallbacks: WordBool dispid 1610743823;
+    property NotificationQueueCapacity: Integer dispid 1610743819;
+    property NotificationQueueIdleTimeToSleep: Integer dispid 1610743821;
+    property QueueNotifications: WordBool dispid 1610743823;
   end;
 
 // *********************************************************************//
@@ -2187,6 +2192,124 @@ type
     property ValidityPeriodInMonths: Integer dispid 1610743822;
     function GetLifetimeInMonthsFrom(fromDateTime: TDateTime): Integer; dispid 1610743824;
     function GetMonthsToMaximumExpirationDate(fromDateTime: TDateTime): Integer; dispid 1610743825;
+  end;
+
+// *********************************************************************//
+// Interface: _CertificateQuery
+// Flags:     (4416) Dual OleAutomation Dispatchable
+// GUID:      {D942E036-D51B-4BF8-AE66-B3108921A800}
+// *********************************************************************//
+  _CertificateQuery = interface(IDispatch)
+    ['{D942E036-D51B-4BF8-AE66-B3108921A800}']
+    function Get_ToString: WideString; safecall;
+    function Equals(obj: OleVariant): WordBool; safecall;
+    function GetHashCode: Integer; safecall;
+    function GetType: _Type; safecall;
+    function Get_DisplayString: WideString; safecall;
+    function Clone: OleVariant; safecall;
+    function Get_StandardName: WideString; safecall;
+    procedure Set_StandardName(const pRetVal: WideString); safecall;
+    function Get_FileName: WideString; safecall;
+    procedure Set_FileName(const pRetVal: WideString); safecall;
+    function Get_FindValue: WideString; safecall;
+    procedure Set_FindValue(const pRetVal: WideString); safecall;
+    function Get_keyStorageFlags: X509KeyStorageFlags; safecall;
+    procedure Set_keyStorageFlags(pRetVal: X509KeyStorageFlags); safecall;
+    function Get_password: WideString; safecall;
+    procedure Set_password(const pRetVal: WideString); safecall;
+    function Get_SourceTypes: CertificateSourceTypes; safecall;
+    procedure Set_SourceTypes(pRetVal: CertificateSourceTypes); safecall;
+    function Get_StoreLocation: PkiStoreLocation; safecall;
+    procedure Set_StoreLocation(pRetVal: PkiStoreLocation); safecall;
+    function Get_StoreName: PkiStoreName; safecall;
+    procedure Set_StoreName(pRetVal: PkiStoreName); safecall;
+    function Get_PkiFindType: PkiFindType; safecall;
+    procedure Set_PkiFindType(pRetVal: PkiFindType); safecall;
+    property ToString: WideString read Get_ToString;
+    property DisplayString: WideString read Get_DisplayString;
+    property StandardName: WideString read Get_StandardName write Set_StandardName;
+    property FileName: WideString read Get_FileName write Set_FileName;
+    property FindValue: WideString read Get_FindValue write Set_FindValue;
+    property keyStorageFlags: X509KeyStorageFlags read Get_keyStorageFlags write Set_keyStorageFlags;
+    property password: WideString read Get_password write Set_password;
+    property SourceTypes: CertificateSourceTypes read Get_SourceTypes write Set_SourceTypes;
+    property StoreLocation: PkiStoreLocation read Get_StoreLocation write Set_StoreLocation;
+    property StoreName: PkiStoreName read Get_StoreName write Set_StoreName;
+    property PkiFindType: PkiFindType read Get_PkiFindType write Set_PkiFindType;
+  end;
+
+// *********************************************************************//
+// DispIntf:  _CertificateQueryDisp
+// Flags:     (4416) Dual OleAutomation Dispatchable
+// GUID:      {D942E036-D51B-4BF8-AE66-B3108921A800}
+// *********************************************************************//
+  _CertificateQueryDisp = dispinterface
+    ['{D942E036-D51B-4BF8-AE66-B3108921A800}']
+    property ToString: WideString readonly dispid 1610743808;
+    function Equals(obj: OleVariant): WordBool; dispid 1610743809;
+    function GetHashCode: Integer; dispid 1610743810;
+    function GetType: _Type; dispid 1610743811;
+    property DisplayString: WideString readonly dispid 0;
+    function Clone: OleVariant; dispid 1610743813;
+    property StandardName: WideString dispid 1610743814;
+    property FileName: WideString dispid 1610743816;
+    property FindValue: WideString dispid 1610743818;
+    property keyStorageFlags: X509KeyStorageFlags dispid 1610743820;
+    property password: WideString dispid 1610743822;
+    property SourceTypes: CertificateSourceTypes dispid 1610743824;
+    property StoreLocation: PkiStoreLocation dispid 1610743826;
+    property StoreName: PkiStoreName dispid 1610743828;
+    property PkiFindType: PkiFindType dispid 1610743830;
+  end;
+
+// *********************************************************************//
+// Interface: _CertificateQueryCollection
+// Flags:     (4416) Dual OleAutomation Dispatchable
+// GUID:      {F9E18096-F237-4436-AE1D-E3F66F206539}
+// *********************************************************************//
+  _CertificateQueryCollection = interface(IDispatch)
+    ['{F9E18096-F237-4436-AE1D-E3F66F206539}']
+    function Get_ToString: WideString; safecall;
+    function Equals(obj: OleVariant): WordBool; safecall;
+    function GetHashCode: Integer; safecall;
+    function GetType: _Type; safecall;
+    function Get_Item(index: Integer): _CertificateQuery; safecall;
+    procedure _Set_Item(index: Integer; const pRetVal: _CertificateQuery); safecall;
+    function Get_Count: Integer; safecall;
+    function GetEnumerator: IEnumVARIANT; safecall;
+    procedure Add(Item: OleVariant); safecall;
+    procedure Clear; safecall;
+    function Contains(Item: OleVariant): WordBool; safecall;
+    function IndexOf(Item: OleVariant): Integer; safecall;
+    procedure Insert(index: Integer; Item: OleVariant); safecall;
+    function Remove(Item: OleVariant): WordBool; safecall;
+    procedure RemoveAt(index: Integer); safecall;
+    property ToString: WideString read Get_ToString;
+    property Item[index: Integer]: _CertificateQuery read Get_Item write _Set_Item; default;
+    property Count: Integer read Get_Count;
+  end;
+
+// *********************************************************************//
+// DispIntf:  _CertificateQueryCollectionDisp
+// Flags:     (4416) Dual OleAutomation Dispatchable
+// GUID:      {F9E18096-F237-4436-AE1D-E3F66F206539}
+// *********************************************************************//
+  _CertificateQueryCollectionDisp = dispinterface
+    ['{F9E18096-F237-4436-AE1D-E3F66F206539}']
+    property ToString: WideString readonly dispid 1610743808;
+    function Equals(obj: OleVariant): WordBool; dispid 1610743809;
+    function GetHashCode: Integer; dispid 1610743810;
+    function GetType: _Type; dispid 1610743811;
+    property Item[index: Integer]: _CertificateQuery dispid 0; default;
+    property Count: Integer readonly dispid 1610743814;
+    function GetEnumerator: IEnumVARIANT; dispid -4;
+    procedure Add(Item: OleVariant); dispid 1610743816;
+    procedure Clear; dispid 1610743817;
+    function Contains(Item: OleVariant): WordBool; dispid 1610743818;
+    function IndexOf(Item: OleVariant): Integer; dispid 1610743819;
+    procedure Insert(index: Integer; Item: OleVariant); dispid 1610743820;
+    function Remove(Item: OleVariant): WordBool; dispid 1610743821;
+    procedure RemoveAt(index: Integer); dispid 1610743822;
   end;
 
 // *********************************************************************//
@@ -2342,70 +2465,6 @@ type
   end;
 
 // *********************************************************************//
-// Interface: _CertificateQuery
-// Flags:     (4416) Dual OleAutomation Dispatchable
-// GUID:      {D942E036-D51B-4BF8-AE66-B3108921A800}
-// *********************************************************************//
-  _CertificateQuery = interface(IDispatch)
-    ['{D942E036-D51B-4BF8-AE66-B3108921A800}']
-    function Get_ToString: WideString; safecall;
-    function Equals(obj: OleVariant): WordBool; safecall;
-    function GetHashCode: Integer; safecall;
-    function GetType: _Type; safecall;
-    function Get_DisplayString: WideString; safecall;
-    function Clone: OleVariant; safecall;
-    function Get_StandardName: WideString; safecall;
-    procedure Set_StandardName(const pRetVal: WideString); safecall;
-    function Get_FileName: WideString; safecall;
-    procedure Set_FileName(const pRetVal: WideString); safecall;
-    function Get_FileNames: _StringCollection; safecall;
-    procedure _Set_FileNames(const pRetVal: _StringCollection); safecall;
-    function Get_FindValue: WideString; safecall;
-    procedure Set_FindValue(const pRetVal: WideString); safecall;
-    function Get_SourceTypes: CertificateSourceTypes; safecall;
-    procedure Set_SourceTypes(pRetVal: CertificateSourceTypes); safecall;
-    function Get_StoreLocation: PkiStoreLocation; safecall;
-    procedure Set_StoreLocation(pRetVal: PkiStoreLocation); safecall;
-    function Get_StoreName: PkiStoreName; safecall;
-    procedure Set_StoreName(pRetVal: PkiStoreName); safecall;
-    function Get_PkiFindType: PkiFindType; safecall;
-    procedure Set_PkiFindType(pRetVal: PkiFindType); safecall;
-    property ToString: WideString read Get_ToString;
-    property DisplayString: WideString read Get_DisplayString;
-    property StandardName: WideString read Get_StandardName write Set_StandardName;
-    property FileName: WideString read Get_FileName write Set_FileName;
-    property FileNames: _StringCollection read Get_FileNames write _Set_FileNames;
-    property FindValue: WideString read Get_FindValue write Set_FindValue;
-    property SourceTypes: CertificateSourceTypes read Get_SourceTypes write Set_SourceTypes;
-    property StoreLocation: PkiStoreLocation read Get_StoreLocation write Set_StoreLocation;
-    property StoreName: PkiStoreName read Get_StoreName write Set_StoreName;
-    property PkiFindType: PkiFindType read Get_PkiFindType write Set_PkiFindType;
-  end;
-
-// *********************************************************************//
-// DispIntf:  _CertificateQueryDisp
-// Flags:     (4416) Dual OleAutomation Dispatchable
-// GUID:      {D942E036-D51B-4BF8-AE66-B3108921A800}
-// *********************************************************************//
-  _CertificateQueryDisp = dispinterface
-    ['{D942E036-D51B-4BF8-AE66-B3108921A800}']
-    property ToString: WideString readonly dispid 1610743808;
-    function Equals(obj: OleVariant): WordBool; dispid 1610743809;
-    function GetHashCode: Integer; dispid 1610743810;
-    function GetType: _Type; dispid 1610743811;
-    property DisplayString: WideString readonly dispid 0;
-    function Clone: OleVariant; dispid 1610743813;
-    property StandardName: WideString dispid 1610743814;
-    property FileName: WideString dispid 1610743816;
-    property FileNames: _StringCollection dispid 1610743818;
-    property FindValue: WideString dispid 1610743820;
-    property SourceTypes: CertificateSourceTypes dispid 1610743822;
-    property StoreLocation: PkiStoreLocation dispid 1610743824;
-    property StoreName: PkiStoreName dispid 1610743826;
-    property PkiFindType: PkiFindType dispid 1610743828;
-  end;
-
-// *********************************************************************//
 // Interface: _CertificateSecurityParameters
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {1D8A04B8-CE67-40EA-AE04-DCA56F2821DF}
@@ -2472,14 +2531,14 @@ type
     function Clone: OleVariant; safecall;
     function Get_StandardName: WideString; safecall;
     procedure Set_StandardName(const pRetVal: WideString); safecall;
-    function Get_LocalCertificatesQuery: _CertificateQuery; safecall;
-    procedure _Set_LocalCertificatesQuery(const pRetVal: _CertificateQuery); safecall;
+    function Get_LocalCertificateQueries: _CertificateQueryCollection; safecall;
+    procedure _Set_LocalCertificateQueries(const pRetVal: _CertificateQueryCollection); safecall;
     function Get_RemoteCertificateAcceptancePolicy: _CertificateAcceptancePolicy; safecall;
     procedure _Set_RemoteCertificateAcceptancePolicy(const pRetVal: _CertificateAcceptancePolicy); safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
-    property LocalCertificatesQuery: _CertificateQuery read Get_LocalCertificatesQuery write _Set_LocalCertificatesQuery;
+    property LocalCertificateQueries: _CertificateQueryCollection read Get_LocalCertificateQueries write _Set_LocalCertificateQueries;
     property RemoteCertificateAcceptancePolicy: _CertificateAcceptancePolicy read Get_RemoteCertificateAcceptancePolicy write _Set_RemoteCertificateAcceptancePolicy;
   end;
 
@@ -2497,7 +2556,7 @@ type
     property DisplayString: WideString readonly dispid 0;
     function Clone: OleVariant; dispid 1610743813;
     property StandardName: WideString dispid 1610743814;
-    property LocalCertificatesQuery: _CertificateQuery dispid 1610743816;
+    property LocalCertificateQueries: _CertificateQueryCollection dispid 1610743816;
     property RemoteCertificateAcceptancePolicy: _CertificateAcceptancePolicy dispid 1610743818;
   end;
 
@@ -4549,6 +4608,7 @@ type
     function Remove(const key: WideString): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     property ToString: WideString read Get_ToString;
     property Item[const key: WideString]: _TokenInfo read Get_Item; default;
@@ -4576,7 +4636,8 @@ type
     function Remove(const key: WideString): WordBool; dispid 1610743819;
     procedure RemoveAt(index: Integer); dispid 1610743820;
     function ToList: _ElasticVector; dispid 1610743821;
-    function Clone: OleVariant; dispid 1610743822;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743822;
+    function Clone: OleVariant; dispid 1610743823;
   end;
 
 // *********************************************************************//
@@ -4672,6 +4733,9 @@ type
     function GetType: _Type; safecall;
     function Get_DisplayString: WideString; safecall;
     function Clone: OleVariant; safecall;
+    function Get_AliasName: WideString; safecall;
+    procedure Set_AliasName(const pRetVal: WideString); safecall;
+    function Get_IsAliased: WordBool; safecall;
     function Get_StandardName: WideString; safecall;
     procedure Set_StandardName(const pRetVal: WideString); safecall;
     function Get_AnonymousTokenInfo: _AnonymousTokenInfo; safecall;
@@ -4688,6 +4752,8 @@ type
     function OverrideBy(other: OleVariant): _UserIdentity; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
+    property AliasName: WideString read Get_AliasName write Set_AliasName;
+    property IsAliased: WordBool read Get_IsAliased;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
     property AnonymousTokenInfo: _AnonymousTokenInfo read Get_AnonymousTokenInfo write _Set_AnonymousTokenInfo;
     property ConfiguredTokenInfoCount: Integer read Get_ConfiguredTokenInfoCount;
@@ -4710,15 +4776,17 @@ type
     function GetType: _Type; dispid 1610743811;
     property DisplayString: WideString readonly dispid 0;
     function Clone: OleVariant; dispid 1610743813;
-    property StandardName: WideString dispid 1610743814;
-    property AnonymousTokenInfo: _AnonymousTokenInfo dispid 1610743816;
-    property ConfiguredTokenInfoCount: Integer readonly dispid 1610743818;
-    property KerberosTokenInfo: _KerberosTokenInfo dispid 1610743819;
-    property TokenInfos: _TokenInfoCollection readonly dispid 1610743821;
-    property UserNameTokenInfo: _UserNameTokenInfo dispid 1610743822;
-    property X509CertificateTokenInfo: _X509CertificateTokenInfo dispid 1610743824;
-    function DefaultTo(other: OleVariant): _UserIdentity; dispid 1610743826;
-    function OverrideBy(other: OleVariant): _UserIdentity; dispid 1610743827;
+    property AliasName: WideString dispid 1610743814;
+    property IsAliased: WordBool readonly dispid 1610743816;
+    property StandardName: WideString dispid 1610743817;
+    property AnonymousTokenInfo: _AnonymousTokenInfo dispid 1610743819;
+    property ConfiguredTokenInfoCount: Integer readonly dispid 1610743821;
+    property KerberosTokenInfo: _KerberosTokenInfo dispid 1610743822;
+    property TokenInfos: _TokenInfoCollection readonly dispid 1610743824;
+    property UserNameTokenInfo: _UserNameTokenInfo dispid 1610743825;
+    property X509CertificateTokenInfo: _X509CertificateTokenInfo dispid 1610743827;
+    function DefaultTo(other: OleVariant): _UserIdentity; dispid 1610743829;
+    function OverrideBy(other: OleVariant): _UserIdentity; dispid 1610743830;
   end;
 
 // *********************************************************************//
@@ -4910,24 +4978,18 @@ type
     function Get_TokenProfileUriString: WideString; safecall;
     procedure Deconfigure; safecall;
     function IsApplicable(TokenInfoPolicy: OleVariant): WordBool; safecall;
-    function Get_FileName: WideString; safecall;
-    procedure Set_FileName(const pRetVal: WideString); safecall;
+    function Get_CertificateQuery: _CertificateQuery; safecall;
+    procedure _Set_CertificateQuery(const pRetVal: _CertificateQuery); safecall;
     function Get_IsNull: WordBool; safecall;
-    function Get_keyStorageFlags: X509KeyStorageFlags; safecall;
-    procedure Set_keyStorageFlags(pRetVal: X509KeyStorageFlags); safecall;
-    function Get_password: WideString; safecall;
-    procedure Set_password(const pRetVal: WideString); safecall;
-    function CreateCertificate: _PkiCertificate; safecall;
+    function LoadCertificate: _ValueResult; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
     property IsAnonymous: WordBool read Get_IsAnonymous;
     property IsConfigured: WordBool read Get_IsConfigured;
     property TokenProfileUriString: WideString read Get_TokenProfileUriString;
-    property FileName: WideString read Get_FileName write Set_FileName;
+    property CertificateQuery: _CertificateQuery read Get_CertificateQuery write _Set_CertificateQuery;
     property IsNull: WordBool read Get_IsNull;
-    property keyStorageFlags: X509KeyStorageFlags read Get_keyStorageFlags write Set_keyStorageFlags;
-    property password: WideString read Get_password write Set_password;
   end;
 
 // *********************************************************************//
@@ -4949,11 +5011,9 @@ type
     property TokenProfileUriString: WideString readonly dispid 1610743818;
     procedure Deconfigure; dispid 1610743819;
     function IsApplicable(TokenInfoPolicy: OleVariant): WordBool; dispid 1610743820;
-    property FileName: WideString dispid 1610743821;
+    property CertificateQuery: _CertificateQuery dispid 1610743821;
     property IsNull: WordBool readonly dispid 1610743823;
-    property keyStorageFlags: X509KeyStorageFlags dispid 1610743824;
-    property password: WideString dispid 1610743826;
-    function CreateCertificate: _PkiCertificate; dispid 1610743828;
+    function LoadCertificate: _ValueResult; dispid 1610743824;
   end;
 
 // *********************************************************************//
@@ -5122,6 +5182,7 @@ type
     function Remove(const key: WideString): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     function FindName(const Name: WideString): _PluginSetup; safecall;
     property ToString: WideString read Get_ToString;
@@ -5150,8 +5211,9 @@ type
     function Remove(const key: WideString): WordBool; dispid 1610743819;
     procedure RemoveAt(index: Integer); dispid 1610743820;
     function ToList: _ElasticVector; dispid 1610743821;
-    function Clone: OleVariant; dispid 1610743822;
-    function FindName(const Name: WideString): _PluginSetup; dispid 1610743823;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743822;
+    function Clone: OleVariant; dispid 1610743823;
+    function FindName(const Name: WideString): _PluginSetup; dispid 1610743824;
   end;
 
 // *********************************************************************//
@@ -5178,6 +5240,7 @@ type
     function Remove(const key: WideString): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -5211,7 +5274,8 @@ type
     function Remove(const key: WideString): WordBool; dispid 1610743822;
     procedure RemoveAt(index: Integer); dispid 1610743823;
     function ToList: _ElasticVector; dispid 1610743824;
-    function Clone: OleVariant; dispid 1610743825;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743825;
+    function Clone: OleVariant; dispid 1610743826;
   end;
 
 // *********************************************************************//
@@ -5238,6 +5302,7 @@ type
     function Remove(const key: WideString): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -5271,7 +5336,8 @@ type
     function Remove(const key: WideString): WordBool; dispid 1610743822;
     procedure RemoveAt(index: Integer); dispid 1610743823;
     function ToList: _ElasticVector; dispid 1610743824;
-    function Clone: OleVariant; dispid 1610743825;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743825;
+    function Clone: OleVariant; dispid 1610743826;
   end;
 
 // *********************************************************************//
@@ -6820,6 +6886,7 @@ type
     function Remove(const key: WideString): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     function Find(const typeName: WideString): OleVariant; safecall;
     function FindByName(const Name: WideString; ignoreCase: WordBool): OleVariant; safecall;
@@ -6849,9 +6916,10 @@ type
     function Remove(const key: WideString): WordBool; dispid 1610743819;
     procedure RemoveAt(index: Integer); dispid 1610743820;
     function ToList: _ElasticVector; dispid 1610743821;
-    function Clone: OleVariant; dispid 1610743822;
-    function Find(const typeName: WideString): OleVariant; dispid 1610743823;
-    function FindByName(const Name: WideString; ignoreCase: WordBool): OleVariant; dispid 1610743824;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743822;
+    function Clone: OleVariant; dispid 1610743823;
+    function Find(const typeName: WideString): OleVariant; dispid 1610743824;
+    function FindByName(const Name: WideString; ignoreCase: WordBool): OleVariant; dispid 1610743825;
   end;
 
 // *********************************************************************//
@@ -7224,9 +7292,9 @@ type
     function Clone: OleVariant; safecall;
     function MemberwiseClone: _OperationEventArgs; safecall;
     function ToLongString: WideString; safecall;
-    function Get_Connected: WordBool; safecall;
     function Get_ConnectionState: ConnectionState; safecall;
     procedure Set_ConnectionState(pRetVal: ConnectionState); safecall;
+    function Get_IsConnected: WordBool; safecall;
     function Get_RetrialDelay: Integer; safecall;
     procedure Set_RetrialDelay(pRetVal: Integer); safecall;
     function Get_Statistics: _ConnectedConditionStatistics; safecall;
@@ -7244,8 +7312,8 @@ type
     property NormalizedDiagnostics: _NormalizedExceptionCollection read Get_NormalizedDiagnostics;
     property NormalizedException: _NormalizedException read Get_NormalizedException;
     property Succeeded: WordBool read Get_Succeeded;
-    property Connected: WordBool read Get_Connected;
     property ConnectionState: ConnectionState read Get_ConnectionState write Set_ConnectionState;
+    property IsConnected: WordBool read Get_IsConnected;
     property RetrialDelay: Integer read Get_RetrialDelay write Set_RetrialDelay;
     property Statistics: _ConnectedConditionStatistics read Get_Statistics write _Set_Statistics;
     property StatusInfo: StatusInfo read Get_StatusInfo;
@@ -7276,8 +7344,8 @@ type
     function Clone: OleVariant; dispid 1610743827;
     function MemberwiseClone: _OperationEventArgs; dispid 1610743828;
     function ToLongString: WideString; dispid 1610743829;
-    property Connected: WordBool readonly dispid 1610743830;
-    property ConnectionState: ConnectionState dispid 1610743831;
+    property ConnectionState: ConnectionState dispid 1610743830;
+    property IsConnected: WordBool readonly dispid 1610743832;
     property RetrialDelay: Integer dispid 1610743833;
     property Statistics: _ConnectedConditionStatistics dispid 1610743835;
     property StatusInfo: StatusInfo readonly dispid 1610743837;
@@ -8202,6 +8270,7 @@ type
     function ModifyAlias(const AliasName: WideString; value: OleVariant; AliasMetadata: OleVariant): _OperationResult; safecall;
     function RemoveAliases(const AliasNamespace: WideString; const NamePattern: WideString): _ValueResult; safecall;
     function RenameAlias(const oldAliasName: WideString; const newAliasName: WideString): _OperationResult; safecall;
+    function SetAlias(const AliasName: WideString; value: OleVariant; AliasMetadata: OleVariant): _OperationResult; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
   end;
@@ -8228,6 +8297,7 @@ type
     function ModifyAlias(const AliasName: WideString; value: OleVariant; AliasMetadata: OleVariant): _OperationResult; dispid 1610743820;
     function RemoveAliases(const AliasNamespace: WideString; const NamePattern: WideString): _ValueResult; dispid 1610743821;
     function RenameAlias(const oldAliasName: WideString; const newAliasName: WideString): _OperationResult; dispid 1610743822;
+    function SetAlias(const AliasName: WideString; value: OleVariant; AliasMetadata: OleVariant): _OperationResult; dispid 1610743823;
   end;
 
 // *********************************************************************//
@@ -8807,6 +8877,18 @@ type
   CoCertificateQuery = class
     class function Create: _CertificateQuery;
     class function CreateRemote(const MachineName: string): _CertificateQuery;
+  end;
+
+// *********************************************************************//
+// The Class CoCertificateQueryCollection provides a Create and CreateRemote method to          
+// create instances of the default interface _CertificateQueryCollection exposed by              
+// the CoClass CertificateQueryCollection. The functions are intended to be used by             
+// clients wishing to automate the CoClass objects exposed by the         
+// server of this typelibrary.                                            
+// *********************************************************************//
+  CoCertificateQueryCollection = class
+    class function Create: _CertificateQueryCollection;
+    class function CreateRemote(const MachineName: string): _CertificateQueryCollection;
   end;
 
 // *********************************************************************//
@@ -10203,6 +10285,16 @@ end;
 class function CoCertificateQuery.CreateRemote(const MachineName: string): _CertificateQuery;
 begin
   Result := CreateRemoteComObject(MachineName, CLASS_CertificateQuery) as _CertificateQuery;
+end;
+
+class function CoCertificateQueryCollection.Create: _CertificateQueryCollection;
+begin
+  Result := CreateComObject(CLASS_CertificateQueryCollection) as _CertificateQueryCollection;
+end;
+
+class function CoCertificateQueryCollection.CreateRemote(const MachineName: string): _CertificateQueryCollection;
+begin
+  Result := CreateRemoteComObject(MachineName, CLASS_CertificateQueryCollection) as _CertificateQueryCollection;
 end;
 
 class function CoCertificateSecurityHandler.Create: _CertificateSecurityHandler;

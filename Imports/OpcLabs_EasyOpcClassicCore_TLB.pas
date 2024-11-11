@@ -12,10 +12,10 @@ unit OpcLabs_EasyOpcClassicCore_TLB;
 // ************************************************************************ //
 
 // $Rev: 98336 $
-// File generated on 2/10/2024 17:40:09 from Type Library described below.
+// File generated on 11/3/2024 2:19:22 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcClassicCore.tlb (1)
+// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcClassicCore.tlb (1)
 // LIBID: {1F457B45-A4E0-4A92-928F-D1D1ACB67C54}
 // LCID: 0
 // Helpfile: 
@@ -23,9 +23,9 @@ unit OpcLabs_EasyOpcClassicCore_TLB;
 // DepndLst: 
 //   (1) v2.0 stdole, (C:\Windows\SysWOW64\stdole2.tlb)
 //   (2) v2.4 mscorlib, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb)
-//   (3) v5.80 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.BaseLib.tlb)
+//   (3) v5.81 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.BaseLib.tlb)
 // Parent TypeLibrary:
-//   (0) v5.80 OpcLabs_EasyOpcClassic, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcClassic.tlb)
+//   (0) v5.81 OpcLabs_EasyOpcClassic, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcClassic.tlb)
 // SYS_KIND: SYS_WIN32
 // ************************************************************************ //
 {$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers. 
@@ -50,7 +50,7 @@ Winapi.ActiveX;
 const
   // TypeLibrary Major and minor versions
   OpcLabs_EasyOpcClassicCoreMajorVersion = 5;
-  OpcLabs_EasyOpcClassicCoreMinorVersion = 80;
+  OpcLabs_EasyOpcClassicCoreMinorVersion = 81;
 
   LIBID_OpcLabs_EasyOpcClassicCore: TGUID = '{1F457B45-A4E0-4A92-928F-D1D1ACB67C54}';
 
@@ -1090,6 +1090,7 @@ type
     function Contains(const key: WideString): WordBool; safecall;
     function Remove(const key: WideString): WordBool; safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     property ToString: WideString read Get_ToString;
     property Item[const key: WideString]: _ServerElement read Get_Item; default;
     property Count: Integer read Get_Count;
@@ -1114,6 +1115,7 @@ type
     function Contains(const key: WideString): WordBool; dispid 1610743817;
     function Remove(const key: WideString): WordBool; dispid 1610743818;
     function ToList: _ElasticVector; dispid 1610743819;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743820;
   end;
 
 // *********************************************************************//
@@ -3803,6 +3805,7 @@ type
     function Contains(const key: WideString): WordBool; safecall;
     function Remove(const key: WideString): WordBool; safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     property ToString: WideString read Get_ToString;
     property Item[const key: WideString]: _DANodeElement read Get_Item; default;
     property Count: Integer read Get_Count;
@@ -3828,6 +3831,7 @@ type
     function Contains(const key: WideString): WordBool; dispid 1610743818;
     function Remove(const key: WideString): WordBool; dispid 1610743819;
     function ToList: _ElasticVector; dispid 1610743820;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743821;
   end;
 
 // *********************************************************************//
@@ -3850,6 +3854,7 @@ type
     function Contains(key: OleVariant): WordBool; safecall;
     function Remove(key: OleVariant): WordBool; safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(key: OleVariant; out Item: OleVariant): WordBool; safecall;
     property ToString: WideString read Get_ToString;
     property Item[key: OleVariant]: _DAPropertyElement read Get_Item; default;
     property Count: Integer read Get_Count;
@@ -3875,6 +3880,7 @@ type
     function Contains(key: OleVariant): WordBool; dispid 1610743818;
     function Remove(key: OleVariant): WordBool; dispid 1610743819;
     function ToList: _ElasticVector; dispid 1610743820;
+    function TryGetValue(key: OleVariant; out Item: OleVariant): WordBool; dispid 1610743821;
   end;
 
 // *********************************************************************//
@@ -5660,6 +5666,7 @@ type
     function Contains(key: Integer): WordBool; safecall;
     function Remove(key: Integer): WordBool; safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(key: Integer; out Item: OleVariant): WordBool; safecall;
     property ToString: WideString read Get_ToString;
     property Item[key: Integer]: _AEAttributeElement read Get_Item; default;
     property Count: Integer read Get_Count;
@@ -5685,6 +5692,7 @@ type
     function Contains(key: Integer): WordBool; dispid 1610743818;
     function Remove(key: Integer): WordBool; dispid 1610743819;
     function ToList: _ElasticVector; dispid 1610743820;
+    function TryGetValue(key: Integer; out Item: OleVariant): WordBool; dispid 1610743821;
   end;
 
 // *********************************************************************//
@@ -5707,6 +5715,7 @@ type
     function Contains(key: Integer): WordBool; safecall;
     function Remove(key: Integer): WordBool; safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(key: Integer; out Item: OleVariant): WordBool; safecall;
     property ToString: WideString read Get_ToString;
     property Item[key: Integer]: _AECategoryElement read Get_Item; default;
     property Count: Integer read Get_Count;
@@ -5732,6 +5741,7 @@ type
     function Contains(key: Integer): WordBool; dispid 1610743818;
     function Remove(key: Integer): WordBool; dispid 1610743819;
     function ToList: _ElasticVector; dispid 1610743820;
+    function TryGetValue(key: Integer; out Item: OleVariant): WordBool; dispid 1610743821;
   end;
 
 // *********************************************************************//
@@ -5754,6 +5764,7 @@ type
     function Contains(const key: WideString): WordBool; safecall;
     function Remove(const key: WideString): WordBool; safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     property ToString: WideString read Get_ToString;
     property Item[const key: WideString]: _AEConditionElement read Get_Item; default;
     property Count: Integer read Get_Count;
@@ -5779,6 +5790,7 @@ type
     function Contains(const key: WideString): WordBool; dispid 1610743818;
     function Remove(const key: WideString): WordBool; dispid 1610743819;
     function ToList: _ElasticVector; dispid 1610743820;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743821;
   end;
 
 // *********************************************************************//
@@ -5801,6 +5813,7 @@ type
     function Contains(const key: WideString): WordBool; safecall;
     function Remove(const key: WideString): WordBool; safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     property ToString: WideString read Get_ToString;
     property Item[const key: WideString]: _AENodeElement read Get_Item; default;
     property Count: Integer read Get_Count;
@@ -5826,6 +5839,7 @@ type
     function Contains(const key: WideString): WordBool; dispid 1610743818;
     function Remove(const key: WideString): WordBool; dispid 1610743819;
     function ToList: _ElasticVector; dispid 1610743820;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743821;
   end;
 
 // *********************************************************************//
@@ -5847,6 +5861,7 @@ type
     function Contains(const key: WideString): WordBool; safecall;
     function Remove(const key: WideString): WordBool; safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     property ToString: WideString read Get_ToString;
     property Item[const key: WideString]: _AESubconditionElement read Get_Item; default;
     property Count: Integer read Get_Count;
@@ -5871,6 +5886,7 @@ type
     function Contains(const key: WideString): WordBool; dispid 1610743817;
     function Remove(const key: WideString): WordBool; dispid 1610743818;
     function ToList: _ElasticVector; dispid 1610743819;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743820;
   end;
 
 // *********************************************************************//

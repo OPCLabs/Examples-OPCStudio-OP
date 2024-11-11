@@ -14,5 +14,6 @@ Useful links:
 * [Getting Started under COM](https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/2024.1/User%27s%20Guide%20and%20Reference-OPC%20Studio/webframe.html#Getting%20Started%20under%20COM.html).
 * [OPC Labs Knowledge Base](https://kb.opclabs.com).
 
-Missing some example? Ask us for it on our [Online Forums](https://www.opclabs.com/forum/index)!
-You do not have to own a commercial license in order to use Online Forums, and we reply to every post.
+Need help, or missing some example? Ask us for it on our [Online Forums](https://www.opclabs.com/forum/index)!
+You do not have to own a commercial license in order to use Online Forums, 
+and we reply to every post.

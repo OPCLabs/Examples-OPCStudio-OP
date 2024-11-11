@@ -12,7 +12,7 @@ unit System_TLB;
 // ************************************************************************ //
 
 // $Rev: 98336 $
-// File generated on 2/10/2024 17:40:42 from Type Library described below.
+// File generated on 11/3/2024 2:20:23 from Type Library described below.
 
 // ************************************************************************  //
 // Type Lib: C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.tlb (2)
@@ -24,7 +24,7 @@ unit System_TLB;
 //   (1) v2.0 stdole, (C:\Windows\SysWOW64\stdole2.tlb)
 //   (2) v2.4 mscorlib, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb)
 // Parent TypeLibrary:
-//   (0) v5.80 OpcLabs_EasyOpcUA, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcUA.tlb)
+//   (0) v5.81 OpcLabs_EasyOpcUA, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcUA.tlb)
 // SYS_KIND: SYS_WIN32
 // Errors:
 //   Hint: Symbol 'System' renamed to 'System_'

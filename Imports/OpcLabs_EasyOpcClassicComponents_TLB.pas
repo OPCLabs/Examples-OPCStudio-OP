@@ -1,4 +1,4 @@
-unit OpcLabs_EasyOpcClassicComponents_TLB;
+﻿unit OpcLabs_EasyOpcClassicComponents_TLB;
 
 // ************************************************************************ //
 // WARNING                                                                    
@@ -12,10 +12,10 @@ unit OpcLabs_EasyOpcClassicComponents_TLB;
 // ************************************************************************ //
 
 // $Rev: 98336 $
-// File generated on 2/10/2024 17:39:24 from Type Library described below.
+// File generated on 11/3/2024 2:17:47 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcClassicComponents.tlb (1)
+// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcClassicComponents.tlb (1)
 // LIBID: {A03AA108-3C6B-4CB0-A813-BCBBCD335DAE}
 // LCID: 0
 // Helpfile: 
@@ -23,17 +23,11 @@ unit OpcLabs_EasyOpcClassicComponents_TLB;
 // DepndLst: 
 //   (1) v2.0 stdole, (C:\Windows\SysWOW64\stdole2.tlb)
 //   (2) v2.4 mscorlib, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb)
-//   (3) v5.80 OpcLabs_EasyOpcClassicCore, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcClassicCore.tlb)
+//   (3) v5.81 OpcLabs_EasyOpcClassicCore, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcClassicCore.tlb)
 //   (4) v2.4 System, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.tlb)
-//   (5) v5.80 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.BaseLib.tlb)
-//   (6) v5.80 OpcLabs_EasyOpcClassic, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcClassic.tlb)
+//   (5) v5.81 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.BaseLib.tlb)
+//   (6) v5.81 OpcLabs_EasyOpcClassic, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcClassic.tlb)
 // SYS_KIND: SYS_WIN32
-// Errors:
-//   Error creating palette bitmap of (T_DummyClassForEasyOpcClassicCoreReference) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyDAClient) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyDAClientManagement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyAEClient) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyAEClientManagement) : Server mscoree.dll contains no icons
 // ************************************************************************ //
 {$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers. 
 {$WARN SYMBOL_PLATFORM OFF}
@@ -57,7 +51,7 @@ System_TLB, Vcl.Graphics, Vcl.OleServer, Winapi.ActiveX;
 const
   // TypeLibrary Major and minor versions
   OpcLabs_EasyOpcClassicComponentsMajorVersion = 5;
-  OpcLabs_EasyOpcClassicComponentsMinorVersion = 80;
+  OpcLabs_EasyOpcClassicComponentsMinorVersion = 81;
 
   LIBID_OpcLabs_EasyOpcClassicComponents: TGUID = '{A03AA108-3C6B-4CB0-A813-BCBBCD335DAE}';
 
@@ -66,7 +60,7 @@ const
   CLASS_EasyDAClientManagement: TGUID = '{9E15DD64-80EF-4D69-85A0-C3CFECC89514}';
   CLASS_EasyAEClient: TGUID = '{3643545B-221F-4960-BF47-8A4DDEC81A67}';
   CLASS_EasyAEClientManagement: TGUID = '{E6D21611-6B20-4A3C-84C5-194A3C36D155}';
-  CLASS__DummyClassForEasyOpcClassicCoreReference: TGUID = '{D5CFCA8E-5A1B-3292-B4BF-FE00B4DF7C3E}';
+  CLASS__DummyClassForEasyOpcClassicCoreReference: TGUID = '{9FEF1024-EEB4-3BD4-8A5C-B2D36AA99079}';
 type
 
 // *********************************************************************//
@@ -144,12 +138,12 @@ type
     function Get_DisplayString: WideString;
     function Get_CustomReference: WideString;
     procedure Set_CustomReference(const pRetVal: WideString);
-    function Get_CallbackQueueCapacity: Integer;
-    procedure Set_CallbackQueueCapacity(pRetVal: Integer);
-    function Get_CallbackQueueIdleTimeToSleep: Integer;
-    procedure Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer);
-    function Get_QueueCallbacks: WordBool;
-    procedure Set_QueueCallbacks(pRetVal: WordBool);
+    function Get_NotificationQueueCapacity: Integer;
+    procedure Set_NotificationQueueCapacity(pRetVal: Integer);
+    function Get_NotificationQueueIdleTimeToSleep: Integer;
+    procedure Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer);
+    function Get_QueueNotifications: WordBool;
+    procedure Set_QueueNotifications(pRetVal: WordBool);
     function Get_AliasProvider: _AliasProvider;
     procedure _Set_AliasProvider(const pRetVal: _AliasProvider);
     function Get_InstanceParameters: _EasyDAInstanceParameters;
@@ -239,9 +233,9 @@ type
     property LicenseInfo: _StringObjectDictionary read Get_LicenseInfo;
     property SupportedTechnologies: OpcTechnologies read Get_SupportedTechnologies;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
-    property CallbackQueueCapacity: Integer read Get_CallbackQueueCapacity write Set_CallbackQueueCapacity;
-    property CallbackQueueIdleTimeToSleep: Integer read Get_CallbackQueueIdleTimeToSleep write Set_CallbackQueueIdleTimeToSleep;
-    property QueueCallbacks: WordBool read Get_QueueCallbacks write Set_QueueCallbacks;
+    property NotificationQueueCapacity: Integer read Get_NotificationQueueCapacity write Set_NotificationQueueCapacity;
+    property NotificationQueueIdleTimeToSleep: Integer read Get_NotificationQueueIdleTimeToSleep write Set_NotificationQueueIdleTimeToSleep;
+    property QueueNotifications: WordBool read Get_QueueNotifications write Set_QueueNotifications;
     property Isolated: WordBool read Get_Isolated write Set_Isolated;
     property PullItemChangedQueueCapacity: Integer read Get_PullItemChangedQueueCapacity write Set_PullItemChangedQueueCapacity;
   published
@@ -360,12 +354,12 @@ type
     function Get_DisplayString: WideString;
     function Get_CustomReference: WideString;
     procedure Set_CustomReference(const pRetVal: WideString);
-    function Get_CallbackQueueCapacity: Integer;
-    procedure Set_CallbackQueueCapacity(pRetVal: Integer);
-    function Get_CallbackQueueIdleTimeToSleep: Integer;
-    procedure Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer);
-    function Get_QueueCallbacks: WordBool;
-    procedure Set_QueueCallbacks(pRetVal: WordBool);
+    function Get_NotificationQueueCapacity: Integer;
+    procedure Set_NotificationQueueCapacity(pRetVal: Integer);
+    function Get_NotificationQueueIdleTimeToSleep: Integer;
+    procedure Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer);
+    function Get_QueueNotifications: WordBool;
+    procedure Set_QueueNotifications(pRetVal: WordBool);
     function Get_AliasProvider: _AliasProvider;
     procedure _Set_AliasProvider(const pRetVal: _AliasProvider);
     function Get_InstanceParameters: _EasyAEInstanceParameters;
@@ -430,9 +424,9 @@ type
     property LicenseInfo: _StringObjectDictionary read Get_LicenseInfo;
     property SupportedTechnologies: OpcTechnologies read Get_SupportedTechnologies;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
-    property CallbackQueueCapacity: Integer read Get_CallbackQueueCapacity write Set_CallbackQueueCapacity;
-    property CallbackQueueIdleTimeToSleep: Integer read Get_CallbackQueueIdleTimeToSleep write Set_CallbackQueueIdleTimeToSleep;
-    property QueueCallbacks: WordBool read Get_QueueCallbacks write Set_QueueCallbacks;
+    property NotificationQueueCapacity: Integer read Get_NotificationQueueCapacity write Set_NotificationQueueCapacity;
+    property NotificationQueueIdleTimeToSleep: Integer read Get_NotificationQueueIdleTimeToSleep write Set_NotificationQueueIdleTimeToSleep;
+    property QueueNotifications: WordBool read Get_QueueNotifications write Set_QueueNotifications;
     property Isolated: WordBool read Get_Isolated write Set_Isolated;
     property PullNotificationQueueCapacity: Integer read Get_PullNotificationQueueCapacity write Set_PullNotificationQueueCapacity;
   published
@@ -658,34 +652,34 @@ begin
   DefaultInterface.CustomReference := pRetVal;
 end;
 
-function TEasyDAClient.Get_CallbackQueueCapacity: Integer;
+function TEasyDAClient.Get_NotificationQueueCapacity: Integer;
 begin
-  Result := DefaultInterface.CallbackQueueCapacity;
+  Result := DefaultInterface.NotificationQueueCapacity;
 end;
 
-procedure TEasyDAClient.Set_CallbackQueueCapacity(pRetVal: Integer);
+procedure TEasyDAClient.Set_NotificationQueueCapacity(pRetVal: Integer);
 begin
-  DefaultInterface.CallbackQueueCapacity := pRetVal;
+  DefaultInterface.NotificationQueueCapacity := pRetVal;
 end;
 
-function TEasyDAClient.Get_CallbackQueueIdleTimeToSleep: Integer;
+function TEasyDAClient.Get_NotificationQueueIdleTimeToSleep: Integer;
 begin
-  Result := DefaultInterface.CallbackQueueIdleTimeToSleep;
+  Result := DefaultInterface.NotificationQueueIdleTimeToSleep;
 end;
 
-procedure TEasyDAClient.Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer);
+procedure TEasyDAClient.Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer);
 begin
-  DefaultInterface.CallbackQueueIdleTimeToSleep := pRetVal;
+  DefaultInterface.NotificationQueueIdleTimeToSleep := pRetVal;
 end;
 
-function TEasyDAClient.Get_QueueCallbacks: WordBool;
+function TEasyDAClient.Get_QueueNotifications: WordBool;
 begin
-  Result := DefaultInterface.QueueCallbacks;
+  Result := DefaultInterface.QueueNotifications;
 end;
 
-procedure TEasyDAClient.Set_QueueCallbacks(pRetVal: WordBool);
+procedure TEasyDAClient.Set_QueueNotifications(pRetVal: WordBool);
 begin
-  DefaultInterface.QueueCallbacks := pRetVal;
+  DefaultInterface.QueueNotifications := pRetVal;
 end;
 
 function TEasyDAClient.Get_AliasProvider: _AliasProvider;
@@ -1291,34 +1285,34 @@ begin
   DefaultInterface.CustomReference := pRetVal;
 end;
 
-function TEasyAEClient.Get_CallbackQueueCapacity: Integer;
+function TEasyAEClient.Get_NotificationQueueCapacity: Integer;
 begin
-  Result := DefaultInterface.CallbackQueueCapacity;
+  Result := DefaultInterface.NotificationQueueCapacity;
 end;
 
-procedure TEasyAEClient.Set_CallbackQueueCapacity(pRetVal: Integer);
+procedure TEasyAEClient.Set_NotificationQueueCapacity(pRetVal: Integer);
 begin
-  DefaultInterface.CallbackQueueCapacity := pRetVal;
+  DefaultInterface.NotificationQueueCapacity := pRetVal;
 end;
 
-function TEasyAEClient.Get_CallbackQueueIdleTimeToSleep: Integer;
+function TEasyAEClient.Get_NotificationQueueIdleTimeToSleep: Integer;
 begin
-  Result := DefaultInterface.CallbackQueueIdleTimeToSleep;
+  Result := DefaultInterface.NotificationQueueIdleTimeToSleep;
 end;
 
-procedure TEasyAEClient.Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer);
+procedure TEasyAEClient.Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer);
 begin
-  DefaultInterface.CallbackQueueIdleTimeToSleep := pRetVal;
+  DefaultInterface.NotificationQueueIdleTimeToSleep := pRetVal;
 end;
 
-function TEasyAEClient.Get_QueueCallbacks: WordBool;
+function TEasyAEClient.Get_QueueNotifications: WordBool;
 begin
-  Result := DefaultInterface.QueueCallbacks;
+  Result := DefaultInterface.QueueNotifications;
 end;
 
-procedure TEasyAEClient.Set_QueueCallbacks(pRetVal: WordBool);
+procedure TEasyAEClient.Set_QueueNotifications(pRetVal: WordBool);
 begin
-  DefaultInterface.QueueCallbacks := pRetVal;
+  DefaultInterface.QueueNotifications := pRetVal;
 end;
 
 function TEasyAEClient.Get_AliasProvider: _AliasProvider;
@@ -1709,7 +1703,7 @@ end;
 procedure T_DummyClassForEasyOpcClassicCoreReference.InitServerData;
 const
   CServerData: TServerData = (
-    ClassID:   '{D5CFCA8E-5A1B-3292-B4BF-FE00B4DF7C3E}';
+    ClassID:   '{9FEF1024-EEB4-3BD4-8A5C-B2D36AA99079}';
     IntfIID:   '{CD0E6599-7572-35BC-969D-EE8A738710E9}';
     EventIID:  '';
     LicenseKey: nil;

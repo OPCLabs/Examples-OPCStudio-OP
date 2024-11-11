@@ -5,7 +5,10 @@
 // This example shows how to subscribe to changes of a single monitored item
 // and display each change.
 //
-// Find all latest examples here : https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+// Find all latest examples here: https://opclabs.doc-that.com/files/onlinedocs/OPCLabs-OpcStudio/Latest/examples.html .
+// OPC client and subscriber examples in Object Pascal (Delphi) on GitHub: https://github.com/OPCLabs/Examples-QuickOPC-OP .
+// Missing some example? Ask us for it on our Online Forums, https://www.opclabs.com/forum/index ! You do not have to own
+// a commercial license in order to use Online Forums, and we reply to every post.
 
 type
   TClientEventHandlers121 = class

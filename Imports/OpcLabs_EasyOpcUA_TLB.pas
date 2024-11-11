@@ -12,10 +12,10 @@ unit OpcLabs_EasyOpcUA_TLB;
 // ************************************************************************ //
 
 // $Rev: 98336 $
-// File generated on 2/10/2024 17:40:43 from Type Library described below.
+// File generated on 11/3/2024 2:20:24 from Type Library described below.
 
 // ************************************************************************  //
-// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.EasyOpcUA.tlb (1)
+// Type Lib: C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.EasyOpcUA.tlb (1)
 // LIBID: {E15CAAE0-617E-49C6-BB42-B521F9DF3983}
 // LCID: 0
 // Helpfile: 
@@ -23,249 +23,9 @@ unit OpcLabs_EasyOpcUA_TLB;
 // DepndLst: 
 //   (1) v2.0 stdole, (C:\Windows\SysWOW64\stdole2.tlb)
 //   (2) v2.4 mscorlib, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.tlb)
-//   (3) v5.80 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.1\SDK\lib\OpcLabs.BaseLib.tlb)
+//   (3) v5.81 OpcLabs_BaseLib, (C:\Program Files (x86)\OPC Labs OPC Studio 2024.2\SDK\lib\OpcLabs.BaseLib.tlb)
 //   (4) v2.4 System, (C:\Windows\Microsoft.NET\Framework\v4.0.30319\System.tlb)
 // SYS_KIND: SYS_WIN32
-// Errors:
-//   Error creating palette bitmap of (TEasyUAClientSelector) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASpecializedClient) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAAttributeField) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TStringUANodeIdDictionary) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAAttributeFieldCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEndpointDescriptorCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEndpointDescriptorUANodeIdDictionary) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAFieldResultDictionary) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAKeyValueDictionary) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeIdUAApplicationElementDictionary) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAAttributeData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataValue) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEventData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAExtensionObject) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAIndexRange) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAIndexRangeList) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAKeyValuePair) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAServiceResult) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAStatusCode) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUATimeZoneData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEndpointDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAEngineException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUACallServiceException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAMethodOutputException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAResultException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAServiceException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAStatusCodeException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataChangeFilter) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEventFilter) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowseParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAMonitoringParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAReadParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUASubscriptionParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TComEasyUAClientConnectionControl) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TComEasyUAClientConnectionMonitoring) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TComEasyUAClientNodeRegistration) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASubscriberSelector) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUASubscribeDataSetFilter) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAGuidDataSetFieldDataDictionary) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAStringDataSetFieldDataDictionary) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetFieldData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetHeader) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublisherId) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubHeader) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubLocators) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetFieldDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetSubscriptionDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetWriterDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubConnectionDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubResolverDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAWriterGroupDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubCommunicationParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUASubscriberCommunicationParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUADataSetSubscriptionChangeArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASubscribeDataSetArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASubscribeDataSetArgumentsDictionary) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUASubscribeDataSetArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUADataSetMessageEventArgs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAResolverAccessEventArgs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASubscriptionResolvedEventArgs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublishSubscribeElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAPubSubResolverParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASubscriberAdaptableParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASubscriberInstanceParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASubscriberSharedParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublisherConfigurationResolutionParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublisherEndpointResolverParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublisherSubscriberAdaptableParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubResolverParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetFolderDataCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetWriterDataCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAFieldMetaDataCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublishedDataSetDataCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublishedVariableDataCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubConnectionDataCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAWriterGroupDataCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAConfigurationVersion) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetMetaData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetWriterLocator) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAFieldMetaData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublishedVariableData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetFolderData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetWriterData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublishedDataSetData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubConfigurationData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubConnectionData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAWriterGroupData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetWriterElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublishedDataItemsElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublishedDataSetElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPublishedEventsElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubConfigurationElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAPubSubConnectionElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAWriterGroupElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrokerConnectionTransportParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrokerDataSetReaderTransportParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrokerDataSetWriterTransportParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrokerWriterGroupTransportParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAConnectionTransportParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADatagramConnectionTransportParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADatagramWriterGroupTransportParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataSetReaderMessageParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAJsonDataSetReaderMessageParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAJsonDataSetWriterMessageParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAJsonWriterGroupMessageParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAUadpDataSetReaderMessageParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAUadpDataSetWriterMessageParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAUadpWriterGroupMessageParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAServerDtmpPluginParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAOptimizerPluginParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAClientComplexData) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAClientServerTables) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAComplexDataClientPluginParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAComplexDataSubscriberPluginParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAIndexRangeListFormatException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAIndexRangeListParser) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUALogicalException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAMonitoredItemArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAMonitoredItemArgumentsDictionary) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASubscriptionChangeArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAAttributeArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowseArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUACallArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAMonitoredItemArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAReadArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAWriteArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAWriteValueArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUADataChangeNotificationEventArgs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAEventNotificationEventArgs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAServerConditionChangedEventArgs) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAAttributeDataResult) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeElementCollectionResult) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAWriteResult) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowsePathElementCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowsePath) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowsePathElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowsePathFormatException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABrowsePathParser) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAModelNodeDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAModelClientException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAModellingException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TNetSdkEasyUAClientServerApplication) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUACertificateGroupElementCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAApplicationRecordDataType) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUACertificateGroupElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAFilterOperand) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAFilterOperandCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUASimpleAttributeOperandCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAAttributeOperand) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAContentFilterElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUALiteralOperand) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUASimpleAttributeOperand) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEngineException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAAdaptableParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAClientMode) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAEngineParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUAInstanceParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TEasyUASharedParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAClientAdaptableParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAClientEngineParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAClientMonitoredItemParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAClientServerApplicationParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAClientServerEngineParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAClientSessionParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAClientSubscriptionParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADiscoveryParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEndpointDescriptionChecks) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEnhancedSessionParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAHostParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUASmartEngineParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUASmartSessionParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAUserInteractionParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUACertificateAcceptancePolicy) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEndpointSelectionPolicy) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAApplicationDescription) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAApplicationElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADiscoveryElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADiscoveryElementCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAQueryApplicationsFilter) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAServerOnNetwork) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAGlobalApplicationDiscoveryQuery) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUALocalApplicationDiscoveryQuery) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUALocalEndpointDiscoveryQuery) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANetworkServerDiscoveryQuery) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAHeaderDataTypeSchema) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEnumDefinition) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEnumField) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEnumValue) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAStructureDefinition) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAStructureField) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEnumDescription) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUASimpleTypeDescription) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAStructureDescription) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataTypeInfo) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEnumFieldInfo) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEnumTypeInfo) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUASimpleTypeInfo) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAStructureFieldInfo) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAStructureTypeInfo) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataTypeDescriptor) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUADataTypeSystemParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAOpcBinaryDtsParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAServerDtmpParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAXmlSchemaDtsParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAEUInformation) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUARange) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAComplexDataParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAGenericObject) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeBrowseFilter) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TAbstractEasyUAClientServerApplication) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUACertificateTypeElementCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUACertificateRequestParameters) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUACertificateTypeElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAAssureCertificateArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUACertificateArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUACreateCertificateArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAExportCertificateArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAImportCertificateArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAIngestCertificateArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAObtainCertificateArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAValidateCertificateArguments) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUABaseEventObject) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAApplicationManifest) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeElementCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeIdCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeIdSet) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAQualifiedNameCollection) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAQualifiedNameSet) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeId) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAQualifiedName) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeElement) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeIdFormatException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAQualifiedNameFormatException) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUANodeIdParser) : Server mscoree.dll contains no icons
-//   Error creating palette bitmap of (TUAQualifiedNameParser) : Server mscoree.dll contains no icons
 // ************************************************************************ //
 {$TYPEDADDRESS OFF} // Unit must be compiled without type-checked pointers. 
 {$WARN SYMBOL_PLATFORM OFF}
@@ -289,7 +49,7 @@ Vcl.OleServer, Winapi.ActiveX;
 const
   // TypeLibrary Major and minor versions
   OpcLabs_EasyOpcUAMajorVersion = 5;
-  OpcLabs_EasyOpcUAMinorVersion = 80;
+  OpcLabs_EasyOpcUAMinorVersion = 81;
 
   LIBID_OpcLabs_EasyOpcUA: TGUID = '{E15CAAE0-617E-49C6-BB42-B521F9DF3983}';
 
@@ -596,10 +356,10 @@ const
   CLASS_UASimpleAttributeOperandCollection: TGUID = '{4798AB3C-0F5B-4E53-B731-BADD17D29C1A}';
   IID__UAEngineException: TGUID = '{FB6388F4-EDD4-42E4-9666-ED609791F194}';
   IID__UAClientAdaptableParameters: TGUID = '{D2A18F5C-6863-4B26-89ED-0D81F4A2B7C6}';
-  IID__EasyUAClientMode: TGUID = '{298B87ED-7C5B-4FA0-BD41-8B0A88F8BAD3}';
   IID__UAClientServerEngineParameters: TGUID = '{4C1C75BD-D564-402C-B399-9F000B297367}';
-  IID__EasyUAInstanceParameters: TGUID = '{0B31304A-2B75-4F8E-B46E-321CE71879EC}';
-  IID__EasyUASharedParameters: TGUID = '{E32CDBD7-D9B9-4A5C-BC91-86E45BC68F70}';
+  IID__EasyUAClientInstanceParameters: TGUID = '{0B31304A-2B75-4F8E-B46E-321CE71879EC}';
+  IID__EasyUAClientMode: TGUID = '{298B87ED-7C5B-4FA0-BD41-8B0A88F8BAD3}';
+  IID__EasyUAClientSharedParameters: TGUID = '{E32CDBD7-D9B9-4A5C-BC91-86E45BC68F70}';
   CLASS_UAClientAdaptableParameters: TGUID = '{8708E22B-13A0-4D0C-B9FB-845BC0ABBBAE}';
   IID__UAClientEngineParameters: TGUID = '{B3EC5B1E-CC28-4617-A2F5-8FC0047A5189}';
   IID__UAClientMonitoredItemParameters: TGUID = '{4C8C8151-7251-4E12-AB3D-FE1FF653AB49}';
@@ -609,34 +369,34 @@ const
   IID__UAClientSubscriptionParameters: TGUID = '{0CCA8354-6931-4EDB-B85A-740F0FC6CC62}';
   IID__UADiscoveryParameters: TGUID = '{23D76E10-3379-4A29-B178-2452CBC404E0}';
   IID__UAEndpointDescriptionChecks: TGUID = '{DC62DE51-E00E-449B-879C-920F16E4B4A3}';
-  IID__UAEnhancedSessionParameters: TGUID = '{2EAA2DB0-9563-4509-8E3B-42DD933A6B59}';
+  IID__UAEnhancedClientSessionParameters: TGUID = '{2EAA2DB0-9563-4509-8E3B-42DD933A6B59}';
   IID__UAHostParameters: TGUID = '{A2020BCE-F738-4956-8021-2D603850BBB1}';
-  IID__UASmartEngineParameters: TGUID = '{61307AAA-A0B0-400B-A24B-0BC60694B324}';
-  IID__UASmartSessionParameters: TGUID = '{2056DFDF-FEF9-41D7-9A27-C580BAA7D5B1}';
+  IID__UASmartClientEngineParameters: TGUID = '{61307AAA-A0B0-400B-A24B-0BC60694B324}';
+  IID__UASmartClientSessionParameters: TGUID = '{2056DFDF-FEF9-41D7-9A27-C580BAA7D5B1}';
   IID__UAUserInteractionParameters: TGUID = '{79DF1B0A-0098-4F86-A7E1-88A940480EE8}';
   IID__UACertificateAcceptancePolicy: TGUID = '{52BE490E-DFCD-42A4-BCEA-1B6CC025E604}';
   IID__UAEndpointSelectionPolicy: TGUID = '{79DE5541-62AA-4848-BE00-944B99745829}';
-  IID__EasyUAAdaptableParameters: TGUID = '{6019F1FB-ED9A-409A-93D3-43C45EBA78A7}';
+  IID__EasyUAClientAdaptableParameters: TGUID = '{6019F1FB-ED9A-409A-93D3-43C45EBA78A7}';
+  IID__EasyUAClientEngineParameters: TGUID = '{CAD749B4-8F4B-49B9-9C25-CD45CA885C43}';
+  CLASS_EasyUAClientInstanceParameters: TGUID = '{BC714148-D729-4F62-9D1E-BF4CF1950553}';
   CLASS_EasyUAClientMode: TGUID = '{CD5BB489-4E9A-49D9-9F07-8AA0385E93D0}';
-  IID__EasyUAEngineParameters: TGUID = '{CAD749B4-8F4B-49B9-9C25-CD45CA885C43}';
-  CLASS_EasyUAInstanceParameters: TGUID = '{BC714148-D729-4F62-9D1E-BF4CF1950553}';
-  CLASS_EasyUASharedParameters: TGUID = '{F77A673B-9C49-4511-BDA8-97CA0DD1F48F}';
+  CLASS_EasyUAClientSharedParameters: TGUID = '{F77A673B-9C49-4511-BDA8-97CA0DD1F48F}';
   CLASS_UACertificateAcceptancePolicy: TGUID = '{2CBA7587-F230-4655-88A8-D14C05F3E470}';
-  CLASS_EasyUAAdaptableParameters: TGUID = '{8BF0C2BC-4A7B-401E-9A3F-4D09F4000A43}';
+  CLASS_EasyUAClientAdaptableParameters: TGUID = '{8BF0C2BC-4A7B-401E-9A3F-4D09F4000A43}';
   CLASS_UAClientEngineParameters: TGUID = '{2128889E-747F-44F3-807F-874BA51887DC}';
   CLASS_UAClientMonitoredItemParameters: TGUID = '{6D9181C8-BF8F-4010-A9E8-DB8AA56A3C8A}';
   CLASS_UAClientServerApplicationParameters: TGUID = '{D40C74F9-4901-41FC-ACC0-50704FFA0E21}';
-  CLASS_EasyUAEngineParameters: TGUID = '{06C9F127-61C2-4959-97FB-2BB3520DAAA8}';
+  CLASS_EasyUAClientEngineParameters: TGUID = '{06C9F127-61C2-4959-97FB-2BB3520DAAA8}';
   CLASS_UAClientSessionParameters: TGUID = '{088E204B-29F9-4336-BB86-3270673DC5CD}';
   CLASS_UAClientSubscriptionParameters: TGUID = '{E35F93F4-7F3C-4787-95D5-AF8FE737531D}';
   CLASS_UADiscoveryParameters: TGUID = '{3234D872-0EBC-4A15-A54F-CA438898F7A3}';
   CLASS_UAEndpointDescriptionChecks: TGUID = '{3681B3FF-FF83-4886-8454-92A274C07191}';
   CLASS_UAEndpointSelectionPolicy: TGUID = '{ED7D4313-690E-4241-B95D-754FD7D283FF}';
   CLASS_UAEngineException: TGUID = '{D15CCEAA-601E-45E8-953A-23151869C66B}';
-  CLASS_UAEnhancedSessionParameters: TGUID = '{3F2A5922-8393-486D-B8D2-FD82E006971F}';
+  CLASS_UAEnhancedClientSessionParameters: TGUID = '{3F2A5922-8393-486D-B8D2-FD82E006971F}';
   CLASS_UAHostParameters: TGUID = '{9576F630-4954-405E-AB19-58AE78EACEC4}';
-  CLASS_UASmartEngineParameters: TGUID = '{5631FC51-ECD0-408A-B48B-BC3D34EAC4E3}';
-  CLASS_UASmartSessionParameters: TGUID = '{C1B2536E-266B-49F2-81F4-7FB0613BAD2E}';
+  CLASS_UASmartClientEngineParameters: TGUID = '{5631FC51-ECD0-408A-B48B-BC3D34EAC4E3}';
+  CLASS_UASmartClientSessionParameters: TGUID = '{C1B2536E-266B-49F2-81F4-7FB0613BAD2E}';
   CLASS_UAUserInteractionParameters: TGUID = '{61BBC839-F826-4A00-A6D3-8C1E86B28580}';
   IID__UAApplicationDescription: TGUID = '{682D26C9-D9B2-4E2E-8089-DE1F3B57D93C}';
   CLASS_UAApplicationElement: TGUID = '{3D846508-1E61-411E-A668-825905CB13CE}';
@@ -895,6 +655,275 @@ const
   UABuiltInType_UInteger = $0000001C;
   UABuiltInType_Enumeration = $0000001D;
 
+// Constants for enum UACodeBits
+type
+  UACodeBits = TOleEnum;
+const
+  UACodeBits_Good = $00000000;
+  UACodeBits_Uncertain = $00004000;
+  UACodeBits_Bad = $00008000;
+  UACodeBits_BadUnexpectedError = $00008001;
+  UACodeBits_BadInternalError = $00008002;
+  UACodeBits_BadOutOfMemory = $00008003;
+  UACodeBits_BadResourceUnavailable = $00008004;
+  UACodeBits_BadCommunicationError = $00008005;
+  UACodeBits_BadEncodingError = $00008006;
+  UACodeBits_BadDecodingError = $00008007;
+  UACodeBits_BadEncodingLimitsExceeded = $00008008;
+  UACodeBits_BadRequestTooLarge = $000080B8;
+  UACodeBits_BadResponseTooLarge = $000080B9;
+  UACodeBits_BadUnknownResponse = $00008009;
+  UACodeBits_BadTimeout = $0000800A;
+  UACodeBits_BadServiceUnsupported = $0000800B;
+  UACodeBits_BadShutdown = $0000800C;
+  UACodeBits_BadServerNotConnected = $0000800D;
+  UACodeBits_BadServerHalted = $0000800E;
+  UACodeBits_BadNothingToDo = $0000800F;
+  UACodeBits_BadTooManyOperations = $00008010;
+  UACodeBits_BadTooManyMonitoredItems = $000080DB;
+  UACodeBits_BadDataTypeIdUnknown = $00008011;
+  UACodeBits_BadCertificateInvalid = $00008012;
+  UACodeBits_BadSecurityChecksFailed = $00008013;
+  UACodeBits_BadCertificatePolicyCheckFailed = $00008114;
+  UACodeBits_BadCertificateTimeInvalid = $00008014;
+  UACodeBits_BadCertificateIssuerTimeInvalid = $00008015;
+  UACodeBits_BadCertificateHostNameInvalid = $00008016;
+  UACodeBits_BadCertificateUriInvalid = $00008017;
+  UACodeBits_BadCertificateUseNotAllowed = $00008018;
+  UACodeBits_BadCertificateIssuerUseNotAllowed = $00008019;
+  UACodeBits_BadCertificateUntrusted = $0000801A;
+  UACodeBits_BadCertificateRevocationUnknown = $0000801B;
+  UACodeBits_BadCertificateIssuerRevocationUnknown = $0000801C;
+  UACodeBits_BadCertificateRevoked = $0000801D;
+  UACodeBits_BadCertificateIssuerRevoked = $0000801E;
+  UACodeBits_BadCertificateChainIncomplete = $0000810D;
+  UACodeBits_BadUserAccessDenied = $0000801F;
+  UACodeBits_BadIdentityTokenInvalid = $00008020;
+  UACodeBits_BadIdentityTokenRejected = $00008021;
+  UACodeBits_BadSecureChannelIdInvalid = $00008022;
+  UACodeBits_BadInvalidTimestamp = $00008023;
+  UACodeBits_BadNonceInvalid = $00008024;
+  UACodeBits_BadSessionIdInvalid = $00008025;
+  UACodeBits_BadSessionClosed = $00008026;
+  UACodeBits_BadSessionNotActivated = $00008027;
+  UACodeBits_BadSubscriptionIdInvalid = $00008028;
+  UACodeBits_BadRequestHeaderInvalid = $0000802A;
+  UACodeBits_BadTimestampsToReturnInvalid = $0000802B;
+  UACodeBits_BadRequestCancelledByClient = $0000802C;
+  UACodeBits_BadTooManyArguments = $000080E5;
+  UACodeBits_BadLicenseExpired = $0000810E;
+  UACodeBits_BadLicenseLimitsExceeded = $0000810F;
+  UACodeBits_BadLicenseNotAvailable = $00008110;
+  UACodeBits_GoodSubscriptionTransferred = $0000002D;
+  UACodeBits_GoodCompletesAsynchronously = $0000002E;
+  UACodeBits_GoodOverload = $0000002F;
+  UACodeBits_GoodClamped = $00000030;
+  UACodeBits_BadNoCommunication = $00008031;
+  UACodeBits_BadWaitingForInitialData = $00008032;
+  UACodeBits_BadNodeIdInvalid = $00008033;
+  UACodeBits_BadNodeIdUnknown = $00008034;
+  UACodeBits_BadAttributeIdInvalid = $00008035;
+  UACodeBits_BadIndexRangeInvalid = $00008036;
+  UACodeBits_BadIndexRangeNoData = $00008037;
+  UACodeBits_BadDataEncodingInvalid = $00008038;
+  UACodeBits_BadDataEncodingUnsupported = $00008039;
+  UACodeBits_BadNotReadable = $0000803A;
+  UACodeBits_BadNotWritable = $0000803B;
+  UACodeBits_BadOutOfRange = $0000803C;
+  UACodeBits_BadNotSupported = $0000803D;
+  UACodeBits_BadNotFound = $0000803E;
+  UACodeBits_BadObjectDeleted = $0000803F;
+  UACodeBits_BadNotImplemented = $00008040;
+  UACodeBits_BadMonitoringModeInvalid = $00008041;
+  UACodeBits_BadMonitoredItemIdInvalid = $00008042;
+  UACodeBits_BadMonitoredItemFilterInvalid = $00008043;
+  UACodeBits_BadMonitoredItemFilterUnsupported = $00008044;
+  UACodeBits_BadFilterNotAllowed = $00008045;
+  UACodeBits_BadStructureMissing = $00008046;
+  UACodeBits_BadEventFilterInvalid = $00008047;
+  UACodeBits_BadContentFilterInvalid = $00008048;
+  UACodeBits_BadFilterOperatorInvalid = $000080C1;
+  UACodeBits_BadFilterOperatorUnsupported = $000080C2;
+  UACodeBits_BadFilterOperandCountMismatch = $000080C3;
+  UACodeBits_BadFilterOperandInvalid = $00008049;
+  UACodeBits_BadFilterElementInvalid = $000080C4;
+  UACodeBits_BadFilterLiteralInvalid = $000080C5;
+  UACodeBits_BadContinuationPointInvalid = $0000804A;
+  UACodeBits_BadNoContinuationPoints = $0000804B;
+  UACodeBits_BadReferenceTypeIdInvalid = $0000804C;
+  UACodeBits_BadBrowseDirectionInvalid = $0000804D;
+  UACodeBits_BadNodeNotInView = $0000804E;
+  UACodeBits_BadNumericOverflow = $00008112;
+  UACodeBits_BadServerUriInvalid = $0000804F;
+  UACodeBits_BadServerNameMissing = $00008050;
+  UACodeBits_BadDiscoveryUrlMissing = $00008051;
+  UACodeBits_BadSempahoreFileMissing = $00008052;
+  UACodeBits_BadRequestTypeInvalid = $00008053;
+  UACodeBits_BadSecurityModeRejected = $00008054;
+  UACodeBits_BadSecurityPolicyRejected = $00008055;
+  UACodeBits_BadTooManySessions = $00008056;
+  UACodeBits_BadUserSignatureInvalid = $00008057;
+  UACodeBits_BadApplicationSignatureInvalid = $00008058;
+  UACodeBits_BadNoValidCertificates = $00008059;
+  UACodeBits_BadIdentityChangeNotSupported = $000080C6;
+  UACodeBits_BadRequestCancelledByRequest = $0000805A;
+  UACodeBits_BadParentNodeIdInvalid = $0000805B;
+  UACodeBits_BadReferenceNotAllowed = $0000805C;
+  UACodeBits_BadNodeIdRejected = $0000805D;
+  UACodeBits_BadNodeIdExists = $0000805E;
+  UACodeBits_BadNodeClassInvalid = $0000805F;
+  UACodeBits_BadBrowseNameInvalid = $00008060;
+  UACodeBits_BadBrowseNameDuplicated = $00008061;
+  UACodeBits_BadNodeAttributesInvalid = $00008062;
+  UACodeBits_BadTypeDefinitionInvalid = $00008063;
+  UACodeBits_BadSourceNodeIdInvalid = $00008064;
+  UACodeBits_BadTargetNodeIdInvalid = $00008065;
+  UACodeBits_BadDuplicateReferenceNotAllowed = $00008066;
+  UACodeBits_BadInvalidSelfReference = $00008067;
+  UACodeBits_BadReferenceLocalOnly = $00008068;
+  UACodeBits_BadNoDeleteRights = $00008069;
+  UACodeBits_UncertainReferenceNotDeleted = $000040BC;
+  UACodeBits_BadServerIndexInvalid = $0000806A;
+  UACodeBits_BadViewIdUnknown = $0000806B;
+  UACodeBits_BadViewTimestampInvalid = $000080C9;
+  UACodeBits_BadViewParameterMismatch = $000080CA;
+  UACodeBits_BadViewVersionInvalid = $000080CB;
+  UACodeBits_UncertainNotAllNodesAvailable = $000040C0;
+  UACodeBits_GoodResultsMayBeIncomplete = $000000BA;
+  UACodeBits_BadNotTypeDefinition = $000080C8;
+  UACodeBits_UncertainReferenceOutOfServer = $0000406C;
+  UACodeBits_BadTooManyMatches = $0000806D;
+  UACodeBits_BadQueryTooComplex = $0000806E;
+  UACodeBits_BadNoMatch = $0000806F;
+  UACodeBits_BadMaxAgeInvalid = $00008070;
+  UACodeBits_BadSecurityModeInsufficient = $000080E6;
+  UACodeBits_BadHistoryOperationInvalid = $00008071;
+  UACodeBits_BadHistoryOperationUnsupported = $00008072;
+  UACodeBits_BadInvalidTimestampArgument = $000080BD;
+  UACodeBits_BadWriteNotSupported = $00008073;
+  UACodeBits_BadTypeMismatch = $00008074;
+  UACodeBits_BadMethodInvalid = $00008075;
+  UACodeBits_BadArgumentsMissing = $00008076;
+  UACodeBits_BadNotExecutable = $00008111;
+  UACodeBits_BadTooManySubscriptions = $00008077;
+  UACodeBits_BadTooManyPublishRequests = $00008078;
+  UACodeBits_BadNoSubscription = $00008079;
+  UACodeBits_BadSequenceNumberUnknown = $0000807A;
+  UACodeBits_GoodRetransmissionQueueNotSupported = $000000DF;
+  UACodeBits_BadMessageNotAvailable = $0000807B;
+  UACodeBits_BadInsufficientClientProfile = $0000807C;
+  UACodeBits_BadStateNotActive = $000080BF;
+  UACodeBits_BadAlreadyExists = $00008115;
+  UACodeBits_BadTcpServerTooBusy = $0000807D;
+  UACodeBits_BadTcpMessageTypeInvalid = $0000807E;
+  UACodeBits_BadTcpSecureChannelUnknown = $0000807F;
+  UACodeBits_BadTcpMessageTooLarge = $00008080;
+  UACodeBits_BadTcpNotEnoughResources = $00008081;
+  UACodeBits_BadTcpInternalError = $00008082;
+  UACodeBits_BadTcpEndpointUrlInvalid = $00008083;
+  UACodeBits_BadRequestInterrupted = $00008084;
+  UACodeBits_BadRequestTimeout = $00008085;
+  UACodeBits_BadSecureChannelClosed = $00008086;
+  UACodeBits_BadSecureChannelTokenUnknown = $00008087;
+  UACodeBits_BadSequenceNumberInvalid = $00008088;
+  UACodeBits_BadProtocolVersionUnsupported = $000080BE;
+  UACodeBits_BadConfigurationError = $00008089;
+  UACodeBits_BadNotConnected = $0000808A;
+  UACodeBits_BadDeviceFailure = $0000808B;
+  UACodeBits_BadSensorFailure = $0000808C;
+  UACodeBits_BadOutOfService = $0000808D;
+  UACodeBits_BadDeadbandFilterInvalid = $0000808E;
+  UACodeBits_UncertainNoCommunicationLastUsableValue = $0000408F;
+  UACodeBits_UncertainLastUsableValue = $00004090;
+  UACodeBits_UncertainSubstituteValue = $00004091;
+  UACodeBits_UncertainInitialValue = $00004092;
+  UACodeBits_UncertainSensorNotAccurate = $00004093;
+  UACodeBits_UncertainEngineeringUnitsExceeded = $00004094;
+  UACodeBits_UncertainSubNormal = $00004095;
+  UACodeBits_GoodLocalOverride = $00000096;
+  UACodeBits_BadRefreshInProgress = $00008097;
+  UACodeBits_BadConditionAlreadyDisabled = $00008098;
+  UACodeBits_BadConditionAlreadyEnabled = $000080CC;
+  UACodeBits_BadConditionDisabled = $00008099;
+  UACodeBits_BadEventIdUnknown = $0000809A;
+  UACodeBits_BadEventNotAcknowledgeable = $000080BB;
+  UACodeBits_BadDialogNotActive = $000080CD;
+  UACodeBits_BadDialogResponseInvalid = $000080CE;
+  UACodeBits_BadConditionBranchAlreadyAcked = $000080CF;
+  UACodeBits_BadConditionBranchAlreadyConfirmed = $000080D0;
+  UACodeBits_BadConditionAlreadyShelved = $000080D1;
+  UACodeBits_BadConditionNotShelved = $000080D2;
+  UACodeBits_BadShelvingTimeOutOfRange = $000080D3;
+  UACodeBits_BadNoData = $0000809B;
+  UACodeBits_BadBoundNotFound = $000080D7;
+  UACodeBits_BadBoundNotSupported = $000080D8;
+  UACodeBits_BadDataLost = $0000809D;
+  UACodeBits_BadDataUnavailable = $0000809E;
+  UACodeBits_BadEntryExists = $0000809F;
+  UACodeBits_BadNoEntryExists = $000080A0;
+  UACodeBits_BadTimestampNotSupported = $000080A1;
+  UACodeBits_GoodEntryInserted = $000000A2;
+  UACodeBits_GoodEntryReplaced = $000000A3;
+  UACodeBits_UncertainDataSubNormal = $000040A4;
+  UACodeBits_GoodNoData = $000000A5;
+  UACodeBits_GoodMoreData = $000000A6;
+  UACodeBits_BadAggregateListMismatch = $000080D4;
+  UACodeBits_BadAggregateNotSupported = $000080D5;
+  UACodeBits_BadAggregateInvalidInputs = $000080D6;
+  UACodeBits_BadAggregateConfigurationRejected = $000080DA;
+  UACodeBits_GoodDataIgnored = $000000D9;
+  UACodeBits_BadRequestNotAllowed = $000080E4;
+  UACodeBits_BadRequestNotComplete = $00008113;
+  UACodeBits_BadTransactionPending = $000080E8;
+  UACodeBits_BadTicketRequired = $0000811F;
+  UACodeBits_BadTicketInvalid = $00008120;
+  UACodeBits_BadLocked = $000080E9;
+  UACodeBits_GoodEdited = $000000DC;
+  UACodeBits_GoodPostActionFailed = $000000DD;
+  UACodeBits_UncertainDominantValueChanged = $000040DE;
+  UACodeBits_GoodDependentValueChanged = $000000E0;
+  UACodeBits_BadDominantValueChanged = $000080E1;
+  UACodeBits_UncertainDependentValueChanged = $000040E2;
+  UACodeBits_BadDependentValueChanged = $000080E3;
+  UACodeBits_GoodEdited_DependentValueChanged = $00000116;
+  UACodeBits_GoodEdited_DominantValueChanged = $00000117;
+  UACodeBits_GoodEdited_DominantValueChanged_DependentValueChanged = $00000118;
+  UACodeBits_BadEdited_OutOfRange = $00008119;
+  UACodeBits_BadInitialValue_OutOfRange = $0000811A;
+  UACodeBits_BadOutOfRange_DominantValueChanged = $0000811B;
+  UACodeBits_BadEdited_OutOfRange_DominantValueChanged = $0000811C;
+  UACodeBits_BadOutOfRange_DominantValueChanged_DependentValueChanged = $0000811D;
+  UACodeBits_BadEdited_OutOfRange_DominantValueChanged_DependentValueChanged = $0000811E;
+  UACodeBits_GoodCommunicationEvent = $000000A7;
+  UACodeBits_GoodShutdownEvent = $000000A8;
+  UACodeBits_GoodCallAgain = $000000A9;
+  UACodeBits_GoodNonCriticalTimeout = $000000AA;
+  UACodeBits_BadInvalidArgument = $000080AB;
+  UACodeBits_BadConnectionRejected = $000080AC;
+  UACodeBits_BadDisconnect = $000080AD;
+  UACodeBits_BadConnectionClosed = $000080AE;
+  UACodeBits_BadInvalidState = $000080AF;
+  UACodeBits_BadEndOfStream = $000080B0;
+  UACodeBits_BadNoDataAvailable = $000080B1;
+  UACodeBits_BadWaitingForResponse = $000080B2;
+  UACodeBits_BadOperationAbandoned = $000080B3;
+  UACodeBits_BadExpectedStreamToBlock = $000080B4;
+  UACodeBits_BadWouldBlock = $000080B5;
+  UACodeBits_BadSyntaxError = $000080B6;
+  UACodeBits_BadMaxConnectionsReached = $000080B7;
+  UACodeBits_UncertainTransducerInManual = $00004208;
+  UACodeBits_UncertainSimulatedValue = $00004209;
+  UACodeBits_UncertainSensorCalibration = $0000420A;
+  UACodeBits_UncertainConfigurationError = $0000420F;
+  UACodeBits_GoodCascadeInitializationAcknowledged = $00000401;
+  UACodeBits_GoodCascadeInitializationRequest = $00000402;
+  UACodeBits_GoodCascadeNotInvited = $00000403;
+  UACodeBits_GoodCascadeNotSelected = $00000404;
+  UACodeBits_GoodFaultStateActive = $00000407;
+  UACodeBits_GoodInitiateFaultState = $00000408;
+  UACodeBits_GoodCascade = $00000409;
+  UACodeBits_BadDataSetIdInvalid = $000080E7;
+
 // Constants for enum UADataChangeTrigger
 type
   UADataChangeTrigger = TOleEnum;
@@ -1022,9 +1051,11 @@ const
   UAJsonDataSetMessageContentMask_MessageType = $00000020;
   UAJsonDataSetMessageContentMask_DataSetWriterName = $00000040;
   UAJsonDataSetMessageContentMask_ReversibleFieldEncoding = $00000080;
+  UAJsonDataSetMessageContentMask_FieldEncoding1 = $00000080;
   UAJsonDataSetMessageContentMask_PublisherId = $00000100;
   UAJsonDataSetMessageContentMask_WriterGroupName = $00000200;
   UAJsonDataSetMessageContentMask_MinorVersion = $00000400;
+  UAJsonDataSetMessageContentMask_FieldEncoding2 = $00000800;
 
 // Constants for enum UAJsonNetworkMessageContentMask
 type
@@ -1662,14 +1693,14 @@ type
   _UAEngineExceptionDisp = dispinterface;
   _UAClientAdaptableParameters = interface;
   _UAClientAdaptableParametersDisp = dispinterface;
-  _EasyUAClientMode = interface;
-  _EasyUAClientModeDisp = dispinterface;
   _UAClientServerEngineParameters = interface;
   _UAClientServerEngineParametersDisp = dispinterface;
-  _EasyUAInstanceParameters = interface;
-  _EasyUAInstanceParametersDisp = dispinterface;
-  _EasyUASharedParameters = interface;
-  _EasyUASharedParametersDisp = dispinterface;
+  _EasyUAClientInstanceParameters = interface;
+  _EasyUAClientInstanceParametersDisp = dispinterface;
+  _EasyUAClientMode = interface;
+  _EasyUAClientModeDisp = dispinterface;
+  _EasyUAClientSharedParameters = interface;
+  _EasyUAClientSharedParametersDisp = dispinterface;
   _UAClientEngineParameters = interface;
   _UAClientEngineParametersDisp = dispinterface;
   _UAClientMonitoredItemParameters = interface;
@@ -1684,24 +1715,24 @@ type
   _UADiscoveryParametersDisp = dispinterface;
   _UAEndpointDescriptionChecks = interface;
   _UAEndpointDescriptionChecksDisp = dispinterface;
-  _UAEnhancedSessionParameters = interface;
-  _UAEnhancedSessionParametersDisp = dispinterface;
+  _UAEnhancedClientSessionParameters = interface;
+  _UAEnhancedClientSessionParametersDisp = dispinterface;
   _UAHostParameters = interface;
   _UAHostParametersDisp = dispinterface;
-  _UASmartEngineParameters = interface;
-  _UASmartEngineParametersDisp = dispinterface;
-  _UASmartSessionParameters = interface;
-  _UASmartSessionParametersDisp = dispinterface;
+  _UASmartClientEngineParameters = interface;
+  _UASmartClientEngineParametersDisp = dispinterface;
+  _UASmartClientSessionParameters = interface;
+  _UASmartClientSessionParametersDisp = dispinterface;
   _UAUserInteractionParameters = interface;
   _UAUserInteractionParametersDisp = dispinterface;
   _UACertificateAcceptancePolicy = interface;
   _UACertificateAcceptancePolicyDisp = dispinterface;
   _UAEndpointSelectionPolicy = interface;
   _UAEndpointSelectionPolicyDisp = dispinterface;
-  _EasyUAAdaptableParameters = interface;
-  _EasyUAAdaptableParametersDisp = dispinterface;
-  _EasyUAEngineParameters = interface;
-  _EasyUAEngineParametersDisp = dispinterface;
+  _EasyUAClientAdaptableParameters = interface;
+  _EasyUAClientAdaptableParametersDisp = dispinterface;
+  _EasyUAClientEngineParameters = interface;
+  _EasyUAClientEngineParametersDisp = dispinterface;
   _UAApplicationDescription = interface;
   _UAApplicationDescriptionDisp = dispinterface;
   _UADiscoveryElement = interface;
@@ -1981,25 +2012,25 @@ type
   UASimpleAttributeOperandCollection = _UASimpleAttributeOperandCollection;
   UAClientAdaptableParameters = _UAClientAdaptableParameters;
   UAClientServerEngineParameters = _UAClientServerEngineParameters;
+  EasyUAClientInstanceParameters = _EasyUAClientInstanceParameters;
   EasyUAClientMode = _EasyUAClientMode;
-  EasyUAInstanceParameters = _EasyUAInstanceParameters;
-  EasyUASharedParameters = _EasyUASharedParameters;
+  EasyUAClientSharedParameters = _EasyUAClientSharedParameters;
   UACertificateAcceptancePolicy = _UACertificateAcceptancePolicy;
-  EasyUAAdaptableParameters = _EasyUAAdaptableParameters;
+  EasyUAClientAdaptableParameters = _EasyUAClientAdaptableParameters;
   UAClientEngineParameters = _UAClientEngineParameters;
   UAClientMonitoredItemParameters = _UAClientMonitoredItemParameters;
   UAClientServerApplicationParameters = _UAClientServerApplicationParameters;
-  EasyUAEngineParameters = _EasyUAEngineParameters;
+  EasyUAClientEngineParameters = _EasyUAClientEngineParameters;
   UAClientSessionParameters = _UAClientSessionParameters;
   UAClientSubscriptionParameters = _UAClientSubscriptionParameters;
   UADiscoveryParameters = _UADiscoveryParameters;
   UAEndpointDescriptionChecks = _UAEndpointDescriptionChecks;
   UAEndpointSelectionPolicy = _UAEndpointSelectionPolicy;
   UAEngineException = _UAEngineException;
-  UAEnhancedSessionParameters = _UAClientSessionParameters;
+  UAEnhancedClientSessionParameters = _UAClientSessionParameters;
   UAHostParameters = _UAHostParameters;
-  UASmartEngineParameters = _UASmartEngineParameters;
-  UASmartSessionParameters = _UASmartSessionParameters;
+  UASmartClientEngineParameters = _UASmartClientEngineParameters;
+  UASmartClientSessionParameters = _UASmartClientSessionParameters;
   UAUserInteractionParameters = _UAUserInteractionParameters;
   UAApplicationElement = _UAApplicationElement;
   UAApplicationDescription = _UAApplicationDescription;
@@ -2118,20 +2149,20 @@ type
     procedure Set_StandardName(const pRetVal: WideString); safecall;
     function Get_Differentiator: WideString; safecall;
     procedure Set_Differentiator(const pRetVal: WideString); safecall;
-    function Get_InstanceParameters: _EasyUAInstanceParameters; safecall;
-    procedure _Set_InstanceParameters(const pRetVal: _EasyUAInstanceParameters); safecall;
+    function Get_InstanceParameters: _EasyUAClientInstanceParameters; safecall;
+    procedure _Set_InstanceParameters(const pRetVal: _EasyUAClientInstanceParameters); safecall;
     function Get_Isolated: WordBool; safecall;
     procedure Set_Isolated(pRetVal: WordBool); safecall;
-    function Get_IsolatedParameters: _EasyUAAdaptableParameters; safecall;
-    procedure _Set_IsolatedParameters(const pRetVal: _EasyUAAdaptableParameters); safecall;
+    function Get_IsolatedParameters: _EasyUAClientAdaptableParameters; safecall;
+    procedure _Set_IsolatedParameters(const pRetVal: _EasyUAClientAdaptableParameters); safecall;
     procedure Reset; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
     property Differentiator: WideString read Get_Differentiator write Set_Differentiator;
-    property InstanceParameters: _EasyUAInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
+    property InstanceParameters: _EasyUAClientInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
     property Isolated: WordBool read Get_Isolated write Set_Isolated;
-    property IsolatedParameters: _EasyUAAdaptableParameters read Get_IsolatedParameters write _Set_IsolatedParameters;
+    property IsolatedParameters: _EasyUAClientAdaptableParameters read Get_IsolatedParameters write _Set_IsolatedParameters;
   end;
 
 // *********************************************************************//
@@ -2149,9 +2180,9 @@ type
     function Clone: OleVariant; dispid 1610743813;
     property StandardName: WideString dispid 1610743814;
     property Differentiator: WideString dispid 1610743816;
-    property InstanceParameters: _EasyUAInstanceParameters dispid 1610743818;
+    property InstanceParameters: _EasyUAClientInstanceParameters dispid 1610743818;
     property Isolated: WordBool dispid 1610743820;
-    property IsolatedParameters: _EasyUAAdaptableParameters dispid 1610743822;
+    property IsolatedParameters: _EasyUAClientAdaptableParameters dispid 1610743822;
     procedure Reset; dispid 1610743824;
   end;
 
@@ -2964,7 +2995,7 @@ type
     function Get_Text: WideString; safecall;
     function Get_StatusCode: _UAStatusCode; safecall;
     procedure _Set_StatusCode(const pRetVal: _UAStatusCode); safecall;
-    function ToInt32: Integer; safecall;
+    function ToUACodeBits: UACodeBits; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property AdditionalInfo: WideString read Get_AdditionalInfo write Set_AdditionalInfo;
@@ -2996,7 +3027,7 @@ type
     property QualifiedSymbolicId: _UAQualifiedName dispid 1610743821;
     property Text: WideString readonly dispid 1610743823;
     property StatusCode: _UAStatusCode dispid 1610743824;
-    function ToInt32: Integer; dispid 1610743826;
+    function ToUACodeBits: UACodeBits; dispid 1610743826;
   end;
 
 // *********************************************************************//
@@ -3014,8 +3045,8 @@ type
     function Get_ToString_2(const format: WideString; const formatProvider: IFormatProvider): WideString; safecall;
     function Get_ToString_3(const format: WideString): WideString; safecall;
     function Clone: OleVariant; safecall;
-    function Get_CodeBits: Integer; safecall;
-    procedure Set_CodeBits(pRetVal: Integer); safecall;
+    function Get_CodeBits: UACodeBits; safecall;
+    procedure Set_CodeBits(pRetVal: UACodeBits); safecall;
     function Get_CodeBitsSymbol: WideString; safecall;
     procedure Set_CodeBitsSymbol(const pRetVal: WideString); safecall;
     function Get_Condition: Smallint; safecall;
@@ -3047,7 +3078,7 @@ type
     property DisplayString: WideString read Get_DisplayString;
     property ToString_2[const format: WideString; const formatProvider: IFormatProvider]: WideString read Get_ToString_2;
     property ToString_3[const format: WideString]: WideString read Get_ToString_3;
-    property CodeBits: Integer read Get_CodeBits write Set_CodeBits;
+    property CodeBits: UACodeBits read Get_CodeBits write Set_CodeBits;
     property CodeBitsSymbol: WideString read Get_CodeBitsSymbol write Set_CodeBitsSymbol;
     property Condition: Smallint read Get_Condition write Set_Condition;
     property Description: WideString read Get_Description;
@@ -3081,7 +3112,7 @@ type
     property ToString_2[const format: WideString; const formatProvider: IFormatProvider]: WideString readonly dispid 1610743813;
     property ToString_3[const format: WideString]: WideString readonly dispid 1610743814;
     function Clone: OleVariant; dispid 1610743815;
-    property CodeBits: Integer dispid 1610743816;
+    property CodeBits: UACodeBits dispid 1610743816;
     property CodeBitsSymbol: WideString dispid 1610743818;
     property Condition: Smallint dispid 1610743820;
     property Description: WideString readonly dispid 1610743822;
@@ -6325,6 +6356,7 @@ type
     function Remove(const key: WideString): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -6354,7 +6386,8 @@ type
     function Remove(const key: WideString): WordBool; dispid 1610743820;
     procedure RemoveAt(index: Integer); dispid 1610743821;
     function ToList: _ElasticVector; dispid 1610743822;
-    function Clone: OleVariant; dispid 1610743823;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743823;
+    function Clone: OleVariant; dispid 1610743824;
   end;
 
 // *********************************************************************//
@@ -6379,6 +6412,7 @@ type
     function Remove(const key: WideString): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -6408,7 +6442,8 @@ type
     function Remove(const key: WideString): WordBool; dispid 1610743820;
     procedure RemoveAt(index: Integer); dispid 1610743821;
     function ToList: _ElasticVector; dispid 1610743822;
-    function Clone: OleVariant; dispid 1610743823;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743823;
+    function Clone: OleVariant; dispid 1610743824;
   end;
 
 // *********************************************************************//
@@ -6485,6 +6520,7 @@ type
     function Remove(const key: WideString): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -6514,7 +6550,8 @@ type
     function Remove(const key: WideString): WordBool; dispid 1610743820;
     procedure RemoveAt(index: Integer); dispid 1610743821;
     function ToList: _ElasticVector; dispid 1610743822;
-    function Clone: OleVariant; dispid 1610743823;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743823;
+    function Clone: OleVariant; dispid 1610743824;
   end;
 
 // *********************************************************************//
@@ -6591,6 +6628,7 @@ type
     function Remove(const key: WideString): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -6620,7 +6658,8 @@ type
     function Remove(const key: WideString): WordBool; dispid 1610743820;
     procedure RemoveAt(index: Integer); dispid 1610743821;
     function ToList: _ElasticVector; dispid 1610743822;
-    function Clone: OleVariant; dispid 1610743823;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743823;
+    function Clone: OleVariant; dispid 1610743824;
   end;
 
 // *********************************************************************//
@@ -6645,6 +6684,7 @@ type
     function Remove(const key: WideString): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -6674,7 +6714,8 @@ type
     function Remove(const key: WideString): WordBool; dispid 1610743820;
     procedure RemoveAt(index: Integer); dispid 1610743821;
     function ToList: _ElasticVector; dispid 1610743822;
-    function Clone: OleVariant; dispid 1610743823;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool; dispid 1610743823;
+    function Clone: OleVariant; dispid 1610743824;
   end;
 
 // *********************************************************************//
@@ -9171,12 +9212,12 @@ type
     function GetService(const serviceType: _Type): OleVariant; safecall;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; safecall;
     function ValueEquals(other: OleVariant): WordBool; safecall;
-    function Get_CallbackQueueCapacity: Integer; safecall;
-    procedure Set_CallbackQueueCapacity(pRetVal: Integer); safecall;
-    function Get_CallbackQueueIdleTimeToSleep: Integer; safecall;
-    procedure Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer); safecall;
-    function Get_QueueCallbacks: WordBool; safecall;
-    procedure Set_QueueCallbacks(pRetVal: WordBool); safecall;
+    function Get_NotificationQueueCapacity: Integer; safecall;
+    procedure Set_NotificationQueueCapacity(pRetVal: Integer); safecall;
+    function Get_NotificationQueueIdleTimeToSleep: Integer; safecall;
+    procedure Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer); safecall;
+    function Get_QueueNotifications: WordBool; safecall;
+    procedure Set_QueueNotifications(pRetVal: WordBool); safecall;
     function Get_AliasProvider: _AliasProvider; safecall;
     procedure _Set_AliasProvider(const pRetVal: _AliasProvider); safecall;
     function Get_InstanceParameters: _EasyUASubscriberInstanceParameters; safecall;
@@ -9213,9 +9254,9 @@ type
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
-    property CallbackQueueCapacity: Integer read Get_CallbackQueueCapacity write Set_CallbackQueueCapacity;
-    property CallbackQueueIdleTimeToSleep: Integer read Get_CallbackQueueIdleTimeToSleep write Set_CallbackQueueIdleTimeToSleep;
-    property QueueCallbacks: WordBool read Get_QueueCallbacks write Set_QueueCallbacks;
+    property NotificationQueueCapacity: Integer read Get_NotificationQueueCapacity write Set_NotificationQueueCapacity;
+    property NotificationQueueIdleTimeToSleep: Integer read Get_NotificationQueueIdleTimeToSleep write Set_NotificationQueueIdleTimeToSleep;
+    property QueueNotifications: WordBool read Get_QueueNotifications write Set_QueueNotifications;
     property AliasProvider: _AliasProvider read Get_AliasProvider write _Set_AliasProvider;
     property InstanceParameters: _EasyUASubscriberInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
     property Isolated: WordBool read Get_Isolated write Set_Isolated;
@@ -9243,9 +9284,9 @@ type
     function GetService(const serviceType: _Type): OleVariant; dispid 1610743816;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; dispid 1610743817;
     function ValueEquals(other: OleVariant): WordBool; dispid 1610743818;
-    property CallbackQueueCapacity: Integer dispid 1610743819;
-    property CallbackQueueIdleTimeToSleep: Integer dispid 1610743821;
-    property QueueCallbacks: WordBool dispid 1610743823;
+    property NotificationQueueCapacity: Integer dispid 1610743819;
+    property NotificationQueueIdleTimeToSleep: Integer dispid 1610743821;
+    property QueueNotifications: WordBool dispid 1610743823;
     property AliasProvider: _AliasProvider dispid 1610743825;
     property InstanceParameters: _EasyUASubscriberInstanceParameters dispid 1610743827;
     property Isolated: WordBool dispid 1610743829;
@@ -11076,9 +11117,9 @@ type
     function Clone: OleVariant; safecall;
     function MemberwiseClone: _OperationEventArgs; safecall;
     function ToLongString: WideString; safecall;
-    function Get_Connected: WordBool; safecall;
     function Get_ConnectionState: ConnectionState; safecall;
     procedure Set_ConnectionState(pRetVal: ConnectionState); safecall;
+    function Get_IsConnected: WordBool; safecall;
     function Get_RetrialDelay: Integer; safecall;
     procedure Set_RetrialDelay(pRetVal: Integer); safecall;
     function Get_Statistics: _ConnectedConditionStatistics; safecall;
@@ -11098,8 +11139,8 @@ type
     property NormalizedDiagnostics: _NormalizedExceptionCollection read Get_NormalizedDiagnostics;
     property NormalizedException: _NormalizedException read Get_NormalizedException;
     property Succeeded: WordBool read Get_Succeeded;
-    property Connected: WordBool read Get_Connected;
     property ConnectionState: ConnectionState read Get_ConnectionState write Set_ConnectionState;
+    property IsConnected: WordBool read Get_IsConnected;
     property RetrialDelay: Integer read Get_RetrialDelay write Set_RetrialDelay;
     property Statistics: _ConnectedConditionStatistics read Get_Statistics write _Set_Statistics;
     property StatusInfo: StatusInfo read Get_StatusInfo;
@@ -11131,8 +11172,8 @@ type
     function Clone: OleVariant; dispid 1610743827;
     function MemberwiseClone: _OperationEventArgs; dispid 1610743828;
     function ToLongString: WideString; dispid 1610743829;
-    property Connected: WordBool readonly dispid 1610743830;
-    property ConnectionState: ConnectionState dispid 1610743831;
+    property ConnectionState: ConnectionState dispid 1610743830;
+    property IsConnected: WordBool readonly dispid 1610743832;
     property RetrialDelay: Integer dispid 1610743833;
     property Statistics: _ConnectedConditionStatistics dispid 1610743835;
     property StatusInfo: StatusInfo readonly dispid 1610743837;
@@ -12010,6 +12051,7 @@ type
     function Get_ApplicationStoreGroup: IUnknown; safecall;
     function Get_CertificateGenerationParameters: _CertificateGenerationParameters; safecall;
     function Get_CertificateRequestParameters: _UACertificateRequestParameters; safecall;
+    function Get_HostNames: _StringCollection; safecall;
     function Get_SupportsGds: WordBool; safecall;
     function AssureOwnCertificate(createOwnCertificateArguments: OleVariant): WordBool; safecall;
     procedure CreateOwnCertificate(createOwnCertificateArguments: OleVariant); safecall;
@@ -12027,6 +12069,7 @@ type
     function GetCertificateSubjectName(const certificateSubId: WideString): WideString; safecall;
     function GetCertificateSubjectNameDictionary: _StringStringDictionary; safecall;
     function GetEffectiveApplicationManifest: _UAApplicationManifest; safecall;
+    function GetEffectiveHostNames(alternateHostNames: OleVariant): _StringCollection; safecall;
     function GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single; safecall;
     function HasOwnCertificate(const certificateSubId: WideString): WordBool; safecall;
     function HasPrivateKeyPassword(const certificateSubId: WideString): WordBool; safecall;
@@ -12055,6 +12098,7 @@ type
     property ApplicationStoreGroup: IUnknown read Get_ApplicationStoreGroup;
     property CertificateGenerationParameters: _CertificateGenerationParameters read Get_CertificateGenerationParameters;
     property CertificateRequestParameters: _UACertificateRequestParameters read Get_CertificateRequestParameters;
+    property HostNames: _StringCollection read Get_HostNames;
     property SupportsGds: WordBool read Get_SupportsGds;
   end;
 
@@ -12074,45 +12118,47 @@ type
     property ApplicationStoreGroup: IUnknown readonly dispid 1610743814;
     property CertificateGenerationParameters: _CertificateGenerationParameters readonly dispid 1610743815;
     property CertificateRequestParameters: _UACertificateRequestParameters readonly dispid 1610743816;
-    property SupportsGds: WordBool readonly dispid 1610743817;
-    function AssureOwnCertificate(createOwnCertificateArguments: OleVariant): WordBool; dispid 1610743818;
-    procedure CreateOwnCertificate(createOwnCertificateArguments: OleVariant); dispid 1610743819;
-    procedure ExportApplicationConfiguration(const stream: _Stream); dispid 1610743820;
-    procedure ExportApplicationConfigurationToFile(const filePath: WideString); dispid 1610743821;
-    procedure ExportOwnCertificateToFile(exportCertificateArguments: OleVariant); dispid 1610743822;
-    procedure ExportRegisteredApplication(const stream: _Stream); dispid 1610743823;
-    procedure ExportRegisteredApplicationToFile(const filePath: WideString); dispid 1610743824;
-    procedure ExportSecuredApplication(const stream: _Stream); dispid 1610743825;
-    procedure ExportSecuredApplicationToFile(const filePath: WideString); dispid 1610743826;
-    function FindGdsRegistrations(gdsEndpointDescriptor: OleVariant): _UANodeIdUAApplicationElementReadOnlyDictionary; dispid 1610743827;
-    function FindOwnCertificate(const certificateSubId: WideString): _PkiCertificate; dispid 1610743828;
-    function GetApplicationElement: _UAApplicationElement; dispid 1610743829;
-    function GetApplicationId(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743830;
-    function GetCertificateSubjectName(const certificateSubId: WideString): WideString; dispid 1610743831;
-    function GetCertificateSubjectNameDictionary: _StringStringDictionary; dispid 1610743832;
-    function GetEffectiveApplicationManifest: _UAApplicationManifest; dispid 1610743833;
-    function GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single; dispid 1610743834;
-    function HasOwnCertificate(const certificateSubId: WideString): WordBool; dispid 1610743835;
-    function HasPrivateKeyPassword(const certificateSubId: WideString): WordBool; dispid 1610743836;
-    procedure ImportOwnCertificateFromFile(importCertificateArguments: OleVariant); dispid 1610743837;
-    function ListCertificateSubIds: _StringSet; dispid 1610743838;
+    property HostNames: _StringCollection readonly dispid 1610743817;
+    property SupportsGds: WordBool readonly dispid 1610743818;
+    function AssureOwnCertificate(createOwnCertificateArguments: OleVariant): WordBool; dispid 1610743819;
+    procedure CreateOwnCertificate(createOwnCertificateArguments: OleVariant); dispid 1610743820;
+    procedure ExportApplicationConfiguration(const stream: _Stream); dispid 1610743821;
+    procedure ExportApplicationConfigurationToFile(const filePath: WideString); dispid 1610743822;
+    procedure ExportOwnCertificateToFile(exportCertificateArguments: OleVariant); dispid 1610743823;
+    procedure ExportRegisteredApplication(const stream: _Stream); dispid 1610743824;
+    procedure ExportRegisteredApplicationToFile(const filePath: WideString); dispid 1610743825;
+    procedure ExportSecuredApplication(const stream: _Stream); dispid 1610743826;
+    procedure ExportSecuredApplicationToFile(const filePath: WideString); dispid 1610743827;
+    function FindGdsRegistrations(gdsEndpointDescriptor: OleVariant): _UANodeIdUAApplicationElementReadOnlyDictionary; dispid 1610743828;
+    function FindOwnCertificate(const certificateSubId: WideString): _PkiCertificate; dispid 1610743829;
+    function GetApplicationElement: _UAApplicationElement; dispid 1610743830;
+    function GetApplicationId(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743831;
+    function GetCertificateSubjectName(const certificateSubId: WideString): WideString; dispid 1610743832;
+    function GetCertificateSubjectNameDictionary: _StringStringDictionary; dispid 1610743833;
+    function GetEffectiveApplicationManifest: _UAApplicationManifest; dispid 1610743834;
+    function GetEffectiveHostNames(alternateHostNames: OleVariant): _StringCollection; dispid 1610743835;
+    function GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single; dispid 1610743836;
+    function HasOwnCertificate(const certificateSubId: WideString): WordBool; dispid 1610743837;
+    function HasPrivateKeyPassword(const certificateSubId: WideString): WordBool; dispid 1610743838;
+    procedure ImportOwnCertificateFromFile(importCertificateArguments: OleVariant); dispid 1610743839;
+    function ListCertificateSubIds: _StringSet; dispid 1610743840;
     function ListCertificateTypeElements(gdsEndpointDescriptor: OleVariant; 
-                                         applicationStoreKind: PkiApplicationStoreKind): _UACertificateTypeElementCollection; dispid 1610743839;
-    function ObtainNewCertificate(Arguments: OleVariant): _PkiCertificate; dispid 1610743840;
+                                         applicationStoreKind: PkiApplicationStoreKind): _UACertificateTypeElementCollection; dispid 1610743841;
+    function ObtainNewCertificate(Arguments: OleVariant): _PkiCertificate; dispid 1610743842;
     function ProtectOrUnprotectOwnCertificate(const certificateSubId: WideString; 
-                                              const newPrivateKeyPassword: WideString): WordBool; dispid 1610743841;
-    procedure ProtectOwnCertificate(const newPrivateKeyPassword: WideString); dispid 1610743842;
-    function RefreshTrustLists(gdsEndpointDescriptor: OleVariant; updateGdsRegistration: WordBool): UATrustListMasks; dispid 1610743843;
-    function RegisterToGds(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743844;
+                                              const newPrivateKeyPassword: WideString): WordBool; dispid 1610743843;
+    procedure ProtectOwnCertificate(const newPrivateKeyPassword: WideString); dispid 1610743844;
+    function RefreshTrustLists(gdsEndpointDescriptor: OleVariant; updateGdsRegistration: WordBool): UATrustListMasks; dispid 1610743845;
+    function RegisterToGds(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743846;
     function RemoveOwnCertificates(const certificateSubIdPattern: WideString; mustExist: WordBool; 
-                                   updateTrustedPeerCertificates: WordBool): Integer; dispid 1610743845;
-    procedure RemovePrivateKeyPassword(const certificateSubId: WideString); dispid 1610743846;
+                                   updateTrustedPeerCertificates: WordBool): Integer; dispid 1610743847;
+    procedure RemovePrivateKeyPassword(const certificateSubId: WideString); dispid 1610743848;
     procedure SetPrivateKeyPassword(const certificateSubId: WideString; 
-                                    const privateKeyPassword: WideString); dispid 1610743847;
-    procedure UnprotectOwnCertificate; dispid 1610743848;
-    procedure UnregisterFromGds(gdsEndpointDescriptor: OleVariant); dispid 1610743849;
-    function updateGdsRegistration(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743850;
-    procedure ValidateOwnCertificate(certificateGenerationArguments: OleVariant); dispid 1610743851;
+                                    const privateKeyPassword: WideString); dispid 1610743849;
+    procedure UnprotectOwnCertificate; dispid 1610743850;
+    procedure UnregisterFromGds(gdsEndpointDescriptor: OleVariant); dispid 1610743851;
+    function updateGdsRegistration(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743852;
+    procedure ValidateOwnCertificate(certificateGenerationArguments: OleVariant); dispid 1610743853;
   end;
 
 // *********************************************************************//
@@ -12137,6 +12183,7 @@ type
     function Remove(key: OleVariant): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(key: OleVariant; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -12166,7 +12213,8 @@ type
     function Remove(key: OleVariant): WordBool; dispid 1610743820;
     procedure RemoveAt(index: Integer); dispid 1610743821;
     function ToList: _ElasticVector; dispid 1610743822;
-    function Clone: OleVariant; dispid 1610743823;
+    function TryGetValue(key: OleVariant; out Item: OleVariant): WordBool; dispid 1610743823;
+    function Clone: OleVariant; dispid 1610743824;
   end;
 
 // *********************************************************************//
@@ -12971,8 +13019,8 @@ type
     procedure _Set_HostParameters(const pRetVal: _UAHostParameters); safecall;
     function Get_MonitoredItemParameters: _UAClientMonitoredItemParameters; safecall;
     procedure _Set_MonitoredItemParameters(const pRetVal: _UAClientMonitoredItemParameters); safecall;
-    function Get_SessionParameters: _UASmartSessionParameters; safecall;
-    procedure _Set_SessionParameters(const pRetVal: _UASmartSessionParameters); safecall;
+    function Get_SessionParameters: _UASmartClientSessionParameters; safecall;
+    procedure _Set_SessionParameters(const pRetVal: _UASmartClientSessionParameters); safecall;
     function Get_SubscriptionParameters: _UAClientSubscriptionParameters; safecall;
     procedure _Set_SubscriptionParameters(const pRetVal: _UAClientSubscriptionParameters); safecall;
     procedure Reset; safecall;
@@ -12982,7 +13030,7 @@ type
     property DiscoveryParameters: _UADiscoveryParameters read Get_DiscoveryParameters write _Set_DiscoveryParameters;
     property HostParameters: _UAHostParameters read Get_HostParameters write _Set_HostParameters;
     property MonitoredItemParameters: _UAClientMonitoredItemParameters read Get_MonitoredItemParameters write _Set_MonitoredItemParameters;
-    property SessionParameters: _UASmartSessionParameters read Get_SessionParameters write _Set_SessionParameters;
+    property SessionParameters: _UASmartClientSessionParameters read Get_SessionParameters write _Set_SessionParameters;
     property SubscriptionParameters: _UAClientSubscriptionParameters read Get_SubscriptionParameters write _Set_SubscriptionParameters;
   end;
 
@@ -13003,9 +13051,137 @@ type
     property DiscoveryParameters: _UADiscoveryParameters dispid 1610743816;
     property HostParameters: _UAHostParameters dispid 1610743818;
     property MonitoredItemParameters: _UAClientMonitoredItemParameters dispid 1610743820;
-    property SessionParameters: _UASmartSessionParameters dispid 1610743822;
+    property SessionParameters: _UASmartClientSessionParameters dispid 1610743822;
     property SubscriptionParameters: _UAClientSubscriptionParameters dispid 1610743824;
     procedure Reset; dispid 1610743826;
+  end;
+
+// *********************************************************************//
+// Interface: _UAClientServerEngineParameters
+// Flags:     (4416) Dual OleAutomation Dispatchable
+// GUID:      {4C1C75BD-D564-402C-B399-9F000B297367}
+// *********************************************************************//
+  _UAClientServerEngineParameters = interface(IDispatch)
+    ['{4C1C75BD-D564-402C-B399-9F000B297367}']
+    function Get_ToString: WideString; safecall;
+    function Equals(obj: OleVariant): WordBool; safecall;
+    function GetHashCode: Integer; safecall;
+    function GetType: _Type; safecall;
+    function Get_DisplayString: WideString; safecall;
+    function Clone: OleVariant; safecall;
+    function Get_StandardName: WideString; safecall;
+    procedure Set_StandardName(const pRetVal: WideString); safecall;
+    function Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy; safecall;
+    procedure _Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy); safecall;
+    function Get_ConfigurationPropertyOverrides: _StringObjectDictionary; safecall;
+    procedure _Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary); safecall;
+    function Get_ConfigurationSources: UAConfigurationSources; safecall;
+    procedure Set_ConfigurationSources(pRetVal: UAConfigurationSources); safecall;
+    function Get_DebuggerDetectionOverride: Sign; safecall;
+    procedure Set_DebuggerDetectionOverride(pRetVal: Sign); safecall;
+    function Get_gdsEndpointDescriptor: _UAEndpointDescriptor; safecall;
+    procedure _Set_gdsEndpointDescriptor(const pRetVal: _UAEndpointDescriptor); safecall;
+    function Get_RetrialDelay: Integer; safecall;
+    procedure Set_RetrialDelay(pRetVal: Integer); safecall;
+    function Get_ReconnectionPeriod: Integer; safecall;
+    procedure Set_ReconnectionPeriod(pRetVal: Integer); safecall;
+    function Get_UserInteractionParameters: _UAUserInteractionParameters; safecall;
+    procedure _Set_UserInteractionParameters(const pRetVal: _UAUserInteractionParameters); safecall;
+    procedure Reset; safecall;
+    property ToString: WideString read Get_ToString;
+    property DisplayString: WideString read Get_DisplayString;
+    property StandardName: WideString read Get_StandardName write Set_StandardName;
+    property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_CertificateAcceptancePolicy write _Set_CertificateAcceptancePolicy;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary read Get_ConfigurationPropertyOverrides write _Set_ConfigurationPropertyOverrides;
+    property ConfigurationSources: UAConfigurationSources read Get_ConfigurationSources write Set_ConfigurationSources;
+    property DebuggerDetectionOverride: Sign read Get_DebuggerDetectionOverride write Set_DebuggerDetectionOverride;
+    property gdsEndpointDescriptor: _UAEndpointDescriptor read Get_gdsEndpointDescriptor write _Set_gdsEndpointDescriptor;
+    property RetrialDelay: Integer read Get_RetrialDelay write Set_RetrialDelay;
+    property ReconnectionPeriod: Integer read Get_ReconnectionPeriod write Set_ReconnectionPeriod;
+    property UserInteractionParameters: _UAUserInteractionParameters read Get_UserInteractionParameters write _Set_UserInteractionParameters;
+  end;
+
+// *********************************************************************//
+// DispIntf:  _UAClientServerEngineParametersDisp
+// Flags:     (4416) Dual OleAutomation Dispatchable
+// GUID:      {4C1C75BD-D564-402C-B399-9F000B297367}
+// *********************************************************************//
+  _UAClientServerEngineParametersDisp = dispinterface
+    ['{4C1C75BD-D564-402C-B399-9F000B297367}']
+    property ToString: WideString readonly dispid 1610743808;
+    function Equals(obj: OleVariant): WordBool; dispid 1610743809;
+    function GetHashCode: Integer; dispid 1610743810;
+    function GetType: _Type; dispid 1610743811;
+    property DisplayString: WideString readonly dispid 0;
+    function Clone: OleVariant; dispid 1610743813;
+    property StandardName: WideString dispid 1610743814;
+    property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743816;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary dispid 1610743818;
+    property ConfigurationSources: UAConfigurationSources dispid 1610743820;
+    property DebuggerDetectionOverride: Sign dispid 1610743822;
+    property gdsEndpointDescriptor: _UAEndpointDescriptor dispid 1610743824;
+    property RetrialDelay: Integer dispid 1610743826;
+    property ReconnectionPeriod: Integer dispid 1610743828;
+    property UserInteractionParameters: _UAUserInteractionParameters dispid 1610743830;
+    procedure Reset; dispid 1610743832;
+  end;
+
+// *********************************************************************//
+// Interface: _EasyUAClientInstanceParameters
+// Flags:     (4416) Dual OleAutomation Dispatchable
+// GUID:      {0B31304A-2B75-4F8E-B46E-321CE71879EC}
+// *********************************************************************//
+  _EasyUAClientInstanceParameters = interface(IDispatch)
+    ['{0B31304A-2B75-4F8E-B46E-321CE71879EC}']
+    function Get_ToString: WideString; safecall;
+    function Equals(obj: OleVariant): WordBool; safecall;
+    function GetHashCode: Integer; safecall;
+    function GetType: _Type; safecall;
+    function Get_DisplayString: WideString; safecall;
+    function Clone: OleVariant; safecall;
+    function Get_StandardName: WideString; safecall;
+    procedure Set_StandardName(const pRetVal: WideString); safecall;
+    function Get_PluginConfigurations: _ConfigurationPartCollection; safecall;
+    procedure _Set_PluginConfigurations(const pRetVal: _ConfigurationPartCollection); safecall;
+    function Get_PluginSetups: _PluginSetupCollection; safecall;
+    procedure _Set_PluginSetups(const pRetVal: _PluginSetupCollection); safecall;
+    procedure Reset; safecall;
+    function Get_DiscoveryHost: WideString; safecall;
+    procedure Set_DiscoveryHost(const pRetVal: WideString); safecall;
+    function Get_EnableModelCaching: WordBool; safecall;
+    procedure Set_EnableModelCaching(pRetVal: WordBool); safecall;
+    function Get_Mode: _EasyUAClientMode; safecall;
+    procedure _Set_Mode(const pRetVal: _EasyUAClientMode); safecall;
+    property ToString: WideString read Get_ToString;
+    property DisplayString: WideString read Get_DisplayString;
+    property StandardName: WideString read Get_StandardName write Set_StandardName;
+    property PluginConfigurations: _ConfigurationPartCollection read Get_PluginConfigurations write _Set_PluginConfigurations;
+    property PluginSetups: _PluginSetupCollection read Get_PluginSetups write _Set_PluginSetups;
+    property DiscoveryHost: WideString read Get_DiscoveryHost write Set_DiscoveryHost;
+    property EnableModelCaching: WordBool read Get_EnableModelCaching write Set_EnableModelCaching;
+    property Mode: _EasyUAClientMode read Get_Mode write _Set_Mode;
+  end;
+
+// *********************************************************************//
+// DispIntf:  _EasyUAClientInstanceParametersDisp
+// Flags:     (4416) Dual OleAutomation Dispatchable
+// GUID:      {0B31304A-2B75-4F8E-B46E-321CE71879EC}
+// *********************************************************************//
+  _EasyUAClientInstanceParametersDisp = dispinterface
+    ['{0B31304A-2B75-4F8E-B46E-321CE71879EC}']
+    property ToString: WideString readonly dispid 1610743808;
+    function Equals(obj: OleVariant): WordBool; dispid 1610743809;
+    function GetHashCode: Integer; dispid 1610743810;
+    function GetType: _Type; dispid 1610743811;
+    property DisplayString: WideString readonly dispid 0;
+    function Clone: OleVariant; dispid 1610743813;
+    property StandardName: WideString dispid 1610743814;
+    property PluginConfigurations: _ConfigurationPartCollection dispid 1610743816;
+    property PluginSetups: _PluginSetupCollection dispid 1610743818;
+    procedure Reset; dispid 1610743820;
+    property DiscoveryHost: WideString dispid 1610743821;
+    property EnableModelCaching: WordBool dispid 1610743823;
+    property Mode: _EasyUAClientMode dispid 1610743825;
   end;
 
 // *********************************************************************//
@@ -13045,135 +13221,11 @@ type
   end;
 
 // *********************************************************************//
-// Interface: _UAClientServerEngineParameters
-// Flags:     (4416) Dual OleAutomation Dispatchable
-// GUID:      {4C1C75BD-D564-402C-B399-9F000B297367}
-// *********************************************************************//
-  _UAClientServerEngineParameters = interface(IDispatch)
-    ['{4C1C75BD-D564-402C-B399-9F000B297367}']
-    function Get_ToString: WideString; safecall;
-    function Equals(obj: OleVariant): WordBool; safecall;
-    function GetHashCode: Integer; safecall;
-    function GetType: _Type; safecall;
-    function Get_DisplayString: WideString; safecall;
-    function Clone: OleVariant; safecall;
-    function Get_StandardName: WideString; safecall;
-    procedure Set_StandardName(const pRetVal: WideString); safecall;
-    function Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy; safecall;
-    procedure _Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy); safecall;
-    function Get_ConfigurationSources: UAConfigurationSources; safecall;
-    procedure Set_ConfigurationSources(pRetVal: UAConfigurationSources); safecall;
-    function Get_DebuggerDetectionOverride: Sign; safecall;
-    procedure Set_DebuggerDetectionOverride(pRetVal: Sign); safecall;
-    function Get_gdsEndpointDescriptor: _UAEndpointDescriptor; safecall;
-    procedure _Set_gdsEndpointDescriptor(const pRetVal: _UAEndpointDescriptor); safecall;
-    function Get_RetrialDelay: Integer; safecall;
-    procedure Set_RetrialDelay(pRetVal: Integer); safecall;
-    function Get_ReconnectionPeriod: Integer; safecall;
-    procedure Set_ReconnectionPeriod(pRetVal: Integer); safecall;
-    function Get_UserInteractionParameters: _UAUserInteractionParameters; safecall;
-    procedure _Set_UserInteractionParameters(const pRetVal: _UAUserInteractionParameters); safecall;
-    procedure Reset; safecall;
-    property ToString: WideString read Get_ToString;
-    property DisplayString: WideString read Get_DisplayString;
-    property StandardName: WideString read Get_StandardName write Set_StandardName;
-    property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_CertificateAcceptancePolicy write _Set_CertificateAcceptancePolicy;
-    property ConfigurationSources: UAConfigurationSources read Get_ConfigurationSources write Set_ConfigurationSources;
-    property DebuggerDetectionOverride: Sign read Get_DebuggerDetectionOverride write Set_DebuggerDetectionOverride;
-    property gdsEndpointDescriptor: _UAEndpointDescriptor read Get_gdsEndpointDescriptor write _Set_gdsEndpointDescriptor;
-    property RetrialDelay: Integer read Get_RetrialDelay write Set_RetrialDelay;
-    property ReconnectionPeriod: Integer read Get_ReconnectionPeriod write Set_ReconnectionPeriod;
-    property UserInteractionParameters: _UAUserInteractionParameters read Get_UserInteractionParameters write _Set_UserInteractionParameters;
-  end;
-
-// *********************************************************************//
-// DispIntf:  _UAClientServerEngineParametersDisp
-// Flags:     (4416) Dual OleAutomation Dispatchable
-// GUID:      {4C1C75BD-D564-402C-B399-9F000B297367}
-// *********************************************************************//
-  _UAClientServerEngineParametersDisp = dispinterface
-    ['{4C1C75BD-D564-402C-B399-9F000B297367}']
-    property ToString: WideString readonly dispid 1610743808;
-    function Equals(obj: OleVariant): WordBool; dispid 1610743809;
-    function GetHashCode: Integer; dispid 1610743810;
-    function GetType: _Type; dispid 1610743811;
-    property DisplayString: WideString readonly dispid 0;
-    function Clone: OleVariant; dispid 1610743813;
-    property StandardName: WideString dispid 1610743814;
-    property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743816;
-    property ConfigurationSources: UAConfigurationSources dispid 1610743818;
-    property DebuggerDetectionOverride: Sign dispid 1610743820;
-    property gdsEndpointDescriptor: _UAEndpointDescriptor dispid 1610743822;
-    property RetrialDelay: Integer dispid 1610743824;
-    property ReconnectionPeriod: Integer dispid 1610743826;
-    property UserInteractionParameters: _UAUserInteractionParameters dispid 1610743828;
-    procedure Reset; dispid 1610743830;
-  end;
-
-// *********************************************************************//
-// Interface: _EasyUAInstanceParameters
-// Flags:     (4416) Dual OleAutomation Dispatchable
-// GUID:      {0B31304A-2B75-4F8E-B46E-321CE71879EC}
-// *********************************************************************//
-  _EasyUAInstanceParameters = interface(IDispatch)
-    ['{0B31304A-2B75-4F8E-B46E-321CE71879EC}']
-    function Get_ToString: WideString; safecall;
-    function Equals(obj: OleVariant): WordBool; safecall;
-    function GetHashCode: Integer; safecall;
-    function GetType: _Type; safecall;
-    function Get_DisplayString: WideString; safecall;
-    function Clone: OleVariant; safecall;
-    function Get_StandardName: WideString; safecall;
-    procedure Set_StandardName(const pRetVal: WideString); safecall;
-    function Get_PluginConfigurations: _ConfigurationPartCollection; safecall;
-    procedure _Set_PluginConfigurations(const pRetVal: _ConfigurationPartCollection); safecall;
-    function Get_PluginSetups: _PluginSetupCollection; safecall;
-    procedure _Set_PluginSetups(const pRetVal: _PluginSetupCollection); safecall;
-    procedure Reset; safecall;
-    function Get_DiscoveryHost: WideString; safecall;
-    procedure Set_DiscoveryHost(const pRetVal: WideString); safecall;
-    function Get_EnableModelCaching: WordBool; safecall;
-    procedure Set_EnableModelCaching(pRetVal: WordBool); safecall;
-    function Get_Mode: _EasyUAClientMode; safecall;
-    procedure _Set_Mode(const pRetVal: _EasyUAClientMode); safecall;
-    property ToString: WideString read Get_ToString;
-    property DisplayString: WideString read Get_DisplayString;
-    property StandardName: WideString read Get_StandardName write Set_StandardName;
-    property PluginConfigurations: _ConfigurationPartCollection read Get_PluginConfigurations write _Set_PluginConfigurations;
-    property PluginSetups: _PluginSetupCollection read Get_PluginSetups write _Set_PluginSetups;
-    property DiscoveryHost: WideString read Get_DiscoveryHost write Set_DiscoveryHost;
-    property EnableModelCaching: WordBool read Get_EnableModelCaching write Set_EnableModelCaching;
-    property Mode: _EasyUAClientMode read Get_Mode write _Set_Mode;
-  end;
-
-// *********************************************************************//
-// DispIntf:  _EasyUAInstanceParametersDisp
-// Flags:     (4416) Dual OleAutomation Dispatchable
-// GUID:      {0B31304A-2B75-4F8E-B46E-321CE71879EC}
-// *********************************************************************//
-  _EasyUAInstanceParametersDisp = dispinterface
-    ['{0B31304A-2B75-4F8E-B46E-321CE71879EC}']
-    property ToString: WideString readonly dispid 1610743808;
-    function Equals(obj: OleVariant): WordBool; dispid 1610743809;
-    function GetHashCode: Integer; dispid 1610743810;
-    function GetType: _Type; dispid 1610743811;
-    property DisplayString: WideString readonly dispid 0;
-    function Clone: OleVariant; dispid 1610743813;
-    property StandardName: WideString dispid 1610743814;
-    property PluginConfigurations: _ConfigurationPartCollection dispid 1610743816;
-    property PluginSetups: _PluginSetupCollection dispid 1610743818;
-    procedure Reset; dispid 1610743820;
-    property DiscoveryHost: WideString dispid 1610743821;
-    property EnableModelCaching: WordBool dispid 1610743823;
-    property Mode: _EasyUAClientMode dispid 1610743825;
-  end;
-
-// *********************************************************************//
-// Interface: _EasyUASharedParameters
+// Interface: _EasyUAClientSharedParameters
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {E32CDBD7-D9B9-4A5C-BC91-86E45BC68F70}
 // *********************************************************************//
-  _EasyUASharedParameters = interface(IDispatch)
+  _EasyUAClientSharedParameters = interface(IDispatch)
     ['{E32CDBD7-D9B9-4A5C-BC91-86E45BC68F70}']
     function Get_ToString: WideString; safecall;
     function Equals(obj: OleVariant): WordBool; safecall;
@@ -13188,22 +13240,22 @@ type
     function Get_PluginSetups: _PluginSetupCollection; safecall;
     procedure _Set_PluginSetups(const pRetVal: _PluginSetupCollection); safecall;
     procedure Reset; safecall;
-    function Get_EngineParameters: _EasyUAEngineParameters; safecall;
-    procedure _Set_EngineParameters(const pRetVal: _EasyUAEngineParameters); safecall;
+    function Get_EngineParameters: _EasyUAClientEngineParameters; safecall;
+    procedure _Set_EngineParameters(const pRetVal: _EasyUAClientEngineParameters); safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
     property PluginConfigurations: _ConfigurationPartCollection read Get_PluginConfigurations write _Set_PluginConfigurations;
     property PluginSetups: _PluginSetupCollection read Get_PluginSetups write _Set_PluginSetups;
-    property EngineParameters: _EasyUAEngineParameters read Get_EngineParameters write _Set_EngineParameters;
+    property EngineParameters: _EasyUAClientEngineParameters read Get_EngineParameters write _Set_EngineParameters;
   end;
 
 // *********************************************************************//
-// DispIntf:  _EasyUASharedParametersDisp
+// DispIntf:  _EasyUAClientSharedParametersDisp
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {E32CDBD7-D9B9-4A5C-BC91-86E45BC68F70}
 // *********************************************************************//
-  _EasyUASharedParametersDisp = dispinterface
+  _EasyUAClientSharedParametersDisp = dispinterface
     ['{E32CDBD7-D9B9-4A5C-BC91-86E45BC68F70}']
     property ToString: WideString readonly dispid 1610743808;
     function Equals(obj: OleVariant): WordBool; dispid 1610743809;
@@ -13215,7 +13267,7 @@ type
     property PluginConfigurations: _ConfigurationPartCollection dispid 1610743816;
     property PluginSetups: _PluginSetupCollection dispid 1610743818;
     procedure Reset; dispid 1610743820;
-    property EngineParameters: _EasyUAEngineParameters dispid 1610743821;
+    property EngineParameters: _EasyUAClientEngineParameters dispid 1610743821;
   end;
 
 // *********************************************************************//
@@ -13235,6 +13287,8 @@ type
     procedure Set_StandardName(const pRetVal: WideString); safecall;
     function Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy; safecall;
     procedure _Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy); safecall;
+    function Get_ConfigurationPropertyOverrides: _StringObjectDictionary; safecall;
+    procedure _Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary); safecall;
     function Get_ConfigurationSources: UAConfigurationSources; safecall;
     procedure Set_ConfigurationSources(pRetVal: UAConfigurationSources); safecall;
     function Get_DebuggerDetectionOverride: Sign; safecall;
@@ -13256,6 +13310,7 @@ type
     property DisplayString: WideString read Get_DisplayString;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
     property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_CertificateAcceptancePolicy write _Set_CertificateAcceptancePolicy;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary read Get_ConfigurationPropertyOverrides write _Set_ConfigurationPropertyOverrides;
     property ConfigurationSources: UAConfigurationSources read Get_ConfigurationSources write Set_ConfigurationSources;
     property DebuggerDetectionOverride: Sign read Get_DebuggerDetectionOverride write Set_DebuggerDetectionOverride;
     property gdsEndpointDescriptor: _UAEndpointDescriptor read Get_gdsEndpointDescriptor write _Set_gdsEndpointDescriptor;
@@ -13281,15 +13336,16 @@ type
     function Clone: OleVariant; dispid 1610743813;
     property StandardName: WideString dispid 1610743814;
     property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743816;
-    property ConfigurationSources: UAConfigurationSources dispid 1610743818;
-    property DebuggerDetectionOverride: Sign dispid 1610743820;
-    property gdsEndpointDescriptor: _UAEndpointDescriptor dispid 1610743822;
-    property RetrialDelay: Integer dispid 1610743824;
-    property ReconnectionPeriod: Integer dispid 1610743826;
-    property UserInteractionParameters: _UAUserInteractionParameters dispid 1610743828;
-    procedure Reset; dispid 1610743830;
-    property HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743831;
-    property UseCustomHttpsCertificateValidation: WordBool dispid 1610743833;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary dispid 1610743818;
+    property ConfigurationSources: UAConfigurationSources dispid 1610743820;
+    property DebuggerDetectionOverride: Sign dispid 1610743822;
+    property gdsEndpointDescriptor: _UAEndpointDescriptor dispid 1610743824;
+    property RetrialDelay: Integer dispid 1610743826;
+    property ReconnectionPeriod: Integer dispid 1610743828;
+    property UserInteractionParameters: _UAUserInteractionParameters dispid 1610743830;
+    procedure Reset; dispid 1610743832;
+    property HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743833;
+    property UseCustomHttpsCertificateValidation: WordBool dispid 1610743835;
   end;
 
 // *********************************************************************//
@@ -13373,6 +13429,10 @@ type
     procedure Set_AutoGenerateInstanceCertificate(pRetVal: WordBool); safecall;
     function Get_AutoTrustInstanceCertificate: WordBool; safecall;
     procedure Set_AutoTrustInstanceCertificate(pRetVal: WordBool); safecall;
+    function Get_HostNames: _StringCollection; safecall;
+    procedure _Set_HostNames(const pRetVal: _StringCollection); safecall;
+    function Get_HostNamesString: WideString; safecall;
+    procedure Set_HostNamesString(const pRetVal: WideString); safecall;
     function Get_InstanceCertificateGenerationParameters: _CertificateGenerationParameters; safecall;
     procedure _Set_InstanceCertificateGenerationParameters(const pRetVal: _CertificateGenerationParameters); safecall;
     function Get_InstanceCertificatePrivateKeyPassword: WideString; safecall;
@@ -13392,6 +13452,8 @@ type
     property ApplicationUriTemplateString: WideString read Get_ApplicationUriTemplateString write Set_ApplicationUriTemplateString;
     property AutoGenerateInstanceCertificate: WordBool read Get_AutoGenerateInstanceCertificate write Set_AutoGenerateInstanceCertificate;
     property AutoTrustInstanceCertificate: WordBool read Get_AutoTrustInstanceCertificate write Set_AutoTrustInstanceCertificate;
+    property HostNames: _StringCollection read Get_HostNames write _Set_HostNames;
+    property HostNamesString: WideString read Get_HostNamesString write Set_HostNamesString;
     property InstanceCertificateGenerationParameters: _CertificateGenerationParameters read Get_InstanceCertificateGenerationParameters write _Set_InstanceCertificateGenerationParameters;
     property InstanceCertificatePrivateKeyPassword: WideString read Get_InstanceCertificatePrivateKeyPassword write Set_InstanceCertificatePrivateKeyPassword;
     property InstanceCertificatePrivateKeyPasswordDictionary: _StringStringDictionary read Get_InstanceCertificatePrivateKeyPasswordDictionary write _Set_InstanceCertificatePrivateKeyPasswordDictionary;
@@ -13417,13 +13479,15 @@ type
     property ApplicationUriTemplateString: WideString dispid 1610743818;
     property AutoGenerateInstanceCertificate: WordBool dispid 1610743820;
     property AutoTrustInstanceCertificate: WordBool dispid 1610743822;
-    property InstanceCertificateGenerationParameters: _CertificateGenerationParameters dispid 1610743824;
-    property InstanceCertificatePrivateKeyPassword: WideString dispid 1610743826;
-    property InstanceCertificatePrivateKeyPasswordDictionary: _StringStringDictionary dispid 1610743828;
-    property RelaxedCertificateSearch: WordBool dispid 1610743830;
-    property ValidateOwnInstanceCertificate: WordBool dispid 1610743832;
-    function FindInstanceCertificatePrivateKeyPassword(const certificateSubId: WideString): WideString; dispid 1610743834;
-    procedure Reset; dispid 1610743835;
+    property HostNames: _StringCollection dispid 1610743824;
+    property HostNamesString: WideString dispid 1610743826;
+    property InstanceCertificateGenerationParameters: _CertificateGenerationParameters dispid 1610743828;
+    property InstanceCertificatePrivateKeyPassword: WideString dispid 1610743830;
+    property InstanceCertificatePrivateKeyPasswordDictionary: _StringStringDictionary dispid 1610743832;
+    property RelaxedCertificateSearch: WordBool dispid 1610743834;
+    property ValidateOwnInstanceCertificate: WordBool dispid 1610743836;
+    function FindInstanceCertificatePrivateKeyPassword(const certificateSubId: WideString): WideString; dispid 1610743838;
+    procedure Reset; dispid 1610743839;
   end;
 
 // *********************************************************************//
@@ -13855,11 +13919,11 @@ type
   end;
 
 // *********************************************************************//
-// Interface: _UAEnhancedSessionParameters
+// Interface: _UAEnhancedClientSessionParameters
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {2EAA2DB0-9563-4509-8E3B-42DD933A6B59}
 // *********************************************************************//
-  _UAEnhancedSessionParameters = interface(IDispatch)
+  _UAEnhancedClientSessionParameters = interface(IDispatch)
     ['{2EAA2DB0-9563-4509-8E3B-42DD933A6B59}']
     function Get_ToString: WideString; safecall;
     function Equals(obj: OleVariant): WordBool; safecall;
@@ -13948,6 +14012,8 @@ type
     procedure Reset; safecall;
     function Get_EnableStatusSubscription: WordBool; safecall;
     procedure Set_EnableStatusSubscription(pRetVal: WordBool); safecall;
+    function Get_MaximumMonitoredItemsPerSubscription: Integer; safecall;
+    procedure Set_MaximumMonitoredItemsPerSubscription(pRetVal: Integer); safecall;
     function Get_ServerShutdownRetrialDelay: Integer; safecall;
     procedure Set_ServerShutdownRetrialDelay(pRetVal: Integer); safecall;
     function Get_StatusSubscriptionSamplingInterval: Integer; safecall;
@@ -13994,16 +14060,17 @@ type
     property WriteNarrowestIntegerType: WordBool read Get_WriteNarrowestIntegerType write Set_WriteNarrowestIntegerType;
     property WriteNarrowestRealType: WordBool read Get_WriteNarrowestRealType write Set_WriteNarrowestRealType;
     property EnableStatusSubscription: WordBool read Get_EnableStatusSubscription write Set_EnableStatusSubscription;
+    property MaximumMonitoredItemsPerSubscription: Integer read Get_MaximumMonitoredItemsPerSubscription write Set_MaximumMonitoredItemsPerSubscription;
     property ServerShutdownRetrialDelay: Integer read Get_ServerShutdownRetrialDelay write Set_ServerShutdownRetrialDelay;
     property StatusSubscriptionSamplingInterval: Integer read Get_StatusSubscriptionSamplingInterval write Set_StatusSubscriptionSamplingInterval;
   end;
 
 // *********************************************************************//
-// DispIntf:  _UAEnhancedSessionParametersDisp
+// DispIntf:  _UAEnhancedClientSessionParametersDisp
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {2EAA2DB0-9563-4509-8E3B-42DD933A6B59}
 // *********************************************************************//
-  _UAEnhancedSessionParametersDisp = dispinterface
+  _UAEnhancedClientSessionParametersDisp = dispinterface
     ['{2EAA2DB0-9563-4509-8E3B-42DD933A6B59}']
     property ToString: WideString readonly dispid 1610743808;
     function Equals(obj: OleVariant): WordBool; dispid 1610743809;
@@ -14052,8 +14119,9 @@ type
     property WriteNarrowestRealType: WordBool dispid 1610743890;
     procedure Reset; dispid 1610743892;
     property EnableStatusSubscription: WordBool dispid 1610743893;
-    property ServerShutdownRetrialDelay: Integer dispid 1610743895;
-    property StatusSubscriptionSamplingInterval: Integer dispid 1610743897;
+    property MaximumMonitoredItemsPerSubscription: Integer dispid 1610743895;
+    property ServerShutdownRetrialDelay: Integer dispid 1610743897;
+    property StatusSubscriptionSamplingInterval: Integer dispid 1610743899;
   end;
 
 // *********************************************************************//
@@ -14099,11 +14167,11 @@ type
   end;
 
 // *********************************************************************//
-// Interface: _UASmartEngineParameters
+// Interface: _UASmartClientEngineParameters
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {61307AAA-A0B0-400B-A24B-0BC60694B324}
 // *********************************************************************//
-  _UASmartEngineParameters = interface(IDispatch)
+  _UASmartClientEngineParameters = interface(IDispatch)
     ['{61307AAA-A0B0-400B-A24B-0BC60694B324}']
     function Get_ToString: WideString; safecall;
     function Equals(obj: OleVariant): WordBool; safecall;
@@ -14115,6 +14183,8 @@ type
     procedure Set_StandardName(const pRetVal: WideString); safecall;
     function Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy; safecall;
     procedure _Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy); safecall;
+    function Get_ConfigurationPropertyOverrides: _StringObjectDictionary; safecall;
+    procedure _Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary); safecall;
     function Get_ConfigurationSources: UAConfigurationSources; safecall;
     procedure Set_ConfigurationSources(pRetVal: UAConfigurationSources); safecall;
     function Get_DebuggerDetectionOverride: Sign; safecall;
@@ -14140,6 +14210,7 @@ type
     property DisplayString: WideString read Get_DisplayString;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
     property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_CertificateAcceptancePolicy write _Set_CertificateAcceptancePolicy;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary read Get_ConfigurationPropertyOverrides write _Set_ConfigurationPropertyOverrides;
     property ConfigurationSources: UAConfigurationSources read Get_ConfigurationSources write Set_ConfigurationSources;
     property DebuggerDetectionOverride: Sign read Get_DebuggerDetectionOverride write Set_DebuggerDetectionOverride;
     property gdsEndpointDescriptor: _UAEndpointDescriptor read Get_gdsEndpointDescriptor write _Set_gdsEndpointDescriptor;
@@ -14153,11 +14224,11 @@ type
   end;
 
 // *********************************************************************//
-// DispIntf:  _UASmartEngineParametersDisp
+// DispIntf:  _UASmartClientEngineParametersDisp
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {61307AAA-A0B0-400B-A24B-0BC60694B324}
 // *********************************************************************//
-  _UASmartEngineParametersDisp = dispinterface
+  _UASmartClientEngineParametersDisp = dispinterface
     ['{61307AAA-A0B0-400B-A24B-0BC60694B324}']
     property ToString: WideString readonly dispid 1610743808;
     function Equals(obj: OleVariant): WordBool; dispid 1610743809;
@@ -14167,25 +14238,26 @@ type
     function Clone: OleVariant; dispid 1610743813;
     property StandardName: WideString dispid 1610743814;
     property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743816;
-    property ConfigurationSources: UAConfigurationSources dispid 1610743818;
-    property DebuggerDetectionOverride: Sign dispid 1610743820;
-    property gdsEndpointDescriptor: _UAEndpointDescriptor dispid 1610743822;
-    property RetrialDelay: Integer dispid 1610743824;
-    property ReconnectionPeriod: Integer dispid 1610743826;
-    property UserInteractionParameters: _UAUserInteractionParameters dispid 1610743828;
-    procedure Reset; dispid 1610743830;
-    property HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743831;
-    property UseCustomHttpsCertificateValidation: WordBool dispid 1610743833;
-    property GarbageCollectionPeriod: Integer dispid 1610743835;
-    property MaximumDormantSessions: Integer dispid 1610743837;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary dispid 1610743818;
+    property ConfigurationSources: UAConfigurationSources dispid 1610743820;
+    property DebuggerDetectionOverride: Sign dispid 1610743822;
+    property gdsEndpointDescriptor: _UAEndpointDescriptor dispid 1610743824;
+    property RetrialDelay: Integer dispid 1610743826;
+    property ReconnectionPeriod: Integer dispid 1610743828;
+    property UserInteractionParameters: _UAUserInteractionParameters dispid 1610743830;
+    procedure Reset; dispid 1610743832;
+    property HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743833;
+    property UseCustomHttpsCertificateValidation: WordBool dispid 1610743835;
+    property GarbageCollectionPeriod: Integer dispid 1610743837;
+    property MaximumDormantSessions: Integer dispid 1610743839;
   end;
 
 // *********************************************************************//
-// Interface: _UASmartSessionParameters
+// Interface: _UASmartClientSessionParameters
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {2056DFDF-FEF9-41D7-9A27-C580BAA7D5B1}
 // *********************************************************************//
-  _UASmartSessionParameters = interface(IDispatch)
+  _UASmartClientSessionParameters = interface(IDispatch)
     ['{2056DFDF-FEF9-41D7-9A27-C580BAA7D5B1}']
     function Get_ToString: WideString; safecall;
     function Equals(obj: OleVariant): WordBool; safecall;
@@ -14274,6 +14346,8 @@ type
     procedure Reset; safecall;
     function Get_EnableStatusSubscription: WordBool; safecall;
     procedure Set_EnableStatusSubscription(pRetVal: WordBool); safecall;
+    function Get_MaximumMonitoredItemsPerSubscription: Integer; safecall;
+    procedure Set_MaximumMonitoredItemsPerSubscription(pRetVal: Integer); safecall;
     function Get_ServerShutdownRetrialDelay: Integer; safecall;
     procedure Set_ServerShutdownRetrialDelay(pRetVal: Integer); safecall;
     function Get_StatusSubscriptionSamplingInterval: Integer; safecall;
@@ -14326,6 +14400,7 @@ type
     property WriteNarrowestIntegerType: WordBool read Get_WriteNarrowestIntegerType write Set_WriteNarrowestIntegerType;
     property WriteNarrowestRealType: WordBool read Get_WriteNarrowestRealType write Set_WriteNarrowestRealType;
     property EnableStatusSubscription: WordBool read Get_EnableStatusSubscription write Set_EnableStatusSubscription;
+    property MaximumMonitoredItemsPerSubscription: Integer read Get_MaximumMonitoredItemsPerSubscription write Set_MaximumMonitoredItemsPerSubscription;
     property ServerShutdownRetrialDelay: Integer read Get_ServerShutdownRetrialDelay write Set_ServerShutdownRetrialDelay;
     property StatusSubscriptionSamplingInterval: Integer read Get_StatusSubscriptionSamplingInterval write Set_StatusSubscriptionSamplingInterval;
     property DormancyPeriod: Int64 read Get_DormancyPeriod write Set_DormancyPeriod;
@@ -14334,11 +14409,11 @@ type
   end;
 
 // *********************************************************************//
-// DispIntf:  _UASmartSessionParametersDisp
+// DispIntf:  _UASmartClientSessionParametersDisp
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {2056DFDF-FEF9-41D7-9A27-C580BAA7D5B1}
 // *********************************************************************//
-  _UASmartSessionParametersDisp = dispinterface
+  _UASmartClientSessionParametersDisp = dispinterface
     ['{2056DFDF-FEF9-41D7-9A27-C580BAA7D5B1}']
     property ToString: WideString readonly dispid 1610743808;
     function Equals(obj: OleVariant): WordBool; dispid 1610743809;
@@ -14387,11 +14462,12 @@ type
     property WriteNarrowestRealType: WordBool dispid 1610743890;
     procedure Reset; dispid 1610743892;
     property EnableStatusSubscription: WordBool dispid 1610743893;
-    property ServerShutdownRetrialDelay: Integer dispid 1610743895;
-    property StatusSubscriptionSamplingInterval: Integer dispid 1610743897;
-    property DormancyPeriod: Int64 dispid 1610743899;
-    property DormancyPeriodDouble: Double dispid 1610743901;
-    property HoldPeriod: Integer dispid 1610743903;
+    property MaximumMonitoredItemsPerSubscription: Integer dispid 1610743895;
+    property ServerShutdownRetrialDelay: Integer dispid 1610743897;
+    property StatusSubscriptionSamplingInterval: Integer dispid 1610743899;
+    property DormancyPeriod: Int64 dispid 1610743901;
+    property DormancyPeriodDouble: Double dispid 1610743903;
+    property HoldPeriod: Integer dispid 1610743905;
   end;
 
 // *********************************************************************//
@@ -14626,11 +14702,11 @@ type
   end;
 
 // *********************************************************************//
-// Interface: _EasyUAAdaptableParameters
+// Interface: _EasyUAClientAdaptableParameters
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {6019F1FB-ED9A-409A-93D3-43C45EBA78A7}
 // *********************************************************************//
-  _EasyUAAdaptableParameters = interface(IDispatch)
+  _EasyUAClientAdaptableParameters = interface(IDispatch)
     ['{6019F1FB-ED9A-409A-93D3-43C45EBA78A7}']
     function Get_ToString: WideString; safecall;
     function Equals(obj: OleVariant): WordBool; safecall;
@@ -14646,8 +14722,8 @@ type
     procedure _Set_HostParameters(const pRetVal: _UAHostParameters); safecall;
     function Get_MonitoredItemParameters: _UAClientMonitoredItemParameters; safecall;
     procedure _Set_MonitoredItemParameters(const pRetVal: _UAClientMonitoredItemParameters); safecall;
-    function Get_SessionParameters: _UASmartSessionParameters; safecall;
-    procedure _Set_SessionParameters(const pRetVal: _UASmartSessionParameters); safecall;
+    function Get_SessionParameters: _UASmartClientSessionParameters; safecall;
+    procedure _Set_SessionParameters(const pRetVal: _UASmartClientSessionParameters); safecall;
     function Get_SubscriptionParameters: _UAClientSubscriptionParameters; safecall;
     procedure _Set_SubscriptionParameters(const pRetVal: _UAClientSubscriptionParameters); safecall;
     procedure Reset; safecall;
@@ -14657,16 +14733,16 @@ type
     property DiscoveryParameters: _UADiscoveryParameters read Get_DiscoveryParameters write _Set_DiscoveryParameters;
     property HostParameters: _UAHostParameters read Get_HostParameters write _Set_HostParameters;
     property MonitoredItemParameters: _UAClientMonitoredItemParameters read Get_MonitoredItemParameters write _Set_MonitoredItemParameters;
-    property SessionParameters: _UASmartSessionParameters read Get_SessionParameters write _Set_SessionParameters;
+    property SessionParameters: _UASmartClientSessionParameters read Get_SessionParameters write _Set_SessionParameters;
     property SubscriptionParameters: _UAClientSubscriptionParameters read Get_SubscriptionParameters write _Set_SubscriptionParameters;
   end;
 
 // *********************************************************************//
-// DispIntf:  _EasyUAAdaptableParametersDisp
+// DispIntf:  _EasyUAClientAdaptableParametersDisp
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {6019F1FB-ED9A-409A-93D3-43C45EBA78A7}
 // *********************************************************************//
-  _EasyUAAdaptableParametersDisp = dispinterface
+  _EasyUAClientAdaptableParametersDisp = dispinterface
     ['{6019F1FB-ED9A-409A-93D3-43C45EBA78A7}']
     property ToString: WideString readonly dispid 1610743808;
     function Equals(obj: OleVariant): WordBool; dispid 1610743809;
@@ -14678,17 +14754,17 @@ type
     property DiscoveryParameters: _UADiscoveryParameters dispid 1610743816;
     property HostParameters: _UAHostParameters dispid 1610743818;
     property MonitoredItemParameters: _UAClientMonitoredItemParameters dispid 1610743820;
-    property SessionParameters: _UASmartSessionParameters dispid 1610743822;
+    property SessionParameters: _UASmartClientSessionParameters dispid 1610743822;
     property SubscriptionParameters: _UAClientSubscriptionParameters dispid 1610743824;
     procedure Reset; dispid 1610743826;
   end;
 
 // *********************************************************************//
-// Interface: _EasyUAEngineParameters
+// Interface: _EasyUAClientEngineParameters
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {CAD749B4-8F4B-49B9-9C25-CD45CA885C43}
 // *********************************************************************//
-  _EasyUAEngineParameters = interface(IDispatch)
+  _EasyUAClientEngineParameters = interface(IDispatch)
     ['{CAD749B4-8F4B-49B9-9C25-CD45CA885C43}']
     function Get_ToString: WideString; safecall;
     function Equals(obj: OleVariant): WordBool; safecall;
@@ -14700,6 +14776,8 @@ type
     procedure Set_StandardName(const pRetVal: WideString); safecall;
     function Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy; safecall;
     procedure _Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy); safecall;
+    function Get_ConfigurationPropertyOverrides: _StringObjectDictionary; safecall;
+    procedure _Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary); safecall;
     function Get_ConfigurationSources: UAConfigurationSources; safecall;
     procedure Set_ConfigurationSources(pRetVal: UAConfigurationSources); safecall;
     function Get_DebuggerDetectionOverride: Sign; safecall;
@@ -14731,6 +14809,7 @@ type
     property DisplayString: WideString read Get_DisplayString;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
     property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_CertificateAcceptancePolicy write _Set_CertificateAcceptancePolicy;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary read Get_ConfigurationPropertyOverrides write _Set_ConfigurationPropertyOverrides;
     property ConfigurationSources: UAConfigurationSources read Get_ConfigurationSources write Set_ConfigurationSources;
     property DebuggerDetectionOverride: Sign read Get_DebuggerDetectionOverride write Set_DebuggerDetectionOverride;
     property gdsEndpointDescriptor: _UAEndpointDescriptor read Get_gdsEndpointDescriptor write _Set_gdsEndpointDescriptor;
@@ -14747,11 +14826,11 @@ type
   end;
 
 // *********************************************************************//
-// DispIntf:  _EasyUAEngineParametersDisp
+// DispIntf:  _EasyUAClientEngineParametersDisp
 // Flags:     (4416) Dual OleAutomation Dispatchable
 // GUID:      {CAD749B4-8F4B-49B9-9C25-CD45CA885C43}
 // *********************************************************************//
-  _EasyUAEngineParametersDisp = dispinterface
+  _EasyUAClientEngineParametersDisp = dispinterface
     ['{CAD749B4-8F4B-49B9-9C25-CD45CA885C43}']
     property ToString: WideString readonly dispid 1610743808;
     function Equals(obj: OleVariant): WordBool; dispid 1610743809;
@@ -14761,20 +14840,21 @@ type
     function Clone: OleVariant; dispid 1610743813;
     property StandardName: WideString dispid 1610743814;
     property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743816;
-    property ConfigurationSources: UAConfigurationSources dispid 1610743818;
-    property DebuggerDetectionOverride: Sign dispid 1610743820;
-    property gdsEndpointDescriptor: _UAEndpointDescriptor dispid 1610743822;
-    property RetrialDelay: Integer dispid 1610743824;
-    property ReconnectionPeriod: Integer dispid 1610743826;
-    property UserInteractionParameters: _UAUserInteractionParameters dispid 1610743828;
-    procedure Reset; dispid 1610743830;
-    property HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743831;
-    property UseCustomHttpsCertificateValidation: WordBool dispid 1610743833;
-    property GarbageCollectionPeriod: Integer dispid 1610743835;
-    property MaximumDormantSessions: Integer dispid 1610743837;
-    property AutomaticPublishingFactor: Single dispid 1610743839;
-    property FastestAutomaticPublishingInterval: Integer dispid 1610743841;
-    property RestrictToSupportedTypes: WordBool dispid 1610743843;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary dispid 1610743818;
+    property ConfigurationSources: UAConfigurationSources dispid 1610743820;
+    property DebuggerDetectionOverride: Sign dispid 1610743822;
+    property gdsEndpointDescriptor: _UAEndpointDescriptor dispid 1610743824;
+    property RetrialDelay: Integer dispid 1610743826;
+    property ReconnectionPeriod: Integer dispid 1610743828;
+    property UserInteractionParameters: _UAUserInteractionParameters dispid 1610743830;
+    procedure Reset; dispid 1610743832;
+    property HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy dispid 1610743833;
+    property UseCustomHttpsCertificateValidation: WordBool dispid 1610743835;
+    property GarbageCollectionPeriod: Integer dispid 1610743837;
+    property MaximumDormantSessions: Integer dispid 1610743839;
+    property AutomaticPublishingFactor: Single dispid 1610743841;
+    property FastestAutomaticPublishingInterval: Integer dispid 1610743843;
+    property RestrictToSupportedTypes: WordBool dispid 1610743845;
   end;
 
 // *********************************************************************//
@@ -16863,20 +16943,20 @@ type
     function GetService(const serviceType: _Type): OleVariant; safecall;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; safecall;
     function ValueEquals(other: OleVariant): WordBool; safecall;
-    function Get_CallbackQueueCapacity: Integer; safecall;
-    procedure Set_CallbackQueueCapacity(pRetVal: Integer); safecall;
-    function Get_CallbackQueueIdleTimeToSleep: Integer; safecall;
-    procedure Set_CallbackQueueIdleTimeToSleep(pRetVal: Integer); safecall;
-    function Get_QueueCallbacks: WordBool; safecall;
-    procedure Set_QueueCallbacks(pRetVal: WordBool); safecall;
+    function Get_NotificationQueueCapacity: Integer; safecall;
+    procedure Set_NotificationQueueCapacity(pRetVal: Integer); safecall;
+    function Get_NotificationQueueIdleTimeToSleep: Integer; safecall;
+    procedure Set_NotificationQueueIdleTimeToSleep(pRetVal: Integer); safecall;
+    function Get_QueueNotifications: WordBool; safecall;
+    procedure Set_QueueNotifications(pRetVal: WordBool); safecall;
     function Get_AliasProvider: _AliasProvider; safecall;
     procedure _Set_AliasProvider(const pRetVal: _AliasProvider); safecall;
-    function Get_InstanceParameters: _EasyUAInstanceParameters; safecall;
-    procedure _Set_InstanceParameters(const pRetVal: _EasyUAInstanceParameters); safecall;
+    function Get_InstanceParameters: _EasyUAClientInstanceParameters; safecall;
+    procedure _Set_InstanceParameters(const pRetVal: _EasyUAClientInstanceParameters); safecall;
     function Get_Isolated: WordBool; safecall;
     procedure Set_Isolated(pRetVal: WordBool); safecall;
-    function Get_IsolatedParameters: _EasyUAAdaptableParameters; safecall;
-    procedure _Set_IsolatedParameters(const pRetVal: _EasyUAAdaptableParameters); safecall;
+    function Get_IsolatedParameters: _EasyUAClientAdaptableParameters; safecall;
+    procedure _Set_IsolatedParameters(const pRetVal: _EasyUAClientAdaptableParameters); safecall;
     function Get_LicenseInfo: _StringObjectDictionary; safecall;
     function Get_PullDataChangeNotificationQueueCapacity: Integer; safecall;
     procedure Set_PullDataChangeNotificationQueueCapacity(pRetVal: Integer); safecall;
@@ -16962,13 +17042,13 @@ type
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
-    property CallbackQueueCapacity: Integer read Get_CallbackQueueCapacity write Set_CallbackQueueCapacity;
-    property CallbackQueueIdleTimeToSleep: Integer read Get_CallbackQueueIdleTimeToSleep write Set_CallbackQueueIdleTimeToSleep;
-    property QueueCallbacks: WordBool read Get_QueueCallbacks write Set_QueueCallbacks;
+    property NotificationQueueCapacity: Integer read Get_NotificationQueueCapacity write Set_NotificationQueueCapacity;
+    property NotificationQueueIdleTimeToSleep: Integer read Get_NotificationQueueIdleTimeToSleep write Set_NotificationQueueIdleTimeToSleep;
+    property QueueNotifications: WordBool read Get_QueueNotifications write Set_QueueNotifications;
     property AliasProvider: _AliasProvider read Get_AliasProvider write _Set_AliasProvider;
-    property InstanceParameters: _EasyUAInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
+    property InstanceParameters: _EasyUAClientInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
     property Isolated: WordBool read Get_Isolated write Set_Isolated;
-    property IsolatedParameters: _EasyUAAdaptableParameters read Get_IsolatedParameters write _Set_IsolatedParameters;
+    property IsolatedParameters: _EasyUAClientAdaptableParameters read Get_IsolatedParameters write _Set_IsolatedParameters;
     property LicenseInfo: _StringObjectDictionary read Get_LicenseInfo;
     property PullDataChangeNotificationQueueCapacity: Integer read Get_PullDataChangeNotificationQueueCapacity write Set_PullDataChangeNotificationQueueCapacity;
     property PullEventNotificationQueueCapacity: Integer read Get_PullEventNotificationQueueCapacity write Set_PullEventNotificationQueueCapacity;
@@ -16991,13 +17071,13 @@ type
     function GetService(const serviceType: _Type): OleVariant; dispid 1610743816;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; dispid 1610743817;
     function ValueEquals(other: OleVariant): WordBool; dispid 1610743818;
-    property CallbackQueueCapacity: Integer dispid 1610743819;
-    property CallbackQueueIdleTimeToSleep: Integer dispid 1610743821;
-    property QueueCallbacks: WordBool dispid 1610743823;
+    property NotificationQueueCapacity: Integer dispid 1610743819;
+    property NotificationQueueIdleTimeToSleep: Integer dispid 1610743821;
+    property QueueNotifications: WordBool dispid 1610743823;
     property AliasProvider: _AliasProvider dispid 1610743825;
-    property InstanceParameters: _EasyUAInstanceParameters dispid 1610743827;
+    property InstanceParameters: _EasyUAClientInstanceParameters dispid 1610743827;
     property Isolated: WordBool dispid 1610743829;
-    property IsolatedParameters: _EasyUAAdaptableParameters dispid 1610743831;
+    property IsolatedParameters: _EasyUAClientAdaptableParameters dispid 1610743831;
     property LicenseInfo: _StringObjectDictionary readonly dispid 1610743833;
     property PullDataChangeNotificationQueueCapacity: Integer dispid 1610743834;
     property PullEventNotificationQueueCapacity: Integer dispid 1610743836;
@@ -17098,17 +17178,17 @@ type
     function GetService(const serviceType: _Type): OleVariant; safecall;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; safecall;
     function ValueEquals(other: OleVariant): WordBool; safecall;
-    function Get_AdaptableParameters: _EasyUAAdaptableParameters; safecall;
-    procedure _Set_AdaptableParameters(const pRetVal: _EasyUAAdaptableParameters); safecall;
+    function Get_AdaptableParameters: _EasyUAClientAdaptableParameters; safecall;
+    procedure _Set_AdaptableParameters(const pRetVal: _EasyUAClientAdaptableParameters); safecall;
     function Get_SharedInstance: _EasyUAClient; safecall;
-    function Get_SharedParameters: _EasyUASharedParameters; safecall;
-    procedure _Set_SharedParameters(const pRetVal: _EasyUASharedParameters); safecall;
+    function Get_SharedParameters: _EasyUAClientSharedParameters; safecall;
+    procedure _Set_SharedParameters(const pRetVal: _EasyUAClientSharedParameters); safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property CustomReference: WideString read Get_CustomReference write Set_CustomReference;
-    property AdaptableParameters: _EasyUAAdaptableParameters read Get_AdaptableParameters write _Set_AdaptableParameters;
+    property AdaptableParameters: _EasyUAClientAdaptableParameters read Get_AdaptableParameters write _Set_AdaptableParameters;
     property SharedInstance: _EasyUAClient read Get_SharedInstance;
-    property SharedParameters: _EasyUASharedParameters read Get_SharedParameters write _Set_SharedParameters;
+    property SharedParameters: _EasyUAClientSharedParameters read Get_SharedParameters write _Set_SharedParameters;
   end;
 
 // *********************************************************************//
@@ -17128,9 +17208,9 @@ type
     function GetService(const serviceType: _Type): OleVariant; dispid 1610743816;
     function GetServiceByName(const serviceTypeName: WideString): OleVariant; dispid 1610743817;
     function ValueEquals(other: OleVariant): WordBool; dispid 1610743818;
-    property AdaptableParameters: _EasyUAAdaptableParameters dispid 1610743819;
+    property AdaptableParameters: _EasyUAClientAdaptableParameters dispid 1610743819;
     property SharedInstance: _EasyUAClient readonly dispid 1610743821;
-    property SharedParameters: _EasyUASharedParameters dispid 1610743822;
+    property SharedParameters: _EasyUAClientSharedParameters dispid 1610743822;
   end;
 
 // *********************************************************************//
@@ -17498,6 +17578,7 @@ type
     function Remove(key: OleVariant): WordBool; safecall;
     procedure RemoveAt(index: Integer); safecall;
     function ToList: _ElasticVector; safecall;
+    function TryGetValue(key: OleVariant; out Item: OleVariant): WordBool; safecall;
     function Clone: OleVariant; safecall;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -17527,7 +17608,8 @@ type
     function Remove(key: OleVariant): WordBool; dispid 1610743820;
     procedure RemoveAt(index: Integer); dispid 1610743821;
     function ToList: _ElasticVector; dispid 1610743822;
-    function Clone: OleVariant; dispid 1610743823;
+    function TryGetValue(key: OleVariant; out Item: OleVariant): WordBool; dispid 1610743823;
+    function Clone: OleVariant; dispid 1610743824;
   end;
 
 // *********************************************************************//
@@ -17877,6 +17959,10 @@ type
     procedure Set_SetNewPassword(pRetVal: WordBool); safecall;
     function Get_updateTrustedPeerCertificates: WordBool; safecall;
     procedure Set_updateTrustedPeerCertificates(pRetVal: WordBool); safecall;
+    function Get_HostNames: _StringCollection; safecall;
+    procedure _Set_HostNames(const pRetVal: _StringCollection); safecall;
+    function Get_HostNamesString: WideString; safecall;
+    procedure Set_HostNamesString(const pRetVal: WideString); safecall;
     function Get_Parameters: _UACertificateRequestParameters; safecall;
     procedure _Set_Parameters(const pRetVal: _UACertificateRequestParameters); safecall;
     property ToString: WideString read Get_ToString;
@@ -17886,6 +17972,8 @@ type
     property newPrivateKeyPassword: WideString read Get_newPrivateKeyPassword write Set_newPrivateKeyPassword;
     property SetNewPassword: WordBool read Get_SetNewPassword write Set_SetNewPassword;
     property updateTrustedPeerCertificates: WordBool read Get_updateTrustedPeerCertificates write Set_updateTrustedPeerCertificates;
+    property HostNames: _StringCollection read Get_HostNames write _Set_HostNames;
+    property HostNamesString: WideString read Get_HostNamesString write Set_HostNamesString;
     property Parameters: _UACertificateRequestParameters read Get_Parameters write _Set_Parameters;
   end;
 
@@ -17909,7 +17997,9 @@ type
     property newPrivateKeyPassword: WideString dispid 1610743820;
     property SetNewPassword: WordBool dispid 1610743822;
     property updateTrustedPeerCertificates: WordBool dispid 1610743824;
-    property Parameters: _UACertificateRequestParameters dispid 1610743826;
+    property HostNames: _StringCollection dispid 1610743826;
+    property HostNamesString: WideString dispid 1610743828;
+    property Parameters: _UACertificateRequestParameters dispid 1610743830;
   end;
 
 // *********************************************************************//
@@ -17944,6 +18034,7 @@ type
     function Get_ApplicationStoreGroup: IUnknown; safecall;
     function Get_CertificateGenerationParameters: _CertificateGenerationParameters; safecall;
     function Get_CertificateRequestParameters: _UACertificateRequestParameters; safecall;
+    function Get_HostNames: _StringCollection; safecall;
     function Get_SupportsGds: WordBool; safecall;
     function AssureOwnCertificate(createOwnCertificateArguments: OleVariant): WordBool; safecall;
     procedure CreateOwnCertificate(createOwnCertificateArguments: OleVariant); safecall;
@@ -17961,6 +18052,7 @@ type
     function GetCertificateSubjectName(const certificateSubId: WideString): WideString; safecall;
     function GetCertificateSubjectNameDictionary: _StringStringDictionary; safecall;
     function GetEffectiveApplicationManifest: _UAApplicationManifest; safecall;
+    function GetEffectiveHostNames(alternateHostNames: OleVariant): _StringCollection; safecall;
     function GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single; safecall;
     function HasOwnCertificate(const certificateSubId: WideString): WordBool; safecall;
     function HasPrivateKeyPassword(const certificateSubId: WideString): WordBool; safecall;
@@ -17994,6 +18086,7 @@ type
     property ApplicationStoreGroup: IUnknown read Get_ApplicationStoreGroup;
     property CertificateGenerationParameters: _CertificateGenerationParameters read Get_CertificateGenerationParameters;
     property CertificateRequestParameters: _UACertificateRequestParameters read Get_CertificateRequestParameters;
+    property HostNames: _StringCollection read Get_HostNames;
     property SupportsGds: WordBool read Get_SupportsGds;
     property ApplicationParameters: _UAClientServerApplicationParameters read Get_ApplicationParameters write _Set_ApplicationParameters;
     property SerializeSharedData: WordBool read Get_SerializeSharedData write Set_SerializeSharedData;
@@ -18020,47 +18113,49 @@ type
     property ApplicationStoreGroup: IUnknown readonly dispid 1610743820;
     property CertificateGenerationParameters: _CertificateGenerationParameters readonly dispid 1610743821;
     property CertificateRequestParameters: _UACertificateRequestParameters readonly dispid 1610743822;
-    property SupportsGds: WordBool readonly dispid 1610743823;
-    function AssureOwnCertificate(createOwnCertificateArguments: OleVariant): WordBool; dispid 1610743824;
-    procedure CreateOwnCertificate(createOwnCertificateArguments: OleVariant); dispid 1610743825;
-    procedure ExportApplicationConfiguration(const stream: _Stream); dispid 1610743826;
-    procedure ExportApplicationConfigurationToFile(const filePath: WideString); dispid 1610743827;
-    procedure ExportOwnCertificateToFile(exportCertificateArguments: OleVariant); dispid 1610743828;
-    procedure ExportRegisteredApplication(const stream: _Stream); dispid 1610743829;
-    procedure ExportRegisteredApplicationToFile(const filePath: WideString); dispid 1610743830;
-    procedure ExportSecuredApplication(const stream: _Stream); dispid 1610743831;
-    procedure ExportSecuredApplicationToFile(const filePath: WideString); dispid 1610743832;
-    function FindGdsRegistrations(gdsEndpointDescriptor: OleVariant): _UANodeIdUAApplicationElementReadOnlyDictionary; dispid 1610743833;
-    function FindOwnCertificate(const certificateSubId: WideString): _PkiCertificate; dispid 1610743834;
-    function GetApplicationElement: _UAApplicationElement; dispid 1610743835;
-    function GetApplicationId(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743836;
-    function GetCertificateSubjectName(const certificateSubId: WideString): WideString; dispid 1610743837;
-    function GetCertificateSubjectNameDictionary: _StringStringDictionary; dispid 1610743838;
-    function GetEffectiveApplicationManifest: _UAApplicationManifest; dispid 1610743839;
-    function GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single; dispid 1610743840;
-    function HasOwnCertificate(const certificateSubId: WideString): WordBool; dispid 1610743841;
-    function HasPrivateKeyPassword(const certificateSubId: WideString): WordBool; dispid 1610743842;
-    procedure ImportOwnCertificateFromFile(importCertificateArguments: OleVariant); dispid 1610743843;
-    function ListCertificateSubIds: _StringSet; dispid 1610743844;
+    property HostNames: _StringCollection readonly dispid 1610743823;
+    property SupportsGds: WordBool readonly dispid 1610743824;
+    function AssureOwnCertificate(createOwnCertificateArguments: OleVariant): WordBool; dispid 1610743825;
+    procedure CreateOwnCertificate(createOwnCertificateArguments: OleVariant); dispid 1610743826;
+    procedure ExportApplicationConfiguration(const stream: _Stream); dispid 1610743827;
+    procedure ExportApplicationConfigurationToFile(const filePath: WideString); dispid 1610743828;
+    procedure ExportOwnCertificateToFile(exportCertificateArguments: OleVariant); dispid 1610743829;
+    procedure ExportRegisteredApplication(const stream: _Stream); dispid 1610743830;
+    procedure ExportRegisteredApplicationToFile(const filePath: WideString); dispid 1610743831;
+    procedure ExportSecuredApplication(const stream: _Stream); dispid 1610743832;
+    procedure ExportSecuredApplicationToFile(const filePath: WideString); dispid 1610743833;
+    function FindGdsRegistrations(gdsEndpointDescriptor: OleVariant): _UANodeIdUAApplicationElementReadOnlyDictionary; dispid 1610743834;
+    function FindOwnCertificate(const certificateSubId: WideString): _PkiCertificate; dispid 1610743835;
+    function GetApplicationElement: _UAApplicationElement; dispid 1610743836;
+    function GetApplicationId(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743837;
+    function GetCertificateSubjectName(const certificateSubId: WideString): WideString; dispid 1610743838;
+    function GetCertificateSubjectNameDictionary: _StringStringDictionary; dispid 1610743839;
+    function GetEffectiveApplicationManifest: _UAApplicationManifest; dispid 1610743840;
+    function GetEffectiveHostNames(alternateHostNames: OleVariant): _StringCollection; dispid 1610743841;
+    function GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single; dispid 1610743842;
+    function HasOwnCertificate(const certificateSubId: WideString): WordBool; dispid 1610743843;
+    function HasPrivateKeyPassword(const certificateSubId: WideString): WordBool; dispid 1610743844;
+    procedure ImportOwnCertificateFromFile(importCertificateArguments: OleVariant); dispid 1610743845;
+    function ListCertificateSubIds: _StringSet; dispid 1610743846;
     function ListCertificateTypeElements(gdsEndpointDescriptor: OleVariant; 
-                                         applicationStoreKind: PkiApplicationStoreKind): _UACertificateTypeElementCollection; dispid 1610743845;
-    function ObtainNewCertificate(Arguments: OleVariant): _PkiCertificate; dispid 1610743846;
+                                         applicationStoreKind: PkiApplicationStoreKind): _UACertificateTypeElementCollection; dispid 1610743847;
+    function ObtainNewCertificate(Arguments: OleVariant): _PkiCertificate; dispid 1610743848;
     function ProtectOrUnprotectOwnCertificate(const certificateSubId: WideString; 
-                                              const newPrivateKeyPassword: WideString): WordBool; dispid 1610743847;
-    procedure ProtectOwnCertificate(const newPrivateKeyPassword: WideString); dispid 1610743848;
-    function RefreshTrustLists(gdsEndpointDescriptor: OleVariant; updateGdsRegistration: WordBool): UATrustListMasks; dispid 1610743849;
-    function RegisterToGds(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743850;
+                                              const newPrivateKeyPassword: WideString): WordBool; dispid 1610743849;
+    procedure ProtectOwnCertificate(const newPrivateKeyPassword: WideString); dispid 1610743850;
+    function RefreshTrustLists(gdsEndpointDescriptor: OleVariant; updateGdsRegistration: WordBool): UATrustListMasks; dispid 1610743851;
+    function RegisterToGds(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743852;
     function RemoveOwnCertificates(const certificateSubIdPattern: WideString; mustExist: WordBool; 
-                                   updateTrustedPeerCertificates: WordBool): Integer; dispid 1610743851;
-    procedure RemovePrivateKeyPassword(const certificateSubId: WideString); dispid 1610743852;
+                                   updateTrustedPeerCertificates: WordBool): Integer; dispid 1610743853;
+    procedure RemovePrivateKeyPassword(const certificateSubId: WideString); dispid 1610743854;
     procedure SetPrivateKeyPassword(const certificateSubId: WideString; 
-                                    const privateKeyPassword: WideString); dispid 1610743853;
-    procedure UnprotectOwnCertificate; dispid 1610743854;
-    procedure UnregisterFromGds(gdsEndpointDescriptor: OleVariant); dispid 1610743855;
-    function updateGdsRegistration(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743856;
-    procedure ValidateOwnCertificate(certificateGenerationArguments: OleVariant); dispid 1610743857;
-    property ApplicationParameters: _UAClientServerApplicationParameters dispid 1610743858;
-    property SerializeSharedData: WordBool dispid 1610743860;
+                                    const privateKeyPassword: WideString); dispid 1610743855;
+    procedure UnprotectOwnCertificate; dispid 1610743856;
+    procedure UnregisterFromGds(gdsEndpointDescriptor: OleVariant); dispid 1610743857;
+    function updateGdsRegistration(gdsEndpointDescriptor: OleVariant): _UANodeId; dispid 1610743858;
+    procedure ValidateOwnCertificate(certificateGenerationArguments: OleVariant); dispid 1610743859;
+    property ApplicationParameters: _UAClientServerApplicationParameters dispid 1610743860;
+    property SerializeSharedData: WordBool dispid 1610743862;
   end;
 
 // *********************************************************************//
@@ -18138,6 +18233,10 @@ type
     procedure _Set_Parameters(const pRetVal: _CertificateGenerationParameters); safecall;
     function Get_updateTrustedPeerCertificates: WordBool; safecall;
     procedure Set_updateTrustedPeerCertificates(pRetVal: WordBool); safecall;
+    function Get_HostNames: _StringCollection; safecall;
+    procedure _Set_HostNames(const pRetVal: _StringCollection); safecall;
+    function Get_HostNamesString: WideString; safecall;
+    procedure Set_HostNamesString(const pRetVal: WideString); safecall;
     function Get_MustNotExist: WordBool; safecall;
     procedure Set_MustNotExist(pRetVal: WordBool); safecall;
     function Get_newPrivateKeyPassword: WideString; safecall;
@@ -18150,6 +18249,8 @@ type
     property certificateSubId: WideString read Get_certificateSubId write Set_certificateSubId;
     property Parameters: _CertificateGenerationParameters read Get_Parameters write _Set_Parameters;
     property updateTrustedPeerCertificates: WordBool read Get_updateTrustedPeerCertificates write Set_updateTrustedPeerCertificates;
+    property HostNames: _StringCollection read Get_HostNames write _Set_HostNames;
+    property HostNamesString: WideString read Get_HostNamesString write Set_HostNamesString;
     property MustNotExist: WordBool read Get_MustNotExist write Set_MustNotExist;
     property newPrivateKeyPassword: WideString read Get_newPrivateKeyPassword write Set_newPrivateKeyPassword;
     property SetNewPassword: WordBool read Get_SetNewPassword write Set_SetNewPassword;
@@ -18174,9 +18275,11 @@ type
     property certificateSubId: WideString dispid 1610743818;
     property Parameters: _CertificateGenerationParameters dispid 1610743820;
     property updateTrustedPeerCertificates: WordBool dispid 1610743822;
-    property MustNotExist: WordBool dispid 1610743824;
-    property newPrivateKeyPassword: WideString dispid 1610743826;
-    property SetNewPassword: WordBool dispid 1610743828;
+    property HostNames: _StringCollection dispid 1610743824;
+    property HostNamesString: WideString dispid 1610743826;
+    property MustNotExist: WordBool dispid 1610743828;
+    property newPrivateKeyPassword: WideString dispid 1610743830;
+    property SetNewPassword: WordBool dispid 1610743832;
   end;
 
 // *********************************************************************//
@@ -19212,6 +19315,7 @@ type
     procedure SetIdentifier(identifier: OleVariant); safecall;
     procedure SetOpaqueIdentifier(var OpaqueIdentifier: PSafeArray); safecall;
     function ToBrowsePath: _UABrowsePath; safecall;
+    function ToUABuiltInType: UABuiltInType; safecall;
     function Get_StandardName: WideString; safecall;
     procedure Set_StandardName(const pRetVal: WideString); safecall;
     property ToString: WideString read Get_ToString;
@@ -19261,7 +19365,8 @@ type
     procedure SetIdentifier(identifier: OleVariant); dispid 1610743838;
     procedure SetOpaqueIdentifier(var OpaqueIdentifier: {NOT_OLEAUTO(PSafeArray)}OleVariant); dispid 1610743839;
     function ToBrowsePath: _UABrowsePath; dispid 1610743840;
-    property StandardName: WideString dispid 1610743841;
+    function ToUABuiltInType: UABuiltInType; dispid 1610743841;
+    property StandardName: WideString dispid 1610743842;
   end;
 
 // *********************************************************************//
@@ -21272,6 +21377,7 @@ type
     function Remove(const key: WideString): WordBool;
     procedure RemoveAt(index: Integer);
     function ToList: _ElasticVector;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool;
     function Clone: OleVariant;
     property DefaultInterface: _UADataSetFolderDataCollection read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
@@ -21443,6 +21549,7 @@ type
     function Remove(const key: WideString): WordBool;
     procedure RemoveAt(index: Integer);
     function ToList: _ElasticVector;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool;
     function Clone: OleVariant;
     property DefaultInterface: _UADataSetWriterDataCollection read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
@@ -21864,6 +21971,7 @@ type
     function Remove(const key: WideString): WordBool;
     procedure RemoveAt(index: Integer);
     function ToList: _ElasticVector;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool;
     function Clone: OleVariant;
     property DefaultInterface: _UAPublishedDataSetDataCollection read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
@@ -22362,6 +22470,7 @@ type
     function Remove(const key: WideString): WordBool;
     procedure RemoveAt(index: Integer);
     function ToList: _ElasticVector;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool;
     function Clone: OleVariant;
     property DefaultInterface: _UAPubSubConnectionDataCollection read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
@@ -22890,6 +22999,7 @@ type
     function Remove(const key: WideString): WordBool;
     procedure RemoveAt(index: Integer);
     function ToList: _ElasticVector;
+    function TryGetValue(const key: WideString; out Item: OleVariant): WordBool;
     function Clone: OleVariant;
     property DefaultInterface: _UAWriterGroupDataCollection read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
@@ -25077,9 +25187,9 @@ type
     function Get_NormalizedDiagnostics: _NormalizedExceptionCollection;
     function Get_NormalizedException: _NormalizedException;
     function Get_Succeeded: WordBool;
-    function Get_Connected: WordBool;
     function Get_ConnectionState: ConnectionState;
     procedure Set_ConnectionState(pRetVal: ConnectionState);
+    function Get_IsConnected: WordBool;
     function Get_RetrialDelay: Integer;
     procedure Set_RetrialDelay(pRetVal: Integer);
     function Get_Statistics: _ConnectedConditionStatistics;
@@ -25110,7 +25220,7 @@ type
     property NormalizedDiagnostics: _NormalizedExceptionCollection read Get_NormalizedDiagnostics;
     property NormalizedException: _NormalizedException read Get_NormalizedException;
     property Succeeded: WordBool read Get_Succeeded;
-    property Connected: WordBool read Get_Connected;
+    property IsConnected: WordBool read Get_IsConnected;
     property Statistics: _ConnectedConditionStatistics read Get_Statistics write _Set_Statistics;
     property StatusInfo: StatusInfo read Get_StatusInfo;
     property endpointDescriptor: _UAEndpointDescriptor read Get_endpointDescriptor write _Set_endpointDescriptor;
@@ -26759,6 +26869,7 @@ type
     function Remove(key: OleVariant): WordBool;
     procedure RemoveAt(index: Integer);
     function ToList: _ElasticVector;
+    function TryGetValue(key: OleVariant; out Item: OleVariant): WordBool;
     function Clone: OleVariant;
     property DefaultInterface: _UACertificateGroupElementCollection read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
@@ -27215,8 +27326,8 @@ type
     procedure _Set_HostParameters(const pRetVal: _UAHostParameters);
     function Get_MonitoredItemParameters: _UAClientMonitoredItemParameters;
     procedure _Set_MonitoredItemParameters(const pRetVal: _UAClientMonitoredItemParameters);
-    function Get_SessionParameters: _UASmartSessionParameters;
-    procedure _Set_SessionParameters(const pRetVal: _UASmartSessionParameters);
+    function Get_SessionParameters: _UASmartClientSessionParameters;
+    procedure _Set_SessionParameters(const pRetVal: _UASmartClientSessionParameters);
     function Get_SubscriptionParameters: _UAClientSubscriptionParameters;
     procedure _Set_SubscriptionParameters(const pRetVal: _UAClientSubscriptionParameters);
   public
@@ -27236,7 +27347,7 @@ type
     property DiscoveryParameters: _UADiscoveryParameters read Get_DiscoveryParameters write _Set_DiscoveryParameters;
     property HostParameters: _UAHostParameters read Get_HostParameters write _Set_HostParameters;
     property MonitoredItemParameters: _UAClientMonitoredItemParameters read Get_MonitoredItemParameters write _Set_MonitoredItemParameters;
-    property SessionParameters: _UASmartSessionParameters read Get_SessionParameters write _Set_SessionParameters;
+    property SessionParameters: _UASmartClientSessionParameters read Get_SessionParameters write _Set_SessionParameters;
     property SubscriptionParameters: _UAClientSubscriptionParameters read Get_SubscriptionParameters write _Set_SubscriptionParameters;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
   published
@@ -27276,6 +27387,8 @@ type
     procedure Set_StandardName(const pRetVal: WideString);
     function Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
     procedure _Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
+    function Get_ConfigurationPropertyOverrides: _StringObjectDictionary;
+    procedure _Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary);
     function Get_ConfigurationSources: UAConfigurationSources;
     procedure Set_ConfigurationSources(pRetVal: UAConfigurationSources);
     function Get_DebuggerDetectionOverride: Sign;
@@ -27303,6 +27416,7 @@ type
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_CertificateAcceptancePolicy write _Set_CertificateAcceptancePolicy;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary read Get_ConfigurationPropertyOverrides write _Set_ConfigurationPropertyOverrides;
     property gdsEndpointDescriptor: _UAEndpointDescriptor read Get_gdsEndpointDescriptor write _Set_gdsEndpointDescriptor;
     property UserInteractionParameters: _UAUserInteractionParameters read Get_UserInteractionParameters write _Set_UserInteractionParameters;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
@@ -27310,6 +27424,71 @@ type
     property DebuggerDetectionOverride: Sign read Get_DebuggerDetectionOverride write Set_DebuggerDetectionOverride;
     property RetrialDelay: Integer read Get_RetrialDelay write Set_RetrialDelay;
     property ReconnectionPeriod: Integer read Get_ReconnectionPeriod write Set_ReconnectionPeriod;
+  published
+  end;
+
+// *********************************************************************//
+// The Class CoEasyUAClientInstanceParameters provides a Create and CreateRemote method to          
+// create instances of the default interface _EasyUAClientInstanceParameters exposed by              
+// the CoClass EasyUAClientInstanceParameters. The functions are intended to be used by             
+// clients wishing to automate the CoClass objects exposed by the         
+// server of this typelibrary.                                            
+// *********************************************************************//
+  CoEasyUAClientInstanceParameters = class
+    class function Create: _EasyUAClientInstanceParameters;
+    class function CreateRemote(const MachineName: string): _EasyUAClientInstanceParameters;
+  end;
+
+
+// *********************************************************************//
+// OLE Server Proxy class declaration
+// Server Object    : TEasyUAClientInstanceParameters
+// Help String      : Contains parameters that influence the behavior of just this instance of the OPC-UA client component.
+// Default Interface: _EasyUAClientInstanceParameters
+// Def. Intf. DISP? : No
+// Event   Interface: 
+// TypeFlags        : (2) CanCreate
+// *********************************************************************//
+  TEasyUAClientInstanceParameters = class(TOleServer)
+  private
+    FIntf: _EasyUAClientInstanceParameters;
+    function GetDefaultInterface: _EasyUAClientInstanceParameters;
+  protected
+    procedure InitServerData; override;
+    function Get_ToString: WideString;
+    function Get_DisplayString: WideString;
+    function Get_StandardName: WideString;
+    procedure Set_StandardName(const pRetVal: WideString);
+    function Get_PluginConfigurations: _ConfigurationPartCollection;
+    procedure _Set_PluginConfigurations(const pRetVal: _ConfigurationPartCollection);
+    function Get_PluginSetups: _PluginSetupCollection;
+    procedure _Set_PluginSetups(const pRetVal: _PluginSetupCollection);
+    function Get_DiscoveryHost: WideString;
+    procedure Set_DiscoveryHost(const pRetVal: WideString);
+    function Get_EnableModelCaching: WordBool;
+    procedure Set_EnableModelCaching(pRetVal: WordBool);
+    function Get_Mode: _EasyUAClientMode;
+    procedure _Set_Mode(const pRetVal: _EasyUAClientMode);
+  public
+    constructor Create(AOwner: TComponent); override;
+    destructor  Destroy; override;
+    procedure Connect; override;
+    procedure ConnectTo(svrIntf: _EasyUAClientInstanceParameters);
+    procedure Disconnect; override;
+    function Equals(obj: OleVariant): WordBool;
+    function GetHashCode: Integer;
+    function GetType: _Type;
+    function Clone: OleVariant;
+    procedure Reset;
+    property DefaultInterface: _EasyUAClientInstanceParameters read GetDefaultInterface;
+    property ToString: WideString read Get_ToString;
+    property DisplayString: WideString read Get_DisplayString;
+    property PluginConfigurations: _ConfigurationPartCollection read Get_PluginConfigurations write _Set_PluginConfigurations;
+    property PluginSetups: _PluginSetupCollection read Get_PluginSetups write _Set_PluginSetups;
+    property Mode: _EasyUAClientMode read Get_Mode write _Set_Mode;
+    property StandardName: WideString read Get_StandardName write Set_StandardName;
+    property DiscoveryHost: WideString read Get_DiscoveryHost write Set_DiscoveryHost;
+    property EnableModelCaching: WordBool read Get_EnableModelCaching write Set_EnableModelCaching;
   published
   end;
 
@@ -27363,96 +27542,31 @@ type
   end;
 
 // *********************************************************************//
-// The Class CoEasyUAInstanceParameters provides a Create and CreateRemote method to          
-// create instances of the default interface _EasyUAInstanceParameters exposed by              
-// the CoClass EasyUAInstanceParameters. The functions are intended to be used by             
+// The Class CoEasyUAClientSharedParameters provides a Create and CreateRemote method to          
+// create instances of the default interface _EasyUAClientSharedParameters exposed by              
+// the CoClass EasyUAClientSharedParameters. The functions are intended to be used by             
 // clients wishing to automate the CoClass objects exposed by the         
 // server of this typelibrary.                                            
 // *********************************************************************//
-  CoEasyUAInstanceParameters = class
-    class function Create: _EasyUAInstanceParameters;
-    class function CreateRemote(const MachineName: string): _EasyUAInstanceParameters;
+  CoEasyUAClientSharedParameters = class
+    class function Create: _EasyUAClientSharedParameters;
+    class function CreateRemote(const MachineName: string): _EasyUAClientSharedParameters;
   end;
 
 
 // *********************************************************************//
 // OLE Server Proxy class declaration
-// Server Object    : TEasyUAInstanceParameters
-// Help String      : Contains parameters that influence the behavior of just this instance of the OPC-UA client component.
-// Default Interface: _EasyUAInstanceParameters
-// Def. Intf. DISP? : No
-// Event   Interface: 
-// TypeFlags        : (2) CanCreate
-// *********************************************************************//
-  TEasyUAInstanceParameters = class(TOleServer)
-  private
-    FIntf: _EasyUAInstanceParameters;
-    function GetDefaultInterface: _EasyUAInstanceParameters;
-  protected
-    procedure InitServerData; override;
-    function Get_ToString: WideString;
-    function Get_DisplayString: WideString;
-    function Get_StandardName: WideString;
-    procedure Set_StandardName(const pRetVal: WideString);
-    function Get_PluginConfigurations: _ConfigurationPartCollection;
-    procedure _Set_PluginConfigurations(const pRetVal: _ConfigurationPartCollection);
-    function Get_PluginSetups: _PluginSetupCollection;
-    procedure _Set_PluginSetups(const pRetVal: _PluginSetupCollection);
-    function Get_DiscoveryHost: WideString;
-    procedure Set_DiscoveryHost(const pRetVal: WideString);
-    function Get_EnableModelCaching: WordBool;
-    procedure Set_EnableModelCaching(pRetVal: WordBool);
-    function Get_Mode: _EasyUAClientMode;
-    procedure _Set_Mode(const pRetVal: _EasyUAClientMode);
-  public
-    constructor Create(AOwner: TComponent); override;
-    destructor  Destroy; override;
-    procedure Connect; override;
-    procedure ConnectTo(svrIntf: _EasyUAInstanceParameters);
-    procedure Disconnect; override;
-    function Equals(obj: OleVariant): WordBool;
-    function GetHashCode: Integer;
-    function GetType: _Type;
-    function Clone: OleVariant;
-    procedure Reset;
-    property DefaultInterface: _EasyUAInstanceParameters read GetDefaultInterface;
-    property ToString: WideString read Get_ToString;
-    property DisplayString: WideString read Get_DisplayString;
-    property PluginConfigurations: _ConfigurationPartCollection read Get_PluginConfigurations write _Set_PluginConfigurations;
-    property PluginSetups: _PluginSetupCollection read Get_PluginSetups write _Set_PluginSetups;
-    property Mode: _EasyUAClientMode read Get_Mode write _Set_Mode;
-    property StandardName: WideString read Get_StandardName write Set_StandardName;
-    property DiscoveryHost: WideString read Get_DiscoveryHost write Set_DiscoveryHost;
-    property EnableModelCaching: WordBool read Get_EnableModelCaching write Set_EnableModelCaching;
-  published
-  end;
-
-// *********************************************************************//
-// The Class CoEasyUASharedParameters provides a Create and CreateRemote method to          
-// create instances of the default interface _EasyUASharedParameters exposed by              
-// the CoClass EasyUASharedParameters. The functions are intended to be used by             
-// clients wishing to automate the CoClass objects exposed by the         
-// server of this typelibrary.                                            
-// *********************************************************************//
-  CoEasyUASharedParameters = class
-    class function Create: _EasyUASharedParameters;
-    class function CreateRemote(const MachineName: string): _EasyUASharedParameters;
-  end;
-
-
-// *********************************************************************//
-// OLE Server Proxy class declaration
-// Server Object    : TEasyUASharedParameters
+// Server Object    : TEasyUAClientSharedParameters
 // Help String      : Parameters that are always shared by all instances of the OPC-UA client component.
-// Default Interface: _EasyUASharedParameters
+// Default Interface: _EasyUAClientSharedParameters
 // Def. Intf. DISP? : No
 // Event   Interface: 
 // TypeFlags        : (2) CanCreate
 // *********************************************************************//
-  TEasyUASharedParameters = class(TOleServer)
+  TEasyUAClientSharedParameters = class(TOleServer)
   private
-    FIntf: _EasyUASharedParameters;
-    function GetDefaultInterface: _EasyUASharedParameters;
+    FIntf: _EasyUAClientSharedParameters;
+    function GetDefaultInterface: _EasyUAClientSharedParameters;
   protected
     procedure InitServerData; override;
     function Get_ToString: WideString;
@@ -27463,25 +27577,25 @@ type
     procedure _Set_PluginConfigurations(const pRetVal: _ConfigurationPartCollection);
     function Get_PluginSetups: _PluginSetupCollection;
     procedure _Set_PluginSetups(const pRetVal: _PluginSetupCollection);
-    function Get_EngineParameters: _EasyUAEngineParameters;
-    procedure _Set_EngineParameters(const pRetVal: _EasyUAEngineParameters);
+    function Get_EngineParameters: _EasyUAClientEngineParameters;
+    procedure _Set_EngineParameters(const pRetVal: _EasyUAClientEngineParameters);
   public
     constructor Create(AOwner: TComponent); override;
     destructor  Destroy; override;
     procedure Connect; override;
-    procedure ConnectTo(svrIntf: _EasyUASharedParameters);
+    procedure ConnectTo(svrIntf: _EasyUAClientSharedParameters);
     procedure Disconnect; override;
     function Equals(obj: OleVariant): WordBool;
     function GetHashCode: Integer;
     function GetType: _Type;
     function Clone: OleVariant;
     procedure Reset;
-    property DefaultInterface: _EasyUASharedParameters read GetDefaultInterface;
+    property DefaultInterface: _EasyUAClientSharedParameters read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property PluginConfigurations: _ConfigurationPartCollection read Get_PluginConfigurations write _Set_PluginConfigurations;
     property PluginSetups: _PluginSetupCollection read Get_PluginSetups write _Set_PluginSetups;
-    property EngineParameters: _EasyUAEngineParameters read Get_EngineParameters write _Set_EngineParameters;
+    property EngineParameters: _EasyUAClientEngineParameters read Get_EngineParameters write _Set_EngineParameters;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
   published
   end;
@@ -27560,31 +27674,31 @@ type
   end;
 
 // *********************************************************************//
-// The Class CoEasyUAAdaptableParameters provides a Create and CreateRemote method to          
-// create instances of the default interface _EasyUAAdaptableParameters exposed by              
-// the CoClass EasyUAAdaptableParameters. The functions are intended to be used by             
+// The Class CoEasyUAClientAdaptableParameters provides a Create and CreateRemote method to          
+// create instances of the default interface _EasyUAClientAdaptableParameters exposed by              
+// the CoClass EasyUAClientAdaptableParameters. The functions are intended to be used by             
 // clients wishing to automate the CoClass objects exposed by the         
 // server of this typelibrary.                                            
 // *********************************************************************//
-  CoEasyUAAdaptableParameters = class
-    class function Create: _EasyUAAdaptableParameters;
-    class function CreateRemote(const MachineName: string): _EasyUAAdaptableParameters;
+  CoEasyUAClientAdaptableParameters = class
+    class function Create: _EasyUAClientAdaptableParameters;
+    class function CreateRemote(const MachineName: string): _EasyUAClientAdaptableParameters;
   end;
 
 
 // *********************************************************************//
 // OLE Server Proxy class declaration
-// Server Object    : TEasyUAAdaptableParameters
+// Server Object    : TEasyUAClientAdaptableParameters
 // Help String      : Adaptable parameters for isolated or non-isolated OPC-UA client objects.
-// Default Interface: _EasyUAAdaptableParameters
+// Default Interface: _EasyUAClientAdaptableParameters
 // Def. Intf. DISP? : No
 // Event   Interface: 
 // TypeFlags        : (2) CanCreate
 // *********************************************************************//
-  TEasyUAAdaptableParameters = class(TOleServer)
+  TEasyUAClientAdaptableParameters = class(TOleServer)
   private
-    FIntf: _EasyUAAdaptableParameters;
-    function GetDefaultInterface: _EasyUAAdaptableParameters;
+    FIntf: _EasyUAClientAdaptableParameters;
+    function GetDefaultInterface: _EasyUAClientAdaptableParameters;
   protected
     procedure InitServerData; override;
     function Get_ToString: WideString;
@@ -27597,28 +27711,28 @@ type
     procedure _Set_HostParameters(const pRetVal: _UAHostParameters);
     function Get_MonitoredItemParameters: _UAClientMonitoredItemParameters;
     procedure _Set_MonitoredItemParameters(const pRetVal: _UAClientMonitoredItemParameters);
-    function Get_SessionParameters: _UASmartSessionParameters;
-    procedure _Set_SessionParameters(const pRetVal: _UASmartSessionParameters);
+    function Get_SessionParameters: _UASmartClientSessionParameters;
+    procedure _Set_SessionParameters(const pRetVal: _UASmartClientSessionParameters);
     function Get_SubscriptionParameters: _UAClientSubscriptionParameters;
     procedure _Set_SubscriptionParameters(const pRetVal: _UAClientSubscriptionParameters);
   public
     constructor Create(AOwner: TComponent); override;
     destructor  Destroy; override;
     procedure Connect; override;
-    procedure ConnectTo(svrIntf: _EasyUAAdaptableParameters);
+    procedure ConnectTo(svrIntf: _EasyUAClientAdaptableParameters);
     procedure Disconnect; override;
     function Equals(obj: OleVariant): WordBool;
     function GetHashCode: Integer;
     function GetType: _Type;
     function Clone: OleVariant;
     procedure Reset;
-    property DefaultInterface: _EasyUAAdaptableParameters read GetDefaultInterface;
+    property DefaultInterface: _EasyUAClientAdaptableParameters read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property DiscoveryParameters: _UADiscoveryParameters read Get_DiscoveryParameters write _Set_DiscoveryParameters;
     property HostParameters: _UAHostParameters read Get_HostParameters write _Set_HostParameters;
     property MonitoredItemParameters: _UAClientMonitoredItemParameters read Get_MonitoredItemParameters write _Set_MonitoredItemParameters;
-    property SessionParameters: _UASmartSessionParameters read Get_SessionParameters write _Set_SessionParameters;
+    property SessionParameters: _UASmartClientSessionParameters read Get_SessionParameters write _Set_SessionParameters;
     property SubscriptionParameters: _UAClientSubscriptionParameters read Get_SubscriptionParameters write _Set_SubscriptionParameters;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
   published
@@ -27640,7 +27754,7 @@ type
 // *********************************************************************//
 // OLE Server Proxy class declaration
 // Server Object    : TUAClientEngineParameters
-// Help String      : Contains parameters that influence the behavior of the component on the application level.
+// Help String      : Contains parameters that influence the behavior of the client component on the application level.
 // Default Interface: _UAClientEngineParameters
 // Def. Intf. DISP? : No
 // Event   Interface: 
@@ -27658,6 +27772,8 @@ type
     procedure Set_StandardName(const pRetVal: WideString);
     function Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
     procedure _Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
+    function Get_ConfigurationPropertyOverrides: _StringObjectDictionary;
+    procedure _Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary);
     function Get_ConfigurationSources: UAConfigurationSources;
     procedure Set_ConfigurationSources(pRetVal: UAConfigurationSources);
     function Get_DebuggerDetectionOverride: Sign;
@@ -27689,6 +27805,7 @@ type
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_CertificateAcceptancePolicy write _Set_CertificateAcceptancePolicy;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary read Get_ConfigurationPropertyOverrides write _Set_ConfigurationPropertyOverrides;
     property gdsEndpointDescriptor: _UAEndpointDescriptor read Get_gdsEndpointDescriptor write _Set_gdsEndpointDescriptor;
     property UserInteractionParameters: _UAUserInteractionParameters read Get_UserInteractionParameters write _Set_UserInteractionParameters;
     property HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_HttpsCertificateAcceptancePolicy write _Set_HttpsCertificateAcceptancePolicy;
@@ -27806,6 +27923,10 @@ type
     procedure Set_AutoGenerateInstanceCertificate(pRetVal: WordBool);
     function Get_AutoTrustInstanceCertificate: WordBool;
     procedure Set_AutoTrustInstanceCertificate(pRetVal: WordBool);
+    function Get_HostNames: _StringCollection;
+    procedure _Set_HostNames(const pRetVal: _StringCollection);
+    function Get_HostNamesString: WideString;
+    procedure Set_HostNamesString(const pRetVal: WideString);
     function Get_InstanceCertificateGenerationParameters: _CertificateGenerationParameters;
     procedure _Set_InstanceCertificateGenerationParameters(const pRetVal: _CertificateGenerationParameters);
     function Get_InstanceCertificatePrivateKeyPassword: WideString;
@@ -27832,12 +27953,14 @@ type
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property ApplicationManifest: _UAApplicationManifest read Get_ApplicationManifest write _Set_ApplicationManifest;
+    property HostNames: _StringCollection read Get_HostNames write _Set_HostNames;
     property InstanceCertificateGenerationParameters: _CertificateGenerationParameters read Get_InstanceCertificateGenerationParameters write _Set_InstanceCertificateGenerationParameters;
     property InstanceCertificatePrivateKeyPasswordDictionary: _StringStringDictionary read Get_InstanceCertificatePrivateKeyPasswordDictionary write _Set_InstanceCertificatePrivateKeyPasswordDictionary;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
     property ApplicationUriTemplateString: WideString read Get_ApplicationUriTemplateString write Set_ApplicationUriTemplateString;
     property AutoGenerateInstanceCertificate: WordBool read Get_AutoGenerateInstanceCertificate write Set_AutoGenerateInstanceCertificate;
     property AutoTrustInstanceCertificate: WordBool read Get_AutoTrustInstanceCertificate write Set_AutoTrustInstanceCertificate;
+    property HostNamesString: WideString read Get_HostNamesString write Set_HostNamesString;
     property InstanceCertificatePrivateKeyPassword: WideString read Get_InstanceCertificatePrivateKeyPassword write Set_InstanceCertificatePrivateKeyPassword;
     property RelaxedCertificateSearch: WordBool read Get_RelaxedCertificateSearch write Set_RelaxedCertificateSearch;
     property ValidateOwnInstanceCertificate: WordBool read Get_ValidateOwnInstanceCertificate write Set_ValidateOwnInstanceCertificate;
@@ -27845,31 +27968,31 @@ type
   end;
 
 // *********************************************************************//
-// The Class CoEasyUAEngineParameters provides a Create and CreateRemote method to          
-// create instances of the default interface _EasyUAEngineParameters exposed by              
-// the CoClass EasyUAEngineParameters. The functions are intended to be used by             
+// The Class CoEasyUAClientEngineParameters provides a Create and CreateRemote method to          
+// create instances of the default interface _EasyUAClientEngineParameters exposed by              
+// the CoClass EasyUAClientEngineParameters. The functions are intended to be used by             
 // clients wishing to automate the CoClass objects exposed by the         
 // server of this typelibrary.                                            
 // *********************************************************************//
-  CoEasyUAEngineParameters = class
-    class function Create: _EasyUAEngineParameters;
-    class function CreateRemote(const MachineName: string): _EasyUAEngineParameters;
+  CoEasyUAClientEngineParameters = class
+    class function Create: _EasyUAClientEngineParameters;
+    class function CreateRemote(const MachineName: string): _EasyUAClientEngineParameters;
   end;
 
 
 // *********************************************************************//
 // OLE Server Proxy class declaration
-// Server Object    : TEasyUAEngineParameters
+// Server Object    : TEasyUAClientEngineParameters
 // Help String      : Contains values for determining certain OPC-UA parameters heuristically.
-// Default Interface: _EasyUAEngineParameters
+// Default Interface: _EasyUAClientEngineParameters
 // Def. Intf. DISP? : No
 // Event   Interface: 
 // TypeFlags        : (2) CanCreate
 // *********************************************************************//
-  TEasyUAEngineParameters = class(TOleServer)
+  TEasyUAClientEngineParameters = class(TOleServer)
   private
-    FIntf: _EasyUAEngineParameters;
-    function GetDefaultInterface: _EasyUAEngineParameters;
+    FIntf: _EasyUAClientEngineParameters;
+    function GetDefaultInterface: _EasyUAClientEngineParameters;
   protected
     procedure InitServerData; override;
     function Get_ToString: WideString;
@@ -27878,6 +28001,8 @@ type
     procedure Set_StandardName(const pRetVal: WideString);
     function Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
     procedure _Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
+    function Get_ConfigurationPropertyOverrides: _StringObjectDictionary;
+    procedure _Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary);
     function Get_ConfigurationSources: UAConfigurationSources;
     procedure Set_ConfigurationSources(pRetVal: UAConfigurationSources);
     function Get_DebuggerDetectionOverride: Sign;
@@ -27908,17 +28033,18 @@ type
     constructor Create(AOwner: TComponent); override;
     destructor  Destroy; override;
     procedure Connect; override;
-    procedure ConnectTo(svrIntf: _EasyUAEngineParameters);
+    procedure ConnectTo(svrIntf: _EasyUAClientEngineParameters);
     procedure Disconnect; override;
     function Equals(obj: OleVariant): WordBool;
     function GetHashCode: Integer;
     function GetType: _Type;
     function Clone: OleVariant;
     procedure Reset;
-    property DefaultInterface: _EasyUAEngineParameters read GetDefaultInterface;
+    property DefaultInterface: _EasyUAClientEngineParameters read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_CertificateAcceptancePolicy write _Set_CertificateAcceptancePolicy;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary read Get_ConfigurationPropertyOverrides write _Set_ConfigurationPropertyOverrides;
     property gdsEndpointDescriptor: _UAEndpointDescriptor read Get_gdsEndpointDescriptor write _Set_gdsEndpointDescriptor;
     property UserInteractionParameters: _UAUserInteractionParameters read Get_UserInteractionParameters write _Set_UserInteractionParameters;
     property HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_HttpsCertificateAcceptancePolicy write _Set_HttpsCertificateAcceptancePolicy;
@@ -28525,13 +28651,13 @@ type
   end;
 
 // *********************************************************************//
-// The Class CoUAEnhancedSessionParameters provides a Create and CreateRemote method to          
+// The Class CoUAEnhancedClientSessionParameters provides a Create and CreateRemote method to          
 // create instances of the default interface _UAClientSessionParameters exposed by              
-// the CoClass UAEnhancedSessionParameters. The functions are intended to be used by             
+// the CoClass UAEnhancedClientSessionParameters. The functions are intended to be used by             
 // clients wishing to automate the CoClass objects exposed by the         
 // server of this typelibrary.                                            
 // *********************************************************************//
-  CoUAEnhancedSessionParameters = class
+  CoUAEnhancedClientSessionParameters = class
     class function Create: _UAClientSessionParameters;
     class function CreateRemote(const MachineName: string): _UAClientSessionParameters;
   end;
@@ -28539,14 +28665,14 @@ type
 
 // *********************************************************************//
 // OLE Server Proxy class declaration
-// Server Object    : TUAEnhancedSessionParameters
+// Server Object    : TUAEnhancedClientSessionParameters
 // Help String      : Contains parameters that influence the behavior of the component on the enhanced session level.
 // Default Interface: _UAClientSessionParameters
 // Def. Intf. DISP? : No
 // Event   Interface: 
 // TypeFlags        : (2) CanCreate
 // *********************************************************************//
-  TUAEnhancedSessionParameters = class(TOleServer)
+  TUAEnhancedClientSessionParameters = class(TOleServer)
   private
     FIntf: _UAClientSessionParameters;
     function GetDefaultInterface: _UAClientSessionParameters;
@@ -28742,31 +28868,31 @@ type
   end;
 
 // *********************************************************************//
-// The Class CoUASmartEngineParameters provides a Create and CreateRemote method to          
-// create instances of the default interface _UASmartEngineParameters exposed by              
-// the CoClass UASmartEngineParameters. The functions are intended to be used by             
+// The Class CoUASmartClientEngineParameters provides a Create and CreateRemote method to          
+// create instances of the default interface _UASmartClientEngineParameters exposed by              
+// the CoClass UASmartClientEngineParameters. The functions are intended to be used by             
 // clients wishing to automate the CoClass objects exposed by the         
 // server of this typelibrary.                                            
 // *********************************************************************//
-  CoUASmartEngineParameters = class
-    class function Create: _UASmartEngineParameters;
-    class function CreateRemote(const MachineName: string): _UASmartEngineParameters;
+  CoUASmartClientEngineParameters = class
+    class function Create: _UASmartClientEngineParameters;
+    class function CreateRemote(const MachineName: string): _UASmartClientEngineParameters;
   end;
 
 
 // *********************************************************************//
 // OLE Server Proxy class declaration
-// Server Object    : TUASmartEngineParameters
+// Server Object    : TUASmartClientEngineParameters
 // Help String      : Contains heuristics such as how often are unused objects cleaned up, or how long are connections to session kept open.
-// Default Interface: _UASmartEngineParameters
+// Default Interface: _UASmartClientEngineParameters
 // Def. Intf. DISP? : No
 // Event   Interface: 
 // TypeFlags        : (2) CanCreate
 // *********************************************************************//
-  TUASmartEngineParameters = class(TOleServer)
+  TUASmartClientEngineParameters = class(TOleServer)
   private
-    FIntf: _UASmartEngineParameters;
-    function GetDefaultInterface: _UASmartEngineParameters;
+    FIntf: _UASmartClientEngineParameters;
+    function GetDefaultInterface: _UASmartClientEngineParameters;
   protected
     procedure InitServerData; override;
     function Get_ToString: WideString;
@@ -28775,6 +28901,8 @@ type
     procedure Set_StandardName(const pRetVal: WideString);
     function Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
     procedure _Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
+    function Get_ConfigurationPropertyOverrides: _StringObjectDictionary;
+    procedure _Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary);
     function Get_ConfigurationSources: UAConfigurationSources;
     procedure Set_ConfigurationSources(pRetVal: UAConfigurationSources);
     function Get_DebuggerDetectionOverride: Sign;
@@ -28799,17 +28927,18 @@ type
     constructor Create(AOwner: TComponent); override;
     destructor  Destroy; override;
     procedure Connect; override;
-    procedure ConnectTo(svrIntf: _UASmartEngineParameters);
+    procedure ConnectTo(svrIntf: _UASmartClientEngineParameters);
     procedure Disconnect; override;
     function Equals(obj: OleVariant): WordBool;
     function GetHashCode: Integer;
     function GetType: _Type;
     function Clone: OleVariant;
     procedure Reset;
-    property DefaultInterface: _UASmartEngineParameters read GetDefaultInterface;
+    property DefaultInterface: _UASmartClientEngineParameters read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property CertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_CertificateAcceptancePolicy write _Set_CertificateAcceptancePolicy;
+    property ConfigurationPropertyOverrides: _StringObjectDictionary read Get_ConfigurationPropertyOverrides write _Set_ConfigurationPropertyOverrides;
     property gdsEndpointDescriptor: _UAEndpointDescriptor read Get_gdsEndpointDescriptor write _Set_gdsEndpointDescriptor;
     property UserInteractionParameters: _UAUserInteractionParameters read Get_UserInteractionParameters write _Set_UserInteractionParameters;
     property HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy read Get_HttpsCertificateAcceptancePolicy write _Set_HttpsCertificateAcceptancePolicy;
@@ -28825,31 +28954,31 @@ type
   end;
 
 // *********************************************************************//
-// The Class CoUASmartSessionParameters provides a Create and CreateRemote method to          
-// create instances of the default interface _UASmartSessionParameters exposed by              
-// the CoClass UASmartSessionParameters. The functions are intended to be used by             
+// The Class CoUASmartClientSessionParameters provides a Create and CreateRemote method to          
+// create instances of the default interface _UASmartClientSessionParameters exposed by              
+// the CoClass UASmartClientSessionParameters. The functions are intended to be used by             
 // clients wishing to automate the CoClass objects exposed by the         
 // server of this typelibrary.                                            
 // *********************************************************************//
-  CoUASmartSessionParameters = class
-    class function Create: _UASmartSessionParameters;
-    class function CreateRemote(const MachineName: string): _UASmartSessionParameters;
+  CoUASmartClientSessionParameters = class
+    class function Create: _UASmartClientSessionParameters;
+    class function CreateRemote(const MachineName: string): _UASmartClientSessionParameters;
   end;
 
 
 // *********************************************************************//
 // OLE Server Proxy class declaration
-// Server Object    : TUASmartSessionParameters
+// Server Object    : TUASmartClientSessionParameters
 // Help String      : Contains parameters that influence the behavior of the component on the smart session level.
-// Default Interface: _UASmartSessionParameters
+// Default Interface: _UASmartClientSessionParameters
 // Def. Intf. DISP? : No
 // Event   Interface: 
 // TypeFlags        : (2) CanCreate
 // *********************************************************************//
-  TUASmartSessionParameters = class(TOleServer)
+  TUASmartClientSessionParameters = class(TOleServer)
   private
-    FIntf: _UASmartSessionParameters;
-    function GetDefaultInterface: _UASmartSessionParameters;
+    FIntf: _UASmartClientSessionParameters;
+    function GetDefaultInterface: _UASmartClientSessionParameters;
   protected
     procedure InitServerData; override;
     function Get_ToString: WideString;
@@ -28934,6 +29063,8 @@ type
     procedure Set_WriteNarrowestRealType(pRetVal: WordBool);
     function Get_EnableStatusSubscription: WordBool;
     procedure Set_EnableStatusSubscription(pRetVal: WordBool);
+    function Get_MaximumMonitoredItemsPerSubscription: Integer;
+    procedure Set_MaximumMonitoredItemsPerSubscription(pRetVal: Integer);
     function Get_ServerShutdownRetrialDelay: Integer;
     procedure Set_ServerShutdownRetrialDelay(pRetVal: Integer);
     function Get_StatusSubscriptionSamplingInterval: Integer;
@@ -28948,14 +29079,14 @@ type
     constructor Create(AOwner: TComponent); override;
     destructor  Destroy; override;
     procedure Connect; override;
-    procedure ConnectTo(svrIntf: _UASmartSessionParameters);
+    procedure ConnectTo(svrIntf: _UASmartClientSessionParameters);
     procedure Disconnect; override;
     function Equals(obj: OleVariant): WordBool;
     function GetHashCode: Integer;
     function GetType: _Type;
     function Clone: OleVariant;
     procedure Reset;
-    property DefaultInterface: _UASmartSessionParameters read GetDefaultInterface;
+    property DefaultInterface: _UASmartClientSessionParameters read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property EndpointDescriptionChecks: _UAEndpointDescriptionChecks read Get_EndpointDescriptionChecks write _Set_EndpointDescriptionChecks;
@@ -28998,6 +29129,7 @@ type
     property WriteNarrowestIntegerType: WordBool read Get_WriteNarrowestIntegerType write Set_WriteNarrowestIntegerType;
     property WriteNarrowestRealType: WordBool read Get_WriteNarrowestRealType write Set_WriteNarrowestRealType;
     property EnableStatusSubscription: WordBool read Get_EnableStatusSubscription write Set_EnableStatusSubscription;
+    property MaximumMonitoredItemsPerSubscription: Integer read Get_MaximumMonitoredItemsPerSubscription write Set_MaximumMonitoredItemsPerSubscription;
     property ServerShutdownRetrialDelay: Integer read Get_ServerShutdownRetrialDelay write Set_ServerShutdownRetrialDelay;
     property StatusSubscriptionSamplingInterval: Integer read Get_StatusSubscriptionSamplingInterval write Set_StatusSubscriptionSamplingInterval;
     property DormancyPeriod: Int64 read Get_DormancyPeriod write Set_DormancyPeriod;
@@ -31323,12 +31455,12 @@ type
     procedure Set_StandardName(const pRetVal: WideString);
     function Get_Differentiator: WideString;
     procedure Set_Differentiator(const pRetVal: WideString);
-    function Get_InstanceParameters: _EasyUAInstanceParameters;
-    procedure _Set_InstanceParameters(const pRetVal: _EasyUAInstanceParameters);
+    function Get_InstanceParameters: _EasyUAClientInstanceParameters;
+    procedure _Set_InstanceParameters(const pRetVal: _EasyUAClientInstanceParameters);
     function Get_Isolated: WordBool;
     procedure Set_Isolated(pRetVal: WordBool);
-    function Get_IsolatedParameters: _EasyUAAdaptableParameters;
-    procedure _Set_IsolatedParameters(const pRetVal: _EasyUAAdaptableParameters);
+    function Get_IsolatedParameters: _EasyUAClientAdaptableParameters;
+    procedure _Set_IsolatedParameters(const pRetVal: _EasyUAClientAdaptableParameters);
   public
     constructor Create(AOwner: TComponent); override;
     destructor  Destroy; override;
@@ -31343,8 +31475,8 @@ type
     property DefaultInterface: _EasyUAClientSelector read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
-    property InstanceParameters: _EasyUAInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
-    property IsolatedParameters: _EasyUAAdaptableParameters read Get_IsolatedParameters write _Set_IsolatedParameters;
+    property InstanceParameters: _EasyUAClientInstanceParameters read Get_InstanceParameters write _Set_InstanceParameters;
+    property IsolatedParameters: _EasyUAClientAdaptableParameters read Get_IsolatedParameters write _Set_IsolatedParameters;
     property StandardName: WideString read Get_StandardName write Set_StandardName;
     property Differentiator: WideString read Get_Differentiator write Set_Differentiator;
     property Isolated: WordBool read Get_Isolated write Set_Isolated;
@@ -32990,7 +33122,7 @@ type
     function GetHashCode: Integer;
     function GetType: _Type;
     function Clone: OleVariant;
-    function ToInt32: Integer;
+    function ToUACodeBits: UACodeBits;
     property DefaultInterface: _UAServiceResult read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -33036,8 +33168,8 @@ type
     function Get_DisplayString: WideString;
     function Get_ToString_2(const format: WideString; const formatProvider: IFormatProvider): WideString;
     function Get_ToString_3(const format: WideString): WideString;
-    function Get_CodeBits: Integer;
-    procedure Set_CodeBits(pRetVal: Integer);
+    function Get_CodeBits: UACodeBits;
+    procedure Set_CodeBits(pRetVal: UACodeBits);
     function Get_CodeBitsSymbol: WideString;
     procedure Set_CodeBitsSymbol(const pRetVal: WideString);
     function Get_Condition: Smallint;
@@ -33086,7 +33218,7 @@ type
     property IsGood: WordBool read Get_IsGood;
     property IsUncertain: WordBool read Get_IsUncertain;
     property StatusInfo: StatusInfo read Get_StatusInfo;
-    property CodeBits: Integer read Get_CodeBits write Set_CodeBits;
+    property CodeBits: UACodeBits read Get_CodeBits write Set_CodeBits;
     property CodeBitsSymbol: WideString read Get_CodeBitsSymbol write Set_CodeBitsSymbol;
     property Condition: Smallint read Get_Condition write Set_Condition;
     property FlagBits: Integer read Get_FlagBits write Set_FlagBits;
@@ -33524,6 +33656,7 @@ type
     function Get_ApplicationStoreGroup: IUnknown;
     function Get_CertificateGenerationParameters: _CertificateGenerationParameters;
     function Get_CertificateRequestParameters: _UACertificateRequestParameters;
+    function Get_HostNames: _StringCollection;
     function Get_SupportsGds: WordBool;
   public
     constructor Create(AOwner: TComponent); override;
@@ -33550,6 +33683,7 @@ type
     function GetCertificateSubjectName(const certificateSubId: WideString): WideString;
     function GetCertificateSubjectNameDictionary: _StringStringDictionary;
     function GetEffectiveApplicationManifest: _UAApplicationManifest;
+    function GetEffectiveHostNames(alternateHostNames: OleVariant): _StringCollection;
     function GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single;
     function HasOwnCertificate(const certificateSubId: WideString): WordBool;
     function HasPrivateKeyPassword(const certificateSubId: WideString): WordBool;
@@ -33579,6 +33713,7 @@ type
     property ApplicationStoreGroup: IUnknown read Get_ApplicationStoreGroup;
     property CertificateGenerationParameters: _CertificateGenerationParameters read Get_CertificateGenerationParameters;
     property CertificateRequestParameters: _UACertificateRequestParameters read Get_CertificateRequestParameters;
+    property HostNames: _StringCollection read Get_HostNames;
     property SupportsGds: WordBool read Get_SupportsGds;
   published
   end;
@@ -33791,6 +33926,7 @@ type
     function Get_ApplicationStoreGroup: IUnknown;
     function Get_CertificateGenerationParameters: _CertificateGenerationParameters;
     function Get_CertificateRequestParameters: _UACertificateRequestParameters;
+    function Get_HostNames: _StringCollection;
     function Get_SupportsGds: WordBool;
   public
     constructor Create(AOwner: TComponent); override;
@@ -33817,6 +33953,7 @@ type
     function GetCertificateSubjectName(const certificateSubId: WideString): WideString;
     function GetCertificateSubjectNameDictionary: _StringStringDictionary;
     function GetEffectiveApplicationManifest: _UAApplicationManifest;
+    function GetEffectiveHostNames(alternateHostNames: OleVariant): _StringCollection;
     function GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single;
     function HasOwnCertificate(const certificateSubId: WideString): WordBool;
     function HasPrivateKeyPassword(const certificateSubId: WideString): WordBool;
@@ -33846,6 +33983,7 @@ type
     property ApplicationStoreGroup: IUnknown read Get_ApplicationStoreGroup;
     property CertificateGenerationParameters: _CertificateGenerationParameters read Get_CertificateGenerationParameters;
     property CertificateRequestParameters: _UACertificateRequestParameters read Get_CertificateRequestParameters;
+    property HostNames: _StringCollection read Get_HostNames;
     property SupportsGds: WordBool read Get_SupportsGds;
   published
   end;
@@ -34088,6 +34226,7 @@ type
     function Remove(key: OleVariant): WordBool;
     procedure RemoveAt(index: Integer);
     function ToList: _ElasticVector;
+    function TryGetValue(key: OleVariant; out Item: OleVariant): WordBool;
     function Clone: OleVariant;
     property DefaultInterface: _UACertificateTypeElementCollection read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
@@ -34272,6 +34411,10 @@ type
     procedure Set_SetNewPassword(pRetVal: WordBool);
     function Get_updateTrustedPeerCertificates: WordBool;
     procedure Set_updateTrustedPeerCertificates(pRetVal: WordBool);
+    function Get_HostNames: _StringCollection;
+    procedure _Set_HostNames(const pRetVal: _StringCollection);
+    function Get_HostNamesString: WideString;
+    procedure Set_HostNamesString(const pRetVal: WideString);
     function Get_Parameters: _UACertificateRequestParameters;
     procedure _Set_Parameters(const pRetVal: _UACertificateRequestParameters);
   public
@@ -34290,11 +34433,13 @@ type
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
     property State: OleVariant read Get_State write _Set_State;
+    property HostNames: _StringCollection read Get_HostNames write _Set_HostNames;
     property Parameters: _UACertificateRequestParameters read Get_Parameters write _Set_Parameters;
     property certificateSubId: WideString read Get_certificateSubId write Set_certificateSubId;
     property newPrivateKeyPassword: WideString read Get_newPrivateKeyPassword write Set_newPrivateKeyPassword;
     property SetNewPassword: WordBool read Get_SetNewPassword write Set_SetNewPassword;
     property updateTrustedPeerCertificates: WordBool read Get_updateTrustedPeerCertificates write Set_updateTrustedPeerCertificates;
+    property HostNamesString: WideString read Get_HostNamesString write Set_HostNamesString;
   published
   end;
 
@@ -34336,6 +34481,10 @@ type
     procedure _Set_Parameters(const pRetVal: _CertificateGenerationParameters);
     function Get_updateTrustedPeerCertificates: WordBool;
     procedure Set_updateTrustedPeerCertificates(pRetVal: WordBool);
+    function Get_HostNames: _StringCollection;
+    procedure _Set_HostNames(const pRetVal: _StringCollection);
+    function Get_HostNamesString: WideString;
+    procedure Set_HostNamesString(const pRetVal: WideString);
     function Get_MustNotExist: WordBool;
     procedure Set_MustNotExist(pRetVal: WordBool);
     function Get_newPrivateKeyPassword: WideString;
@@ -34359,8 +34508,10 @@ type
     property DisplayString: WideString read Get_DisplayString;
     property State: OleVariant read Get_State write _Set_State;
     property Parameters: _CertificateGenerationParameters read Get_Parameters write _Set_Parameters;
+    property HostNames: _StringCollection read Get_HostNames write _Set_HostNames;
     property certificateSubId: WideString read Get_certificateSubId write Set_certificateSubId;
     property updateTrustedPeerCertificates: WordBool read Get_updateTrustedPeerCertificates write Set_updateTrustedPeerCertificates;
+    property HostNamesString: WideString read Get_HostNamesString write Set_HostNamesString;
     property MustNotExist: WordBool read Get_MustNotExist write Set_MustNotExist;
     property newPrivateKeyPassword: WideString read Get_newPrivateKeyPassword write Set_newPrivateKeyPassword;
     property SetNewPassword: WordBool read Get_SetNewPassword write Set_SetNewPassword;
@@ -34978,6 +35129,7 @@ type
     procedure SetIdentifier(identifier: OleVariant);
     procedure SetOpaqueIdentifier(var OpaqueIdentifier: PSafeArray);
     function ToBrowsePath: _UABrowsePath;
+    function ToUABuiltInType: UABuiltInType;
     property DefaultInterface: _UANodeId read GetDefaultInterface;
     property ToString: WideString read Get_ToString;
     property DisplayString: WideString read Get_DisplayString;
@@ -40079,6 +40231,11 @@ begin
   Result := DefaultInterface.ToList;
 end;
 
+function TUADataSetFolderDataCollection.TryGetValue(const key: WideString; out Item: OleVariant): WordBool;
+begin
+  Result := DefaultInterface.TryGetValue(key, Item);
+end;
+
 function TUADataSetFolderDataCollection.Clone: OleVariant;
 begin
   Result := DefaultInterface.Clone;
@@ -40482,6 +40639,11 @@ end;
 function TUADataSetWriterDataCollection.ToList: _ElasticVector;
 begin
   Result := DefaultInterface.ToList;
+end;
+
+function TUADataSetWriterDataCollection.TryGetValue(const key: WideString; out Item: OleVariant): WordBool;
+begin
+  Result := DefaultInterface.TryGetValue(key, Item);
 end;
 
 function TUADataSetWriterDataCollection.Clone: OleVariant;
@@ -41502,6 +41664,11 @@ end;
 function TUAPublishedDataSetDataCollection.ToList: _ElasticVector;
 begin
   Result := DefaultInterface.ToList;
+end;
+
+function TUAPublishedDataSetDataCollection.TryGetValue(const key: WideString; out Item: OleVariant): WordBool;
+begin
+  Result := DefaultInterface.TryGetValue(key, Item);
 end;
 
 function TUAPublishedDataSetDataCollection.Clone: OleVariant;
@@ -42723,6 +42890,11 @@ end;
 function TUAPubSubConnectionDataCollection.ToList: _ElasticVector;
 begin
   Result := DefaultInterface.ToList;
+end;
+
+function TUAPubSubConnectionDataCollection.TryGetValue(const key: WideString; out Item: OleVariant): WordBool;
+begin
+  Result := DefaultInterface.TryGetValue(key, Item);
 end;
 
 function TUAPubSubConnectionDataCollection.Clone: OleVariant;
@@ -44088,6 +44260,11 @@ end;
 function TUAWriterGroupDataCollection.ToList: _ElasticVector;
 begin
   Result := DefaultInterface.ToList;
+end;
+
+function TUAWriterGroupDataCollection.TryGetValue(const key: WideString; out Item: OleVariant): WordBool;
+begin
+  Result := DefaultInterface.TryGetValue(key, Item);
 end;
 
 function TUAWriterGroupDataCollection.Clone: OleVariant;
@@ -49594,11 +49771,6 @@ begin
   Result := DefaultInterface.Succeeded;
 end;
 
-function TEasyUAServerConditionChangedEventArgs.Get_Connected: WordBool;
-begin
-  Result := DefaultInterface.Connected;
-end;
-
 function TEasyUAServerConditionChangedEventArgs.Get_ConnectionState: ConnectionState;
 begin
   Result := DefaultInterface.ConnectionState;
@@ -49607,6 +49779,11 @@ end;
 procedure TEasyUAServerConditionChangedEventArgs.Set_ConnectionState(pRetVal: ConnectionState);
 begin
   DefaultInterface.ConnectionState := pRetVal;
+end;
+
+function TEasyUAServerConditionChangedEventArgs.Get_IsConnected: WordBool;
+begin
+  Result := DefaultInterface.IsConnected;
 end;
 
 function TEasyUAServerConditionChangedEventArgs.Get_RetrialDelay: Integer;
@@ -53761,6 +53938,11 @@ begin
   Result := DefaultInterface.ToList;
 end;
 
+function TUACertificateGroupElementCollection.TryGetValue(key: OleVariant; out Item: OleVariant): WordBool;
+begin
+  Result := DefaultInterface.TryGetValue(key, Item);
+end;
+
 function TUACertificateGroupElementCollection.Clone: OleVariant;
 begin
   Result := DefaultInterface.Clone;
@@ -54847,12 +55029,12 @@ begin
   DefaultInterface.MonitoredItemParameters := pRetVal;
 end;
 
-function TUAClientAdaptableParameters.Get_SessionParameters: _UASmartSessionParameters;
+function TUAClientAdaptableParameters.Get_SessionParameters: _UASmartClientSessionParameters;
 begin
   Result := DefaultInterface.SessionParameters;
 end;
 
-procedure TUAClientAdaptableParameters._Set_SessionParameters(const pRetVal: _UASmartSessionParameters);
+procedure TUAClientAdaptableParameters._Set_SessionParameters(const pRetVal: _UASmartClientSessionParameters);
 begin
   DefaultInterface.SessionParameters := pRetVal;
 end;
@@ -54987,6 +55169,16 @@ begin
   DefaultInterface.CertificateAcceptancePolicy := pRetVal;
 end;
 
+function TUAClientServerEngineParameters.Get_ConfigurationPropertyOverrides: _StringObjectDictionary;
+begin
+  Result := DefaultInterface.ConfigurationPropertyOverrides;
+end;
+
+procedure TUAClientServerEngineParameters._Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary);
+begin
+  DefaultInterface.ConfigurationPropertyOverrides := pRetVal;
+end;
+
 function TUAClientServerEngineParameters.Get_ConfigurationSources: UAConfigurationSources;
 begin
   Result := DefaultInterface.ConfigurationSources;
@@ -55068,6 +55260,166 @@ begin
 end;
 
 procedure TUAClientServerEngineParameters.Reset;
+begin
+  DefaultInterface.Reset;
+end;
+
+class function CoEasyUAClientInstanceParameters.Create: _EasyUAClientInstanceParameters;
+begin
+  Result := CreateComObject(CLASS_EasyUAClientInstanceParameters) as _EasyUAClientInstanceParameters;
+end;
+
+class function CoEasyUAClientInstanceParameters.CreateRemote(const MachineName: string): _EasyUAClientInstanceParameters;
+begin
+  Result := CreateRemoteComObject(MachineName, CLASS_EasyUAClientInstanceParameters) as _EasyUAClientInstanceParameters;
+end;
+
+procedure TEasyUAClientInstanceParameters.InitServerData;
+const
+  CServerData: TServerData = (
+    ClassID:   '{BC714148-D729-4F62-9D1E-BF4CF1950553}';
+    IntfIID:   '{0B31304A-2B75-4F8E-B46E-321CE71879EC}';
+    EventIID:  '';
+    LicenseKey: nil;
+    Version: 500);
+begin
+  ServerData := @CServerData;
+end;
+
+procedure TEasyUAClientInstanceParameters.Connect;
+var
+  punk: IUnknown;
+begin
+  if FIntf = nil then
+  begin
+    punk := GetServer;
+    Fintf:= punk as _EasyUAClientInstanceParameters;
+  end;
+end;
+
+procedure TEasyUAClientInstanceParameters.ConnectTo(svrIntf: _EasyUAClientInstanceParameters);
+begin
+  Disconnect;
+  FIntf := svrIntf;
+end;
+
+procedure TEasyUAClientInstanceParameters.DisConnect;
+begin
+  if Fintf <> nil then
+  begin
+    FIntf := nil;
+  end;
+end;
+
+function TEasyUAClientInstanceParameters.GetDefaultInterface: _EasyUAClientInstanceParameters;
+begin
+  if FIntf = nil then
+    Connect;
+  Assert(FIntf <> nil, 'DefaultInterface is NULL. Component is not connected to Server. You must call "Connect" or "ConnectTo" before this operation');
+  Result := FIntf;
+end;
+
+constructor TEasyUAClientInstanceParameters.Create(AOwner: TComponent);
+begin
+  inherited Create(AOwner);
+end;
+
+destructor TEasyUAClientInstanceParameters.Destroy;
+begin
+  inherited Destroy;
+end;
+
+function TEasyUAClientInstanceParameters.Get_ToString: WideString;
+begin
+  Result := DefaultInterface.ToString;
+end;
+
+function TEasyUAClientInstanceParameters.Get_DisplayString: WideString;
+begin
+  Result := DefaultInterface.DisplayString;
+end;
+
+function TEasyUAClientInstanceParameters.Get_StandardName: WideString;
+begin
+  Result := DefaultInterface.StandardName;
+end;
+
+procedure TEasyUAClientInstanceParameters.Set_StandardName(const pRetVal: WideString);
+begin
+  DefaultInterface.StandardName := pRetVal;
+end;
+
+function TEasyUAClientInstanceParameters.Get_PluginConfigurations: _ConfigurationPartCollection;
+begin
+  Result := DefaultInterface.PluginConfigurations;
+end;
+
+procedure TEasyUAClientInstanceParameters._Set_PluginConfigurations(const pRetVal: _ConfigurationPartCollection);
+begin
+  DefaultInterface.PluginConfigurations := pRetVal;
+end;
+
+function TEasyUAClientInstanceParameters.Get_PluginSetups: _PluginSetupCollection;
+begin
+  Result := DefaultInterface.PluginSetups;
+end;
+
+procedure TEasyUAClientInstanceParameters._Set_PluginSetups(const pRetVal: _PluginSetupCollection);
+begin
+  DefaultInterface.PluginSetups := pRetVal;
+end;
+
+function TEasyUAClientInstanceParameters.Get_DiscoveryHost: WideString;
+begin
+  Result := DefaultInterface.DiscoveryHost;
+end;
+
+procedure TEasyUAClientInstanceParameters.Set_DiscoveryHost(const pRetVal: WideString);
+begin
+  DefaultInterface.DiscoveryHost := pRetVal;
+end;
+
+function TEasyUAClientInstanceParameters.Get_EnableModelCaching: WordBool;
+begin
+  Result := DefaultInterface.EnableModelCaching;
+end;
+
+procedure TEasyUAClientInstanceParameters.Set_EnableModelCaching(pRetVal: WordBool);
+begin
+  DefaultInterface.EnableModelCaching := pRetVal;
+end;
+
+function TEasyUAClientInstanceParameters.Get_Mode: _EasyUAClientMode;
+begin
+  Result := DefaultInterface.Mode;
+end;
+
+procedure TEasyUAClientInstanceParameters._Set_Mode(const pRetVal: _EasyUAClientMode);
+begin
+  DefaultInterface.Mode := pRetVal;
+end;
+
+function TEasyUAClientInstanceParameters.Equals(obj: OleVariant): WordBool;
+begin
+  Result := DefaultInterface.Equals(obj);
+end;
+
+function TEasyUAClientInstanceParameters.GetHashCode: Integer;
+begin
+  Result := DefaultInterface.GetHashCode;
+end;
+
+function TEasyUAClientInstanceParameters.GetType: _Type;
+begin
+  Result := DefaultInterface.GetType;
+end;
+
+function TEasyUAClientInstanceParameters.Clone: OleVariant;
+begin
+  Result := DefaultInterface.Clone;
+end;
+
+procedure TEasyUAClientInstanceParameters.Reset;
 begin
   DefaultInterface.Reset;
 end;
@@ -55177,177 +55529,17 @@ begin
   Result := DefaultInterface.Clone;
 end;
 
-class function CoEasyUAInstanceParameters.Create: _EasyUAInstanceParameters;
+class function CoEasyUAClientSharedParameters.Create: _EasyUAClientSharedParameters;
 begin
-  Result := CreateComObject(CLASS_EasyUAInstanceParameters) as _EasyUAInstanceParameters;
+  Result := CreateComObject(CLASS_EasyUAClientSharedParameters) as _EasyUAClientSharedParameters;
 end;
 
-class function CoEasyUAInstanceParameters.CreateRemote(const MachineName: string): _EasyUAInstanceParameters;
+class function CoEasyUAClientSharedParameters.CreateRemote(const MachineName: string): _EasyUAClientSharedParameters;
 begin
-  Result := CreateRemoteComObject(MachineName, CLASS_EasyUAInstanceParameters) as _EasyUAInstanceParameters;
+  Result := CreateRemoteComObject(MachineName, CLASS_EasyUAClientSharedParameters) as _EasyUAClientSharedParameters;
 end;
 
-procedure TEasyUAInstanceParameters.InitServerData;
-const
-  CServerData: TServerData = (
-    ClassID:   '{BC714148-D729-4F62-9D1E-BF4CF1950553}';
-    IntfIID:   '{0B31304A-2B75-4F8E-B46E-321CE71879EC}';
-    EventIID:  '';
-    LicenseKey: nil;
-    Version: 500);
-begin
-  ServerData := @CServerData;
-end;
-
-procedure TEasyUAInstanceParameters.Connect;
-var
-  punk: IUnknown;
-begin
-  if FIntf = nil then
-  begin
-    punk := GetServer;
-    Fintf:= punk as _EasyUAInstanceParameters;
-  end;
-end;
-
-procedure TEasyUAInstanceParameters.ConnectTo(svrIntf: _EasyUAInstanceParameters);
-begin
-  Disconnect;
-  FIntf := svrIntf;
-end;
-
-procedure TEasyUAInstanceParameters.DisConnect;
-begin
-  if Fintf <> nil then
-  begin
-    FIntf := nil;
-  end;
-end;
-
-function TEasyUAInstanceParameters.GetDefaultInterface: _EasyUAInstanceParameters;
-begin
-  if FIntf = nil then
-    Connect;
-  Assert(FIntf <> nil, 'DefaultInterface is NULL. Component is not connected to Server. You must call "Connect" or "ConnectTo" before this operation');
-  Result := FIntf;
-end;
-
-constructor TEasyUAInstanceParameters.Create(AOwner: TComponent);
-begin
-  inherited Create(AOwner);
-end;
-
-destructor TEasyUAInstanceParameters.Destroy;
-begin
-  inherited Destroy;
-end;
-
-function TEasyUAInstanceParameters.Get_ToString: WideString;
-begin
-  Result := DefaultInterface.ToString;
-end;
-
-function TEasyUAInstanceParameters.Get_DisplayString: WideString;
-begin
-  Result := DefaultInterface.DisplayString;
-end;
-
-function TEasyUAInstanceParameters.Get_StandardName: WideString;
-begin
-  Result := DefaultInterface.StandardName;
-end;
-
-procedure TEasyUAInstanceParameters.Set_StandardName(const pRetVal: WideString);
-begin
-  DefaultInterface.StandardName := pRetVal;
-end;
-
-function TEasyUAInstanceParameters.Get_PluginConfigurations: _ConfigurationPartCollection;
-begin
-  Result := DefaultInterface.PluginConfigurations;
-end;
-
-procedure TEasyUAInstanceParameters._Set_PluginConfigurations(const pRetVal: _ConfigurationPartCollection);
-begin
-  DefaultInterface.PluginConfigurations := pRetVal;
-end;
-
-function TEasyUAInstanceParameters.Get_PluginSetups: _PluginSetupCollection;
-begin
-  Result := DefaultInterface.PluginSetups;
-end;
-
-procedure TEasyUAInstanceParameters._Set_PluginSetups(const pRetVal: _PluginSetupCollection);
-begin
-  DefaultInterface.PluginSetups := pRetVal;
-end;
-
-function TEasyUAInstanceParameters.Get_DiscoveryHost: WideString;
-begin
-  Result := DefaultInterface.DiscoveryHost;
-end;
-
-procedure TEasyUAInstanceParameters.Set_DiscoveryHost(const pRetVal: WideString);
-begin
-  DefaultInterface.DiscoveryHost := pRetVal;
-end;
-
-function TEasyUAInstanceParameters.Get_EnableModelCaching: WordBool;
-begin
-  Result := DefaultInterface.EnableModelCaching;
-end;
-
-procedure TEasyUAInstanceParameters.Set_EnableModelCaching(pRetVal: WordBool);
-begin
-  DefaultInterface.EnableModelCaching := pRetVal;
-end;
-
-function TEasyUAInstanceParameters.Get_Mode: _EasyUAClientMode;
-begin
-  Result := DefaultInterface.Mode;
-end;
-
-procedure TEasyUAInstanceParameters._Set_Mode(const pRetVal: _EasyUAClientMode);
-begin
-  DefaultInterface.Mode := pRetVal;
-end;
-
-function TEasyUAInstanceParameters.Equals(obj: OleVariant): WordBool;
-begin
-  Result := DefaultInterface.Equals(obj);
-end;
-
-function TEasyUAInstanceParameters.GetHashCode: Integer;
-begin
-  Result := DefaultInterface.GetHashCode;
-end;
-
-function TEasyUAInstanceParameters.GetType: _Type;
-begin
-  Result := DefaultInterface.GetType;
-end;
-
-function TEasyUAInstanceParameters.Clone: OleVariant;
-begin
-  Result := DefaultInterface.Clone;
-end;
-
-procedure TEasyUAInstanceParameters.Reset;
-begin
-  DefaultInterface.Reset;
-end;
-
-class function CoEasyUASharedParameters.Create: _EasyUASharedParameters;
-begin
-  Result := CreateComObject(CLASS_EasyUASharedParameters) as _EasyUASharedParameters;
-end;
-
-class function CoEasyUASharedParameters.CreateRemote(const MachineName: string): _EasyUASharedParameters;
-begin
-  Result := CreateRemoteComObject(MachineName, CLASS_EasyUASharedParameters) as _EasyUASharedParameters;
-end;
-
-procedure TEasyUASharedParameters.InitServerData;
+procedure TEasyUAClientSharedParameters.InitServerData;
 const
   CServerData: TServerData = (
     ClassID:   '{F77A673B-9C49-4511-BDA8-97CA0DD1F48F}';
@@ -55359,24 +55551,24 @@ begin
   ServerData := @CServerData;
 end;
 
-procedure TEasyUASharedParameters.Connect;
+procedure TEasyUAClientSharedParameters.Connect;
 var
   punk: IUnknown;
 begin
   if FIntf = nil then
   begin
     punk := GetServer;
-    Fintf:= punk as _EasyUASharedParameters;
+    Fintf:= punk as _EasyUAClientSharedParameters;
   end;
 end;
 
-procedure TEasyUASharedParameters.ConnectTo(svrIntf: _EasyUASharedParameters);
+procedure TEasyUAClientSharedParameters.ConnectTo(svrIntf: _EasyUAClientSharedParameters);
 begin
   Disconnect;
   FIntf := svrIntf;
 end;
 
-procedure TEasyUASharedParameters.DisConnect;
+procedure TEasyUAClientSharedParameters.DisConnect;
 begin
   if Fintf <> nil then
   begin
@@ -55384,7 +55576,7 @@ begin
   end;
 end;
 
-function TEasyUASharedParameters.GetDefaultInterface: _EasyUASharedParameters;
+function TEasyUAClientSharedParameters.GetDefaultInterface: _EasyUAClientSharedParameters;
 begin
   if FIntf = nil then
     Connect;
@@ -55392,87 +55584,87 @@ begin
   Result := FIntf;
 end;
 
-constructor TEasyUASharedParameters.Create(AOwner: TComponent);
+constructor TEasyUAClientSharedParameters.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
 end;
 
-destructor TEasyUASharedParameters.Destroy;
+destructor TEasyUAClientSharedParameters.Destroy;
 begin
   inherited Destroy;
 end;
 
-function TEasyUASharedParameters.Get_ToString: WideString;
+function TEasyUAClientSharedParameters.Get_ToString: WideString;
 begin
   Result := DefaultInterface.ToString;
 end;
 
-function TEasyUASharedParameters.Get_DisplayString: WideString;
+function TEasyUAClientSharedParameters.Get_DisplayString: WideString;
 begin
   Result := DefaultInterface.DisplayString;
 end;
 
-function TEasyUASharedParameters.Get_StandardName: WideString;
+function TEasyUAClientSharedParameters.Get_StandardName: WideString;
 begin
   Result := DefaultInterface.StandardName;
 end;
 
-procedure TEasyUASharedParameters.Set_StandardName(const pRetVal: WideString);
+procedure TEasyUAClientSharedParameters.Set_StandardName(const pRetVal: WideString);
 begin
   DefaultInterface.StandardName := pRetVal;
 end;
 
-function TEasyUASharedParameters.Get_PluginConfigurations: _ConfigurationPartCollection;
+function TEasyUAClientSharedParameters.Get_PluginConfigurations: _ConfigurationPartCollection;
 begin
   Result := DefaultInterface.PluginConfigurations;
 end;
 
-procedure TEasyUASharedParameters._Set_PluginConfigurations(const pRetVal: _ConfigurationPartCollection);
+procedure TEasyUAClientSharedParameters._Set_PluginConfigurations(const pRetVal: _ConfigurationPartCollection);
 begin
   DefaultInterface.PluginConfigurations := pRetVal;
 end;
 
-function TEasyUASharedParameters.Get_PluginSetups: _PluginSetupCollection;
+function TEasyUAClientSharedParameters.Get_PluginSetups: _PluginSetupCollection;
 begin
   Result := DefaultInterface.PluginSetups;
 end;
 
-procedure TEasyUASharedParameters._Set_PluginSetups(const pRetVal: _PluginSetupCollection);
+procedure TEasyUAClientSharedParameters._Set_PluginSetups(const pRetVal: _PluginSetupCollection);
 begin
   DefaultInterface.PluginSetups := pRetVal;
 end;
 
-function TEasyUASharedParameters.Get_EngineParameters: _EasyUAEngineParameters;
+function TEasyUAClientSharedParameters.Get_EngineParameters: _EasyUAClientEngineParameters;
 begin
   Result := DefaultInterface.EngineParameters;
 end;
 
-procedure TEasyUASharedParameters._Set_EngineParameters(const pRetVal: _EasyUAEngineParameters);
+procedure TEasyUAClientSharedParameters._Set_EngineParameters(const pRetVal: _EasyUAClientEngineParameters);
 begin
   DefaultInterface.EngineParameters := pRetVal;
 end;
 
-function TEasyUASharedParameters.Equals(obj: OleVariant): WordBool;
+function TEasyUAClientSharedParameters.Equals(obj: OleVariant): WordBool;
 begin
   Result := DefaultInterface.Equals(obj);
 end;
 
-function TEasyUASharedParameters.GetHashCode: Integer;
+function TEasyUAClientSharedParameters.GetHashCode: Integer;
 begin
   Result := DefaultInterface.GetHashCode;
 end;
 
-function TEasyUASharedParameters.GetType: _Type;
+function TEasyUAClientSharedParameters.GetType: _Type;
 begin
   Result := DefaultInterface.GetType;
 end;
 
-function TEasyUASharedParameters.Clone: OleVariant;
+function TEasyUAClientSharedParameters.Clone: OleVariant;
 begin
   Result := DefaultInterface.Clone;
 end;
 
-procedure TEasyUASharedParameters.Reset;
+procedure TEasyUAClientSharedParameters.Reset;
 begin
   DefaultInterface.Reset;
 end;
@@ -55667,17 +55859,17 @@ begin
   DefaultInterface.TrustEndpointUrlString(endpointUrlString);
 end;
 
-class function CoEasyUAAdaptableParameters.Create: _EasyUAAdaptableParameters;
+class function CoEasyUAClientAdaptableParameters.Create: _EasyUAClientAdaptableParameters;
 begin
-  Result := CreateComObject(CLASS_EasyUAAdaptableParameters) as _EasyUAAdaptableParameters;
+  Result := CreateComObject(CLASS_EasyUAClientAdaptableParameters) as _EasyUAClientAdaptableParameters;
 end;
 
-class function CoEasyUAAdaptableParameters.CreateRemote(const MachineName: string): _EasyUAAdaptableParameters;
+class function CoEasyUAClientAdaptableParameters.CreateRemote(const MachineName: string): _EasyUAClientAdaptableParameters;
 begin
-  Result := CreateRemoteComObject(MachineName, CLASS_EasyUAAdaptableParameters) as _EasyUAAdaptableParameters;
+  Result := CreateRemoteComObject(MachineName, CLASS_EasyUAClientAdaptableParameters) as _EasyUAClientAdaptableParameters;
 end;
 
-procedure TEasyUAAdaptableParameters.InitServerData;
+procedure TEasyUAClientAdaptableParameters.InitServerData;
 const
   CServerData: TServerData = (
     ClassID:   '{8BF0C2BC-4A7B-401E-9A3F-4D09F4000A43}';
@@ -55689,24 +55881,24 @@ begin
   ServerData := @CServerData;
 end;
 
-procedure TEasyUAAdaptableParameters.Connect;
+procedure TEasyUAClientAdaptableParameters.Connect;
 var
   punk: IUnknown;
 begin
   if FIntf = nil then
   begin
     punk := GetServer;
-    Fintf:= punk as _EasyUAAdaptableParameters;
+    Fintf:= punk as _EasyUAClientAdaptableParameters;
   end;
 end;
 
-procedure TEasyUAAdaptableParameters.ConnectTo(svrIntf: _EasyUAAdaptableParameters);
+procedure TEasyUAClientAdaptableParameters.ConnectTo(svrIntf: _EasyUAClientAdaptableParameters);
 begin
   Disconnect;
   FIntf := svrIntf;
 end;
 
-procedure TEasyUAAdaptableParameters.DisConnect;
+procedure TEasyUAClientAdaptableParameters.DisConnect;
 begin
   if Fintf <> nil then
   begin
@@ -55714,7 +55906,7 @@ begin
   end;
 end;
 
-function TEasyUAAdaptableParameters.GetDefaultInterface: _EasyUAAdaptableParameters;
+function TEasyUAClientAdaptableParameters.GetDefaultInterface: _EasyUAClientAdaptableParameters;
 begin
   if FIntf = nil then
     Connect;
@@ -55722,107 +55914,107 @@ begin
   Result := FIntf;
 end;
 
-constructor TEasyUAAdaptableParameters.Create(AOwner: TComponent);
+constructor TEasyUAClientAdaptableParameters.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
 end;
 
-destructor TEasyUAAdaptableParameters.Destroy;
+destructor TEasyUAClientAdaptableParameters.Destroy;
 begin
   inherited Destroy;
 end;
 
-function TEasyUAAdaptableParameters.Get_ToString: WideString;
+function TEasyUAClientAdaptableParameters.Get_ToString: WideString;
 begin
   Result := DefaultInterface.ToString;
 end;
 
-function TEasyUAAdaptableParameters.Get_DisplayString: WideString;
+function TEasyUAClientAdaptableParameters.Get_DisplayString: WideString;
 begin
   Result := DefaultInterface.DisplayString;
 end;
 
-function TEasyUAAdaptableParameters.Get_StandardName: WideString;
+function TEasyUAClientAdaptableParameters.Get_StandardName: WideString;
 begin
   Result := DefaultInterface.StandardName;
 end;
 
-procedure TEasyUAAdaptableParameters.Set_StandardName(const pRetVal: WideString);
+procedure TEasyUAClientAdaptableParameters.Set_StandardName(const pRetVal: WideString);
 begin
   DefaultInterface.StandardName := pRetVal;
 end;
 
-function TEasyUAAdaptableParameters.Get_DiscoveryParameters: _UADiscoveryParameters;
+function TEasyUAClientAdaptableParameters.Get_DiscoveryParameters: _UADiscoveryParameters;
 begin
   Result := DefaultInterface.DiscoveryParameters;
 end;
 
-procedure TEasyUAAdaptableParameters._Set_DiscoveryParameters(const pRetVal: _UADiscoveryParameters);
+procedure TEasyUAClientAdaptableParameters._Set_DiscoveryParameters(const pRetVal: _UADiscoveryParameters);
 begin
   DefaultInterface.DiscoveryParameters := pRetVal;
 end;
 
-function TEasyUAAdaptableParameters.Get_HostParameters: _UAHostParameters;
+function TEasyUAClientAdaptableParameters.Get_HostParameters: _UAHostParameters;
 begin
   Result := DefaultInterface.HostParameters;
 end;
 
-procedure TEasyUAAdaptableParameters._Set_HostParameters(const pRetVal: _UAHostParameters);
+procedure TEasyUAClientAdaptableParameters._Set_HostParameters(const pRetVal: _UAHostParameters);
 begin
   DefaultInterface.HostParameters := pRetVal;
 end;
 
-function TEasyUAAdaptableParameters.Get_MonitoredItemParameters: _UAClientMonitoredItemParameters;
+function TEasyUAClientAdaptableParameters.Get_MonitoredItemParameters: _UAClientMonitoredItemParameters;
 begin
   Result := DefaultInterface.MonitoredItemParameters;
 end;
 
-procedure TEasyUAAdaptableParameters._Set_MonitoredItemParameters(const pRetVal: _UAClientMonitoredItemParameters);
+procedure TEasyUAClientAdaptableParameters._Set_MonitoredItemParameters(const pRetVal: _UAClientMonitoredItemParameters);
 begin
   DefaultInterface.MonitoredItemParameters := pRetVal;
 end;
 
-function TEasyUAAdaptableParameters.Get_SessionParameters: _UASmartSessionParameters;
+function TEasyUAClientAdaptableParameters.Get_SessionParameters: _UASmartClientSessionParameters;
 begin
   Result := DefaultInterface.SessionParameters;
 end;
 
-procedure TEasyUAAdaptableParameters._Set_SessionParameters(const pRetVal: _UASmartSessionParameters);
+procedure TEasyUAClientAdaptableParameters._Set_SessionParameters(const pRetVal: _UASmartClientSessionParameters);
 begin
   DefaultInterface.SessionParameters := pRetVal;
 end;
 
-function TEasyUAAdaptableParameters.Get_SubscriptionParameters: _UAClientSubscriptionParameters;
+function TEasyUAClientAdaptableParameters.Get_SubscriptionParameters: _UAClientSubscriptionParameters;
 begin
   Result := DefaultInterface.SubscriptionParameters;
 end;
 
-procedure TEasyUAAdaptableParameters._Set_SubscriptionParameters(const pRetVal: _UAClientSubscriptionParameters);
+procedure TEasyUAClientAdaptableParameters._Set_SubscriptionParameters(const pRetVal: _UAClientSubscriptionParameters);
 begin
   DefaultInterface.SubscriptionParameters := pRetVal;
 end;
 
-function TEasyUAAdaptableParameters.Equals(obj: OleVariant): WordBool;
+function TEasyUAClientAdaptableParameters.Equals(obj: OleVariant): WordBool;
 begin
   Result := DefaultInterface.Equals(obj);
 end;
 
-function TEasyUAAdaptableParameters.GetHashCode: Integer;
+function TEasyUAClientAdaptableParameters.GetHashCode: Integer;
 begin
   Result := DefaultInterface.GetHashCode;
 end;
 
-function TEasyUAAdaptableParameters.GetType: _Type;
+function TEasyUAClientAdaptableParameters.GetType: _Type;
 begin
   Result := DefaultInterface.GetType;
 end;
 
-function TEasyUAAdaptableParameters.Clone: OleVariant;
+function TEasyUAClientAdaptableParameters.Clone: OleVariant;
 begin
   Result := DefaultInterface.Clone;
 end;
 
-procedure TEasyUAAdaptableParameters.Reset;
+procedure TEasyUAClientAdaptableParameters.Reset;
 begin
   DefaultInterface.Reset;
 end;
@@ -55920,6 +56112,16 @@ end;
 procedure TUAClientEngineParameters._Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
 begin
   DefaultInterface.CertificateAcceptancePolicy := pRetVal;
+end;
+
+function TUAClientEngineParameters.Get_ConfigurationPropertyOverrides: _StringObjectDictionary;
+begin
+  Result := DefaultInterface.ConfigurationPropertyOverrides;
+end;
+
+procedure TUAClientEngineParameters._Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary);
+begin
+  DefaultInterface.ConfigurationPropertyOverrides := pRetVal;
 end;
 
 function TUAClientEngineParameters.Get_ConfigurationSources: UAConfigurationSources;
@@ -56312,6 +56514,26 @@ begin
   DefaultInterface.AutoTrustInstanceCertificate := pRetVal;
 end;
 
+function TUAClientServerApplicationParameters.Get_HostNames: _StringCollection;
+begin
+  Result := DefaultInterface.HostNames;
+end;
+
+procedure TUAClientServerApplicationParameters._Set_HostNames(const pRetVal: _StringCollection);
+begin
+  DefaultInterface.HostNames := pRetVal;
+end;
+
+function TUAClientServerApplicationParameters.Get_HostNamesString: WideString;
+begin
+  Result := DefaultInterface.HostNamesString;
+end;
+
+procedure TUAClientServerApplicationParameters.Set_HostNamesString(const pRetVal: WideString);
+begin
+  DefaultInterface.HostNamesString := pRetVal;
+end;
+
 function TUAClientServerApplicationParameters.Get_InstanceCertificateGenerationParameters: _CertificateGenerationParameters;
 begin
   Result := DefaultInterface.InstanceCertificateGenerationParameters;
@@ -56392,17 +56614,17 @@ begin
   DefaultInterface.Reset;
 end;
 
-class function CoEasyUAEngineParameters.Create: _EasyUAEngineParameters;
+class function CoEasyUAClientEngineParameters.Create: _EasyUAClientEngineParameters;
 begin
-  Result := CreateComObject(CLASS_EasyUAEngineParameters) as _EasyUAEngineParameters;
+  Result := CreateComObject(CLASS_EasyUAClientEngineParameters) as _EasyUAClientEngineParameters;
 end;
 
-class function CoEasyUAEngineParameters.CreateRemote(const MachineName: string): _EasyUAEngineParameters;
+class function CoEasyUAClientEngineParameters.CreateRemote(const MachineName: string): _EasyUAClientEngineParameters;
 begin
-  Result := CreateRemoteComObject(MachineName, CLASS_EasyUAEngineParameters) as _EasyUAEngineParameters;
+  Result := CreateRemoteComObject(MachineName, CLASS_EasyUAClientEngineParameters) as _EasyUAClientEngineParameters;
 end;
 
-procedure TEasyUAEngineParameters.InitServerData;
+procedure TEasyUAClientEngineParameters.InitServerData;
 const
   CServerData: TServerData = (
     ClassID:   '{06C9F127-61C2-4959-97FB-2BB3520DAAA8}';
@@ -56414,24 +56636,24 @@ begin
   ServerData := @CServerData;
 end;
 
-procedure TEasyUAEngineParameters.Connect;
+procedure TEasyUAClientEngineParameters.Connect;
 var
   punk: IUnknown;
 begin
   if FIntf = nil then
   begin
     punk := GetServer;
-    Fintf:= punk as _EasyUAEngineParameters;
+    Fintf:= punk as _EasyUAClientEngineParameters;
   end;
 end;
 
-procedure TEasyUAEngineParameters.ConnectTo(svrIntf: _EasyUAEngineParameters);
+procedure TEasyUAClientEngineParameters.ConnectTo(svrIntf: _EasyUAClientEngineParameters);
 begin
   Disconnect;
   FIntf := svrIntf;
 end;
 
-procedure TEasyUAEngineParameters.DisConnect;
+procedure TEasyUAClientEngineParameters.DisConnect;
 begin
   if Fintf <> nil then
   begin
@@ -56439,7 +56661,7 @@ begin
   end;
 end;
 
-function TEasyUAEngineParameters.GetDefaultInterface: _EasyUAEngineParameters;
+function TEasyUAClientEngineParameters.GetDefaultInterface: _EasyUAClientEngineParameters;
 begin
   if FIntf = nil then
     Connect;
@@ -56447,197 +56669,207 @@ begin
   Result := FIntf;
 end;
 
-constructor TEasyUAEngineParameters.Create(AOwner: TComponent);
+constructor TEasyUAClientEngineParameters.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
 end;
 
-destructor TEasyUAEngineParameters.Destroy;
+destructor TEasyUAClientEngineParameters.Destroy;
 begin
   inherited Destroy;
 end;
 
-function TEasyUAEngineParameters.Get_ToString: WideString;
+function TEasyUAClientEngineParameters.Get_ToString: WideString;
 begin
   Result := DefaultInterface.ToString;
 end;
 
-function TEasyUAEngineParameters.Get_DisplayString: WideString;
+function TEasyUAClientEngineParameters.Get_DisplayString: WideString;
 begin
   Result := DefaultInterface.DisplayString;
 end;
 
-function TEasyUAEngineParameters.Get_StandardName: WideString;
+function TEasyUAClientEngineParameters.Get_StandardName: WideString;
 begin
   Result := DefaultInterface.StandardName;
 end;
 
-procedure TEasyUAEngineParameters.Set_StandardName(const pRetVal: WideString);
+procedure TEasyUAClientEngineParameters.Set_StandardName(const pRetVal: WideString);
 begin
   DefaultInterface.StandardName := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
+function TEasyUAClientEngineParameters.Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
 begin
   Result := DefaultInterface.CertificateAcceptancePolicy;
 end;
 
-procedure TEasyUAEngineParameters._Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
+procedure TEasyUAClientEngineParameters._Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
 begin
   DefaultInterface.CertificateAcceptancePolicy := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_ConfigurationSources: UAConfigurationSources;
+function TEasyUAClientEngineParameters.Get_ConfigurationPropertyOverrides: _StringObjectDictionary;
+begin
+  Result := DefaultInterface.ConfigurationPropertyOverrides;
+end;
+
+procedure TEasyUAClientEngineParameters._Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary);
+begin
+  DefaultInterface.ConfigurationPropertyOverrides := pRetVal;
+end;
+
+function TEasyUAClientEngineParameters.Get_ConfigurationSources: UAConfigurationSources;
 begin
   Result := DefaultInterface.ConfigurationSources;
 end;
 
-procedure TEasyUAEngineParameters.Set_ConfigurationSources(pRetVal: UAConfigurationSources);
+procedure TEasyUAClientEngineParameters.Set_ConfigurationSources(pRetVal: UAConfigurationSources);
 begin
   DefaultInterface.ConfigurationSources := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_DebuggerDetectionOverride: Sign;
+function TEasyUAClientEngineParameters.Get_DebuggerDetectionOverride: Sign;
 begin
   Result := DefaultInterface.DebuggerDetectionOverride;
 end;
 
-procedure TEasyUAEngineParameters.Set_DebuggerDetectionOverride(pRetVal: Sign);
+procedure TEasyUAClientEngineParameters.Set_DebuggerDetectionOverride(pRetVal: Sign);
 begin
   DefaultInterface.DebuggerDetectionOverride := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_gdsEndpointDescriptor: _UAEndpointDescriptor;
+function TEasyUAClientEngineParameters.Get_gdsEndpointDescriptor: _UAEndpointDescriptor;
 begin
   Result := DefaultInterface.gdsEndpointDescriptor;
 end;
 
-procedure TEasyUAEngineParameters._Set_gdsEndpointDescriptor(const pRetVal: _UAEndpointDescriptor);
+procedure TEasyUAClientEngineParameters._Set_gdsEndpointDescriptor(const pRetVal: _UAEndpointDescriptor);
 begin
   DefaultInterface.gdsEndpointDescriptor := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_RetrialDelay: Integer;
+function TEasyUAClientEngineParameters.Get_RetrialDelay: Integer;
 begin
   Result := DefaultInterface.RetrialDelay;
 end;
 
-procedure TEasyUAEngineParameters.Set_RetrialDelay(pRetVal: Integer);
+procedure TEasyUAClientEngineParameters.Set_RetrialDelay(pRetVal: Integer);
 begin
   DefaultInterface.RetrialDelay := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_ReconnectionPeriod: Integer;
+function TEasyUAClientEngineParameters.Get_ReconnectionPeriod: Integer;
 begin
   Result := DefaultInterface.ReconnectionPeriod;
 end;
 
-procedure TEasyUAEngineParameters.Set_ReconnectionPeriod(pRetVal: Integer);
+procedure TEasyUAClientEngineParameters.Set_ReconnectionPeriod(pRetVal: Integer);
 begin
   DefaultInterface.ReconnectionPeriod := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_UserInteractionParameters: _UAUserInteractionParameters;
+function TEasyUAClientEngineParameters.Get_UserInteractionParameters: _UAUserInteractionParameters;
 begin
   Result := DefaultInterface.UserInteractionParameters;
 end;
 
-procedure TEasyUAEngineParameters._Set_UserInteractionParameters(const pRetVal: _UAUserInteractionParameters);
+procedure TEasyUAClientEngineParameters._Set_UserInteractionParameters(const pRetVal: _UAUserInteractionParameters);
 begin
   DefaultInterface.UserInteractionParameters := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
+function TEasyUAClientEngineParameters.Get_HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
 begin
   Result := DefaultInterface.HttpsCertificateAcceptancePolicy;
 end;
 
-procedure TEasyUAEngineParameters._Set_HttpsCertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
+procedure TEasyUAClientEngineParameters._Set_HttpsCertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
 begin
   DefaultInterface.HttpsCertificateAcceptancePolicy := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_UseCustomHttpsCertificateValidation: WordBool;
+function TEasyUAClientEngineParameters.Get_UseCustomHttpsCertificateValidation: WordBool;
 begin
   Result := DefaultInterface.UseCustomHttpsCertificateValidation;
 end;
 
-procedure TEasyUAEngineParameters.Set_UseCustomHttpsCertificateValidation(pRetVal: WordBool);
+procedure TEasyUAClientEngineParameters.Set_UseCustomHttpsCertificateValidation(pRetVal: WordBool);
 begin
   DefaultInterface.UseCustomHttpsCertificateValidation := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_GarbageCollectionPeriod: Integer;
+function TEasyUAClientEngineParameters.Get_GarbageCollectionPeriod: Integer;
 begin
   Result := DefaultInterface.GarbageCollectionPeriod;
 end;
 
-procedure TEasyUAEngineParameters.Set_GarbageCollectionPeriod(pRetVal: Integer);
+procedure TEasyUAClientEngineParameters.Set_GarbageCollectionPeriod(pRetVal: Integer);
 begin
   DefaultInterface.GarbageCollectionPeriod := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_MaximumDormantSessions: Integer;
+function TEasyUAClientEngineParameters.Get_MaximumDormantSessions: Integer;
 begin
   Result := DefaultInterface.MaximumDormantSessions;
 end;
 
-procedure TEasyUAEngineParameters.Set_MaximumDormantSessions(pRetVal: Integer);
+procedure TEasyUAClientEngineParameters.Set_MaximumDormantSessions(pRetVal: Integer);
 begin
   DefaultInterface.MaximumDormantSessions := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_AutomaticPublishingFactor: Single;
+function TEasyUAClientEngineParameters.Get_AutomaticPublishingFactor: Single;
 begin
   Result := DefaultInterface.AutomaticPublishingFactor;
 end;
 
-procedure TEasyUAEngineParameters.Set_AutomaticPublishingFactor(pRetVal: Single);
+procedure TEasyUAClientEngineParameters.Set_AutomaticPublishingFactor(pRetVal: Single);
 begin
   DefaultInterface.AutomaticPublishingFactor := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_FastestAutomaticPublishingInterval: Integer;
+function TEasyUAClientEngineParameters.Get_FastestAutomaticPublishingInterval: Integer;
 begin
   Result := DefaultInterface.FastestAutomaticPublishingInterval;
 end;
 
-procedure TEasyUAEngineParameters.Set_FastestAutomaticPublishingInterval(pRetVal: Integer);
+procedure TEasyUAClientEngineParameters.Set_FastestAutomaticPublishingInterval(pRetVal: Integer);
 begin
   DefaultInterface.FastestAutomaticPublishingInterval := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Get_RestrictToSupportedTypes: WordBool;
+function TEasyUAClientEngineParameters.Get_RestrictToSupportedTypes: WordBool;
 begin
   Result := DefaultInterface.RestrictToSupportedTypes;
 end;
 
-procedure TEasyUAEngineParameters.Set_RestrictToSupportedTypes(pRetVal: WordBool);
+procedure TEasyUAClientEngineParameters.Set_RestrictToSupportedTypes(pRetVal: WordBool);
 begin
   DefaultInterface.RestrictToSupportedTypes := pRetVal;
 end;
 
-function TEasyUAEngineParameters.Equals(obj: OleVariant): WordBool;
+function TEasyUAClientEngineParameters.Equals(obj: OleVariant): WordBool;
 begin
   Result := DefaultInterface.Equals(obj);
 end;
 
-function TEasyUAEngineParameters.GetHashCode: Integer;
+function TEasyUAClientEngineParameters.GetHashCode: Integer;
 begin
   Result := DefaultInterface.GetHashCode;
 end;
 
-function TEasyUAEngineParameters.GetType: _Type;
+function TEasyUAClientEngineParameters.GetType: _Type;
 begin
   Result := DefaultInterface.GetType;
 end;
 
-function TEasyUAEngineParameters.Clone: OleVariant;
+function TEasyUAClientEngineParameters.Clone: OleVariant;
 begin
   Result := DefaultInterface.Clone;
 end;
 
-procedure TEasyUAEngineParameters.Reset;
+procedure TEasyUAClientEngineParameters.Reset;
 begin
   DefaultInterface.Reset;
 end;
@@ -58237,17 +58469,17 @@ begin
   DefaultInterface.GetObjectData(info, context);
 end;
 
-class function CoUAEnhancedSessionParameters.Create: _UAClientSessionParameters;
+class function CoUAEnhancedClientSessionParameters.Create: _UAClientSessionParameters;
 begin
-  Result := CreateComObject(CLASS_UAEnhancedSessionParameters) as _UAClientSessionParameters;
+  Result := CreateComObject(CLASS_UAEnhancedClientSessionParameters) as _UAClientSessionParameters;
 end;
 
-class function CoUAEnhancedSessionParameters.CreateRemote(const MachineName: string): _UAClientSessionParameters;
+class function CoUAEnhancedClientSessionParameters.CreateRemote(const MachineName: string): _UAClientSessionParameters;
 begin
-  Result := CreateRemoteComObject(MachineName, CLASS_UAEnhancedSessionParameters) as _UAClientSessionParameters;
+  Result := CreateRemoteComObject(MachineName, CLASS_UAEnhancedClientSessionParameters) as _UAClientSessionParameters;
 end;
 
-procedure TUAEnhancedSessionParameters.InitServerData;
+procedure TUAEnhancedClientSessionParameters.InitServerData;
 const
   CServerData: TServerData = (
     ClassID:   '{3F2A5922-8393-486D-B8D2-FD82E006971F}';
@@ -58259,7 +58491,7 @@ begin
   ServerData := @CServerData;
 end;
 
-procedure TUAEnhancedSessionParameters.Connect;
+procedure TUAEnhancedClientSessionParameters.Connect;
 var
   punk: IUnknown;
 begin
@@ -58270,13 +58502,13 @@ begin
   end;
 end;
 
-procedure TUAEnhancedSessionParameters.ConnectTo(svrIntf: _UAClientSessionParameters);
+procedure TUAEnhancedClientSessionParameters.ConnectTo(svrIntf: _UAClientSessionParameters);
 begin
   Disconnect;
   FIntf := svrIntf;
 end;
 
-procedure TUAEnhancedSessionParameters.DisConnect;
+procedure TUAEnhancedClientSessionParameters.DisConnect;
 begin
   if Fintf <> nil then
   begin
@@ -58284,7 +58516,7 @@ begin
   end;
 end;
 
-function TUAEnhancedSessionParameters.GetDefaultInterface: _UAClientSessionParameters;
+function TUAEnhancedClientSessionParameters.GetDefaultInterface: _UAClientSessionParameters;
 begin
   if FIntf = nil then
     Connect;
@@ -58292,437 +58524,437 @@ begin
   Result := FIntf;
 end;
 
-constructor TUAEnhancedSessionParameters.Create(AOwner: TComponent);
+constructor TUAEnhancedClientSessionParameters.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
 end;
 
-destructor TUAEnhancedSessionParameters.Destroy;
+destructor TUAEnhancedClientSessionParameters.Destroy;
 begin
   inherited Destroy;
 end;
 
-function TUAEnhancedSessionParameters.Get_ToString: WideString;
+function TUAEnhancedClientSessionParameters.Get_ToString: WideString;
 begin
   Result := DefaultInterface.ToString;
 end;
 
-function TUAEnhancedSessionParameters.Get_DisplayString: WideString;
+function TUAEnhancedClientSessionParameters.Get_DisplayString: WideString;
 begin
   Result := DefaultInterface.DisplayString;
 end;
 
-function TUAEnhancedSessionParameters.Get_StandardName: WideString;
+function TUAEnhancedClientSessionParameters.Get_StandardName: WideString;
 begin
   Result := DefaultInterface.StandardName;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_StandardName(const pRetVal: WideString);
+procedure TUAEnhancedClientSessionParameters.Set_StandardName(const pRetVal: WideString);
 begin
   DefaultInterface.StandardName := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_AcknowledgedMessagesLimit: Integer;
+function TUAEnhancedClientSessionParameters.Get_AcknowledgedMessagesLimit: Integer;
 begin
   Result := DefaultInterface.AcknowledgedMessagesLimit;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_AcknowledgedMessagesLimit(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_AcknowledgedMessagesLimit(pRetVal: Integer);
 begin
   DefaultInterface.AcknowledgedMessagesLimit := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_AllowEndpointDomainPrompt: WordBool;
+function TUAEnhancedClientSessionParameters.Get_AllowEndpointDomainPrompt: WordBool;
 begin
   Result := DefaultInterface.AllowEndpointDomainPrompt;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_AllowEndpointDomainPrompt(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_AllowEndpointDomainPrompt(pRetVal: WordBool);
 begin
   DefaultInterface.AllowEndpointDomainPrompt := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_AlwaysPreselectEndpoint: WordBool;
+function TUAEnhancedClientSessionParameters.Get_AlwaysPreselectEndpoint: WordBool;
 begin
   Result := DefaultInterface.AlwaysPreselectEndpoint;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_AlwaysPreselectEndpoint(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_AlwaysPreselectEndpoint(pRetVal: WordBool);
 begin
   DefaultInterface.AlwaysPreselectEndpoint := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_CheckAvailableSequenceNumbers: WordBool;
+function TUAEnhancedClientSessionParameters.Get_CheckAvailableSequenceNumbers: WordBool;
 begin
   Result := DefaultInterface.CheckAvailableSequenceNumbers;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_CheckAvailableSequenceNumbers(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_CheckAvailableSequenceNumbers(pRetVal: WordBool);
 begin
   DefaultInterface.CheckAvailableSequenceNumbers := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_CheckBrowseResults: WordBool;
+function TUAEnhancedClientSessionParameters.Get_CheckBrowseResults: WordBool;
 begin
   Result := DefaultInterface.CheckBrowseResults;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_CheckBrowseResults(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_CheckBrowseResults(pRetVal: WordBool);
 begin
   DefaultInterface.CheckBrowseResults := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_CheckEndpointDomain: WordBool;
+function TUAEnhancedClientSessionParameters.Get_CheckEndpointDomain: WordBool;
 begin
   Result := DefaultInterface.CheckEndpointDomain;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_CheckEndpointDomain(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_CheckEndpointDomain(pRetVal: WordBool);
 begin
   DefaultInterface.CheckEndpointDomain := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_CheckNotificationMessage: WordBool;
+function TUAEnhancedClientSessionParameters.Get_CheckNotificationMessage: WordBool;
 begin
   Result := DefaultInterface.CheckNotificationMessage;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_CheckNotificationMessage(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_CheckNotificationMessage(pRetVal: WordBool);
 begin
   DefaultInterface.CheckNotificationMessage := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_CheckSessionId: WordBool;
+function TUAEnhancedClientSessionParameters.Get_CheckSessionId: WordBool;
 begin
   Result := DefaultInterface.CheckSessionId;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_CheckSessionId(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_CheckSessionId(pRetVal: WordBool);
 begin
   DefaultInterface.CheckSessionId := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_CloseTimeout: Integer;
+function TUAEnhancedClientSessionParameters.Get_CloseTimeout: Integer;
 begin
   Result := DefaultInterface.CloseTimeout;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_CloseTimeout(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_CloseTimeout(pRetVal: Integer);
 begin
   DefaultInterface.CloseTimeout := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_DiagnosticsMasks: UADiagnosticsMasks;
+function TUAEnhancedClientSessionParameters.Get_DiagnosticsMasks: UADiagnosticsMasks;
 begin
   Result := DefaultInterface.DiagnosticsMasks;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_DiagnosticsMasks(pRetVal: UADiagnosticsMasks);
+procedure TUAEnhancedClientSessionParameters.Set_DiagnosticsMasks(pRetVal: UADiagnosticsMasks);
 begin
   DefaultInterface.DiagnosticsMasks := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_EndpointDescriptionChecks: _UAEndpointDescriptionChecks;
+function TUAEnhancedClientSessionParameters.Get_EndpointDescriptionChecks: _UAEndpointDescriptionChecks;
 begin
   Result := DefaultInterface.EndpointDescriptionChecks;
 end;
 
-procedure TUAEnhancedSessionParameters._Set_EndpointDescriptionChecks(const pRetVal: _UAEndpointDescriptionChecks);
+procedure TUAEnhancedClientSessionParameters._Set_EndpointDescriptionChecks(const pRetVal: _UAEndpointDescriptionChecks);
 begin
   DefaultInterface.EndpointDescriptionChecks := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_EndpointSelectionPolicy: _UAEndpointSelectionPolicy;
+function TUAEnhancedClientSessionParameters.Get_EndpointSelectionPolicy: _UAEndpointSelectionPolicy;
 begin
   Result := DefaultInterface.EndpointSelectionPolicy;
 end;
 
-procedure TUAEnhancedSessionParameters._Set_EndpointSelectionPolicy(const pRetVal: _UAEndpointSelectionPolicy);
+procedure TUAEnhancedClientSessionParameters._Set_EndpointSelectionPolicy(const pRetVal: _UAEndpointSelectionPolicy);
 begin
   DefaultInterface.EndpointSelectionPolicy := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_EndpointSelectionTimeout: Integer;
+function TUAEnhancedClientSessionParameters.Get_EndpointSelectionTimeout: Integer;
 begin
   Result := DefaultInterface.EndpointSelectionTimeout;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_EndpointSelectionTimeout(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_EndpointSelectionTimeout(pRetVal: Integer);
 begin
   DefaultInterface.EndpointSelectionTimeout := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_KeepAliveInterval: Integer;
+function TUAEnhancedClientSessionParameters.Get_KeepAliveInterval: Integer;
 begin
   Result := DefaultInterface.KeepAliveInterval;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_KeepAliveInterval(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_KeepAliveInterval(pRetVal: Integer);
 begin
   DefaultInterface.KeepAliveInterval := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_KeepAliveIntervalDebug: Integer;
+function TUAEnhancedClientSessionParameters.Get_KeepAliveIntervalDebug: Integer;
 begin
   Result := DefaultInterface.KeepAliveIntervalDebug;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_KeepAliveIntervalDebug(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_KeepAliveIntervalDebug(pRetVal: Integer);
 begin
   DefaultInterface.KeepAliveIntervalDebug := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_LocaleId: WideString;
+function TUAEnhancedClientSessionParameters.Get_LocaleId: WideString;
 begin
   Result := DefaultInterface.LocaleId;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_LocaleId(const pRetVal: WideString);
+procedure TUAEnhancedClientSessionParameters.Set_LocaleId(const pRetVal: WideString);
 begin
   DefaultInterface.LocaleId := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_MaximumReferencesPerBrowseNode: Integer;
+function TUAEnhancedClientSessionParameters.Get_MaximumReferencesPerBrowseNode: Integer;
 begin
   Result := DefaultInterface.MaximumReferencesPerBrowseNode;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_MaximumReferencesPerBrowseNode(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_MaximumReferencesPerBrowseNode(pRetVal: Integer);
 begin
   DefaultInterface.MaximumReferencesPerBrowseNode := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_OperationTimeout: Integer;
+function TUAEnhancedClientSessionParameters.Get_OperationTimeout: Integer;
 begin
   Result := DefaultInterface.OperationTimeout;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_OperationTimeout(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_OperationTimeout(pRetVal: Integer);
 begin
   DefaultInterface.OperationTimeout := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_PendingMessagesLimit: Integer;
+function TUAEnhancedClientSessionParameters.Get_PendingMessagesLimit: Integer;
 begin
   Result := DefaultInterface.PendingMessagesLimit;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_PendingMessagesLimit(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_PendingMessagesLimit(pRetVal: Integer);
 begin
   DefaultInterface.PendingMessagesLimit := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_PreselectedEndpointValidityPeriod: Integer;
+function TUAEnhancedClientSessionParameters.Get_PreselectedEndpointValidityPeriod: Integer;
 begin
   Result := DefaultInterface.PreselectedEndpointValidityPeriod;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_PreselectedEndpointValidityPeriod(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_PreselectedEndpointValidityPeriod(pRetVal: Integer);
 begin
   DefaultInterface.PreselectedEndpointValidityPeriod := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_RequireMatchingServerSoftwareCertificates: WordBool;
+function TUAEnhancedClientSessionParameters.Get_RequireMatchingServerSoftwareCertificates: WordBool;
 begin
   Result := DefaultInterface.RequireMatchingServerSoftwareCertificates;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_RequireMatchingServerSoftwareCertificates(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_RequireMatchingServerSoftwareCertificates(pRetVal: WordBool);
 begin
   DefaultInterface.RequireMatchingServerSoftwareCertificates := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_RequireNonEmptyServerSignature: WordBool;
+function TUAEnhancedClientSessionParameters.Get_RequireNonEmptyServerSignature: WordBool;
 begin
   Result := DefaultInterface.RequireNonEmptyServerSignature;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_RequireNonEmptyServerSignature(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_RequireNonEmptyServerSignature(pRetVal: WordBool);
 begin
   DefaultInterface.RequireNonEmptyServerSignature := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_RequireServerEndpointsMatchDiscovery: WordBool;
+function TUAEnhancedClientSessionParameters.Get_RequireServerEndpointsMatchDiscovery: WordBool;
 begin
   Result := DefaultInterface.RequireServerEndpointsMatchDiscovery;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_RequireServerEndpointsMatchDiscovery(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_RequireServerEndpointsMatchDiscovery(pRetVal: WordBool);
 begin
   DefaultInterface.RequireServerEndpointsMatchDiscovery := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_RequireTimestampsAsRequested: WordBool;
+function TUAEnhancedClientSessionParameters.Get_RequireTimestampsAsRequested: WordBool;
 begin
   Result := DefaultInterface.RequireTimestampsAsRequested;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_RequireTimestampsAsRequested(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_RequireTimestampsAsRequested(pRetVal: WordBool);
 begin
   DefaultInterface.RequireTimestampsAsRequested := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_RequireUniqueAuthenticationToken: WordBool;
+function TUAEnhancedClientSessionParameters.Get_RequireUniqueAuthenticationToken: WordBool;
 begin
   Result := DefaultInterface.RequireUniqueAuthenticationToken;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_RequireUniqueAuthenticationToken(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_RequireUniqueAuthenticationToken(pRetVal: WordBool);
 begin
   DefaultInterface.RequireUniqueAuthenticationToken := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_RequireUniqueServerNonce: WordBool;
+function TUAEnhancedClientSessionParameters.Get_RequireUniqueServerNonce: WordBool;
 begin
   Result := DefaultInterface.RequireUniqueServerNonce;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_RequireUniqueServerNonce(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_RequireUniqueServerNonce(pRetVal: WordBool);
 begin
   DefaultInterface.RequireUniqueServerNonce := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_RequireValidAuthenticationToken: WordBool;
+function TUAEnhancedClientSessionParameters.Get_RequireValidAuthenticationToken: WordBool;
 begin
   Result := DefaultInterface.RequireValidAuthenticationToken;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_RequireValidAuthenticationToken(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_RequireValidAuthenticationToken(pRetVal: WordBool);
 begin
   DefaultInterface.RequireValidAuthenticationToken := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_RequireValidServerNonce: WordBool;
+function TUAEnhancedClientSessionParameters.Get_RequireValidServerNonce: WordBool;
 begin
   Result := DefaultInterface.RequireValidServerNonce;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_RequireValidServerNonce(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_RequireValidServerNonce(pRetVal: WordBool);
 begin
   DefaultInterface.RequireValidServerNonce := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_RetrialDelay: Integer;
+function TUAEnhancedClientSessionParameters.Get_RetrialDelay: Integer;
 begin
   Result := DefaultInterface.RetrialDelay;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_RetrialDelay(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_RetrialDelay(pRetVal: Integer);
 begin
   DefaultInterface.RetrialDelay := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_SanitizeReferenceDescriptions: WordBool;
+function TUAEnhancedClientSessionParameters.Get_SanitizeReferenceDescriptions: WordBool;
 begin
   Result := DefaultInterface.SanitizeReferenceDescriptions;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_SanitizeReferenceDescriptions(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_SanitizeReferenceDescriptions(pRetVal: WordBool);
 begin
   DefaultInterface.SanitizeReferenceDescriptions := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_SessionConnectTimeout: Integer;
+function TUAEnhancedClientSessionParameters.Get_SessionConnectTimeout: Integer;
 begin
   Result := DefaultInterface.SessionConnectTimeout;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_SessionConnectTimeout(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_SessionConnectTimeout(pRetVal: Integer);
 begin
   DefaultInterface.SessionConnectTimeout := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_SessionTimeout: Integer;
+function TUAEnhancedClientSessionParameters.Get_SessionTimeout: Integer;
 begin
   Result := DefaultInterface.SessionTimeout;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_SessionTimeout(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_SessionTimeout(pRetVal: Integer);
 begin
   DefaultInterface.SessionTimeout := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_SessionTimeoutDebug: Integer;
+function TUAEnhancedClientSessionParameters.Get_SessionTimeoutDebug: Integer;
 begin
   Result := DefaultInterface.SessionTimeoutDebug;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_SessionTimeoutDebug(pRetVal: Integer);
+procedure TUAEnhancedClientSessionParameters.Set_SessionTimeoutDebug(pRetVal: Integer);
 begin
   DefaultInterface.SessionTimeoutDebug := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_ShortestAllowedRevisedSessionTimeout: Double;
+function TUAEnhancedClientSessionParameters.Get_ShortestAllowedRevisedSessionTimeout: Double;
 begin
   Result := DefaultInterface.ShortestAllowedRevisedSessionTimeout;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_ShortestAllowedRevisedSessionTimeout(pRetVal: Double);
+procedure TUAEnhancedClientSessionParameters.Set_ShortestAllowedRevisedSessionTimeout(pRetVal: Double);
 begin
   DefaultInterface.ShortestAllowedRevisedSessionTimeout := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_UpdateEndpointBeforeConnect: WordBool;
+function TUAEnhancedClientSessionParameters.Get_UpdateEndpointBeforeConnect: WordBool;
 begin
   Result := DefaultInterface.UpdateEndpointBeforeConnect;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_UpdateEndpointBeforeConnect(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_UpdateEndpointBeforeConnect(pRetVal: WordBool);
 begin
   DefaultInterface.UpdateEndpointBeforeConnect := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_UserIdentity: _UserIdentity;
+function TUAEnhancedClientSessionParameters.Get_UserIdentity: _UserIdentity;
 begin
   Result := DefaultInterface.UserIdentity;
 end;
 
-procedure TUAEnhancedSessionParameters._Set_UserIdentity(const pRetVal: _UserIdentity);
+procedure TUAEnhancedClientSessionParameters._Set_UserIdentity(const pRetVal: _UserIdentity);
 begin
   DefaultInterface.UserIdentity := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_WriteNarrowestIntegerType: WordBool;
+function TUAEnhancedClientSessionParameters.Get_WriteNarrowestIntegerType: WordBool;
 begin
   Result := DefaultInterface.WriteNarrowestIntegerType;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_WriteNarrowestIntegerType(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_WriteNarrowestIntegerType(pRetVal: WordBool);
 begin
   DefaultInterface.WriteNarrowestIntegerType := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Get_WriteNarrowestRealType: WordBool;
+function TUAEnhancedClientSessionParameters.Get_WriteNarrowestRealType: WordBool;
 begin
   Result := DefaultInterface.WriteNarrowestRealType;
 end;
 
-procedure TUAEnhancedSessionParameters.Set_WriteNarrowestRealType(pRetVal: WordBool);
+procedure TUAEnhancedClientSessionParameters.Set_WriteNarrowestRealType(pRetVal: WordBool);
 begin
   DefaultInterface.WriteNarrowestRealType := pRetVal;
 end;
 
-function TUAEnhancedSessionParameters.Equals(obj: OleVariant): WordBool;
+function TUAEnhancedClientSessionParameters.Equals(obj: OleVariant): WordBool;
 begin
   Result := DefaultInterface.Equals(obj);
 end;
 
-function TUAEnhancedSessionParameters.GetHashCode: Integer;
+function TUAEnhancedClientSessionParameters.GetHashCode: Integer;
 begin
   Result := DefaultInterface.GetHashCode;
 end;
 
-function TUAEnhancedSessionParameters.GetType: _Type;
+function TUAEnhancedClientSessionParameters.GetType: _Type;
 begin
   Result := DefaultInterface.GetType;
 end;
 
-function TUAEnhancedSessionParameters.Clone: OleVariant;
+function TUAEnhancedClientSessionParameters.Clone: OleVariant;
 begin
   Result := DefaultInterface.Clone;
 end;
 
-procedure TUAEnhancedSessionParameters.Reset;
+procedure TUAEnhancedClientSessionParameters.Reset;
 begin
   DefaultInterface.Reset;
 end;
@@ -58847,17 +59079,17 @@ begin
   DefaultInterface.Reset;
 end;
 
-class function CoUASmartEngineParameters.Create: _UASmartEngineParameters;
+class function CoUASmartClientEngineParameters.Create: _UASmartClientEngineParameters;
 begin
-  Result := CreateComObject(CLASS_UASmartEngineParameters) as _UASmartEngineParameters;
+  Result := CreateComObject(CLASS_UASmartClientEngineParameters) as _UASmartClientEngineParameters;
 end;
 
-class function CoUASmartEngineParameters.CreateRemote(const MachineName: string): _UASmartEngineParameters;
+class function CoUASmartClientEngineParameters.CreateRemote(const MachineName: string): _UASmartClientEngineParameters;
 begin
-  Result := CreateRemoteComObject(MachineName, CLASS_UASmartEngineParameters) as _UASmartEngineParameters;
+  Result := CreateRemoteComObject(MachineName, CLASS_UASmartClientEngineParameters) as _UASmartClientEngineParameters;
 end;
 
-procedure TUASmartEngineParameters.InitServerData;
+procedure TUASmartClientEngineParameters.InitServerData;
 const
   CServerData: TServerData = (
     ClassID:   '{5631FC51-ECD0-408A-B48B-BC3D34EAC4E3}';
@@ -58869,24 +59101,24 @@ begin
   ServerData := @CServerData;
 end;
 
-procedure TUASmartEngineParameters.Connect;
+procedure TUASmartClientEngineParameters.Connect;
 var
   punk: IUnknown;
 begin
   if FIntf = nil then
   begin
     punk := GetServer;
-    Fintf:= punk as _UASmartEngineParameters;
+    Fintf:= punk as _UASmartClientEngineParameters;
   end;
 end;
 
-procedure TUASmartEngineParameters.ConnectTo(svrIntf: _UASmartEngineParameters);
+procedure TUASmartClientEngineParameters.ConnectTo(svrIntf: _UASmartClientEngineParameters);
 begin
   Disconnect;
   FIntf := svrIntf;
 end;
 
-procedure TUASmartEngineParameters.DisConnect;
+procedure TUASmartClientEngineParameters.DisConnect;
 begin
   if Fintf <> nil then
   begin
@@ -58894,7 +59126,7 @@ begin
   end;
 end;
 
-function TUASmartEngineParameters.GetDefaultInterface: _UASmartEngineParameters;
+function TUASmartClientEngineParameters.GetDefaultInterface: _UASmartClientEngineParameters;
 begin
   if FIntf = nil then
     Connect;
@@ -58902,182 +59134,192 @@ begin
   Result := FIntf;
 end;
 
-constructor TUASmartEngineParameters.Create(AOwner: TComponent);
+constructor TUASmartClientEngineParameters.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
 end;
 
-destructor TUASmartEngineParameters.Destroy;
+destructor TUASmartClientEngineParameters.Destroy;
 begin
   inherited Destroy;
 end;
 
-function TUASmartEngineParameters.Get_ToString: WideString;
+function TUASmartClientEngineParameters.Get_ToString: WideString;
 begin
   Result := DefaultInterface.ToString;
 end;
 
-function TUASmartEngineParameters.Get_DisplayString: WideString;
+function TUASmartClientEngineParameters.Get_DisplayString: WideString;
 begin
   Result := DefaultInterface.DisplayString;
 end;
 
-function TUASmartEngineParameters.Get_StandardName: WideString;
+function TUASmartClientEngineParameters.Get_StandardName: WideString;
 begin
   Result := DefaultInterface.StandardName;
 end;
 
-procedure TUASmartEngineParameters.Set_StandardName(const pRetVal: WideString);
+procedure TUASmartClientEngineParameters.Set_StandardName(const pRetVal: WideString);
 begin
   DefaultInterface.StandardName := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
+function TUASmartClientEngineParameters.Get_CertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
 begin
   Result := DefaultInterface.CertificateAcceptancePolicy;
 end;
 
-procedure TUASmartEngineParameters._Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
+procedure TUASmartClientEngineParameters._Set_CertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
 begin
   DefaultInterface.CertificateAcceptancePolicy := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_ConfigurationSources: UAConfigurationSources;
+function TUASmartClientEngineParameters.Get_ConfigurationPropertyOverrides: _StringObjectDictionary;
+begin
+  Result := DefaultInterface.ConfigurationPropertyOverrides;
+end;
+
+procedure TUASmartClientEngineParameters._Set_ConfigurationPropertyOverrides(const pRetVal: _StringObjectDictionary);
+begin
+  DefaultInterface.ConfigurationPropertyOverrides := pRetVal;
+end;
+
+function TUASmartClientEngineParameters.Get_ConfigurationSources: UAConfigurationSources;
 begin
   Result := DefaultInterface.ConfigurationSources;
 end;
 
-procedure TUASmartEngineParameters.Set_ConfigurationSources(pRetVal: UAConfigurationSources);
+procedure TUASmartClientEngineParameters.Set_ConfigurationSources(pRetVal: UAConfigurationSources);
 begin
   DefaultInterface.ConfigurationSources := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_DebuggerDetectionOverride: Sign;
+function TUASmartClientEngineParameters.Get_DebuggerDetectionOverride: Sign;
 begin
   Result := DefaultInterface.DebuggerDetectionOverride;
 end;
 
-procedure TUASmartEngineParameters.Set_DebuggerDetectionOverride(pRetVal: Sign);
+procedure TUASmartClientEngineParameters.Set_DebuggerDetectionOverride(pRetVal: Sign);
 begin
   DefaultInterface.DebuggerDetectionOverride := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_gdsEndpointDescriptor: _UAEndpointDescriptor;
+function TUASmartClientEngineParameters.Get_gdsEndpointDescriptor: _UAEndpointDescriptor;
 begin
   Result := DefaultInterface.gdsEndpointDescriptor;
 end;
 
-procedure TUASmartEngineParameters._Set_gdsEndpointDescriptor(const pRetVal: _UAEndpointDescriptor);
+procedure TUASmartClientEngineParameters._Set_gdsEndpointDescriptor(const pRetVal: _UAEndpointDescriptor);
 begin
   DefaultInterface.gdsEndpointDescriptor := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_RetrialDelay: Integer;
+function TUASmartClientEngineParameters.Get_RetrialDelay: Integer;
 begin
   Result := DefaultInterface.RetrialDelay;
 end;
 
-procedure TUASmartEngineParameters.Set_RetrialDelay(pRetVal: Integer);
+procedure TUASmartClientEngineParameters.Set_RetrialDelay(pRetVal: Integer);
 begin
   DefaultInterface.RetrialDelay := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_ReconnectionPeriod: Integer;
+function TUASmartClientEngineParameters.Get_ReconnectionPeriod: Integer;
 begin
   Result := DefaultInterface.ReconnectionPeriod;
 end;
 
-procedure TUASmartEngineParameters.Set_ReconnectionPeriod(pRetVal: Integer);
+procedure TUASmartClientEngineParameters.Set_ReconnectionPeriod(pRetVal: Integer);
 begin
   DefaultInterface.ReconnectionPeriod := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_UserInteractionParameters: _UAUserInteractionParameters;
+function TUASmartClientEngineParameters.Get_UserInteractionParameters: _UAUserInteractionParameters;
 begin
   Result := DefaultInterface.UserInteractionParameters;
 end;
 
-procedure TUASmartEngineParameters._Set_UserInteractionParameters(const pRetVal: _UAUserInteractionParameters);
+procedure TUASmartClientEngineParameters._Set_UserInteractionParameters(const pRetVal: _UAUserInteractionParameters);
 begin
   DefaultInterface.UserInteractionParameters := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
+function TUASmartClientEngineParameters.Get_HttpsCertificateAcceptancePolicy: _UACertificateAcceptancePolicy;
 begin
   Result := DefaultInterface.HttpsCertificateAcceptancePolicy;
 end;
 
-procedure TUASmartEngineParameters._Set_HttpsCertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
+procedure TUASmartClientEngineParameters._Set_HttpsCertificateAcceptancePolicy(const pRetVal: _UACertificateAcceptancePolicy);
 begin
   DefaultInterface.HttpsCertificateAcceptancePolicy := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_UseCustomHttpsCertificateValidation: WordBool;
+function TUASmartClientEngineParameters.Get_UseCustomHttpsCertificateValidation: WordBool;
 begin
   Result := DefaultInterface.UseCustomHttpsCertificateValidation;
 end;
 
-procedure TUASmartEngineParameters.Set_UseCustomHttpsCertificateValidation(pRetVal: WordBool);
+procedure TUASmartClientEngineParameters.Set_UseCustomHttpsCertificateValidation(pRetVal: WordBool);
 begin
   DefaultInterface.UseCustomHttpsCertificateValidation := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_GarbageCollectionPeriod: Integer;
+function TUASmartClientEngineParameters.Get_GarbageCollectionPeriod: Integer;
 begin
   Result := DefaultInterface.GarbageCollectionPeriod;
 end;
 
-procedure TUASmartEngineParameters.Set_GarbageCollectionPeriod(pRetVal: Integer);
+procedure TUASmartClientEngineParameters.Set_GarbageCollectionPeriod(pRetVal: Integer);
 begin
   DefaultInterface.GarbageCollectionPeriod := pRetVal;
 end;
 
-function TUASmartEngineParameters.Get_MaximumDormantSessions: Integer;
+function TUASmartClientEngineParameters.Get_MaximumDormantSessions: Integer;
 begin
   Result := DefaultInterface.MaximumDormantSessions;
 end;
 
-procedure TUASmartEngineParameters.Set_MaximumDormantSessions(pRetVal: Integer);
+procedure TUASmartClientEngineParameters.Set_MaximumDormantSessions(pRetVal: Integer);
 begin
   DefaultInterface.MaximumDormantSessions := pRetVal;
 end;
 
-function TUASmartEngineParameters.Equals(obj: OleVariant): WordBool;
+function TUASmartClientEngineParameters.Equals(obj: OleVariant): WordBool;
 begin
   Result := DefaultInterface.Equals(obj);
 end;
 
-function TUASmartEngineParameters.GetHashCode: Integer;
+function TUASmartClientEngineParameters.GetHashCode: Integer;
 begin
   Result := DefaultInterface.GetHashCode;
 end;
 
-function TUASmartEngineParameters.GetType: _Type;
+function TUASmartClientEngineParameters.GetType: _Type;
 begin
   Result := DefaultInterface.GetType;
 end;
 
-function TUASmartEngineParameters.Clone: OleVariant;
+function TUASmartClientEngineParameters.Clone: OleVariant;
 begin
   Result := DefaultInterface.Clone;
 end;
 
-procedure TUASmartEngineParameters.Reset;
+procedure TUASmartClientEngineParameters.Reset;
 begin
   DefaultInterface.Reset;
 end;
 
-class function CoUASmartSessionParameters.Create: _UASmartSessionParameters;
+class function CoUASmartClientSessionParameters.Create: _UASmartClientSessionParameters;
 begin
-  Result := CreateComObject(CLASS_UASmartSessionParameters) as _UASmartSessionParameters;
+  Result := CreateComObject(CLASS_UASmartClientSessionParameters) as _UASmartClientSessionParameters;
 end;
 
-class function CoUASmartSessionParameters.CreateRemote(const MachineName: string): _UASmartSessionParameters;
+class function CoUASmartClientSessionParameters.CreateRemote(const MachineName: string): _UASmartClientSessionParameters;
 begin
-  Result := CreateRemoteComObject(MachineName, CLASS_UASmartSessionParameters) as _UASmartSessionParameters;
+  Result := CreateRemoteComObject(MachineName, CLASS_UASmartClientSessionParameters) as _UASmartClientSessionParameters;
 end;
 
-procedure TUASmartSessionParameters.InitServerData;
+procedure TUASmartClientSessionParameters.InitServerData;
 const
   CServerData: TServerData = (
     ClassID:   '{C1B2536E-266B-49F2-81F4-7FB0613BAD2E}';
@@ -59089,24 +59331,24 @@ begin
   ServerData := @CServerData;
 end;
 
-procedure TUASmartSessionParameters.Connect;
+procedure TUASmartClientSessionParameters.Connect;
 var
   punk: IUnknown;
 begin
   if FIntf = nil then
   begin
     punk := GetServer;
-    Fintf:= punk as _UASmartSessionParameters;
+    Fintf:= punk as _UASmartClientSessionParameters;
   end;
 end;
 
-procedure TUASmartSessionParameters.ConnectTo(svrIntf: _UASmartSessionParameters);
+procedure TUASmartClientSessionParameters.ConnectTo(svrIntf: _UASmartClientSessionParameters);
 begin
   Disconnect;
   FIntf := svrIntf;
 end;
 
-procedure TUASmartSessionParameters.DisConnect;
+procedure TUASmartClientSessionParameters.DisConnect;
 begin
   if Fintf <> nil then
   begin
@@ -59114,7 +59356,7 @@ begin
   end;
 end;
 
-function TUASmartSessionParameters.GetDefaultInterface: _UASmartSessionParameters;
+function TUASmartClientSessionParameters.GetDefaultInterface: _UASmartClientSessionParameters;
 begin
   if FIntf = nil then
     Connect;
@@ -59122,497 +59364,507 @@ begin
   Result := FIntf;
 end;
 
-constructor TUASmartSessionParameters.Create(AOwner: TComponent);
+constructor TUASmartClientSessionParameters.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
 end;
 
-destructor TUASmartSessionParameters.Destroy;
+destructor TUASmartClientSessionParameters.Destroy;
 begin
   inherited Destroy;
 end;
 
-function TUASmartSessionParameters.Get_ToString: WideString;
+function TUASmartClientSessionParameters.Get_ToString: WideString;
 begin
   Result := DefaultInterface.ToString;
 end;
 
-function TUASmartSessionParameters.Get_DisplayString: WideString;
+function TUASmartClientSessionParameters.Get_DisplayString: WideString;
 begin
   Result := DefaultInterface.DisplayString;
 end;
 
-function TUASmartSessionParameters.Get_StandardName: WideString;
+function TUASmartClientSessionParameters.Get_StandardName: WideString;
 begin
   Result := DefaultInterface.StandardName;
 end;
 
-procedure TUASmartSessionParameters.Set_StandardName(const pRetVal: WideString);
+procedure TUASmartClientSessionParameters.Set_StandardName(const pRetVal: WideString);
 begin
   DefaultInterface.StandardName := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_AcknowledgedMessagesLimit: Integer;
+function TUASmartClientSessionParameters.Get_AcknowledgedMessagesLimit: Integer;
 begin
   Result := DefaultInterface.AcknowledgedMessagesLimit;
 end;
 
-procedure TUASmartSessionParameters.Set_AcknowledgedMessagesLimit(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_AcknowledgedMessagesLimit(pRetVal: Integer);
 begin
   DefaultInterface.AcknowledgedMessagesLimit := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_AllowEndpointDomainPrompt: WordBool;
+function TUASmartClientSessionParameters.Get_AllowEndpointDomainPrompt: WordBool;
 begin
   Result := DefaultInterface.AllowEndpointDomainPrompt;
 end;
 
-procedure TUASmartSessionParameters.Set_AllowEndpointDomainPrompt(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_AllowEndpointDomainPrompt(pRetVal: WordBool);
 begin
   DefaultInterface.AllowEndpointDomainPrompt := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_AlwaysPreselectEndpoint: WordBool;
+function TUASmartClientSessionParameters.Get_AlwaysPreselectEndpoint: WordBool;
 begin
   Result := DefaultInterface.AlwaysPreselectEndpoint;
 end;
 
-procedure TUASmartSessionParameters.Set_AlwaysPreselectEndpoint(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_AlwaysPreselectEndpoint(pRetVal: WordBool);
 begin
   DefaultInterface.AlwaysPreselectEndpoint := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_CheckAvailableSequenceNumbers: WordBool;
+function TUASmartClientSessionParameters.Get_CheckAvailableSequenceNumbers: WordBool;
 begin
   Result := DefaultInterface.CheckAvailableSequenceNumbers;
 end;
 
-procedure TUASmartSessionParameters.Set_CheckAvailableSequenceNumbers(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_CheckAvailableSequenceNumbers(pRetVal: WordBool);
 begin
   DefaultInterface.CheckAvailableSequenceNumbers := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_CheckBrowseResults: WordBool;
+function TUASmartClientSessionParameters.Get_CheckBrowseResults: WordBool;
 begin
   Result := DefaultInterface.CheckBrowseResults;
 end;
 
-procedure TUASmartSessionParameters.Set_CheckBrowseResults(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_CheckBrowseResults(pRetVal: WordBool);
 begin
   DefaultInterface.CheckBrowseResults := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_CheckEndpointDomain: WordBool;
+function TUASmartClientSessionParameters.Get_CheckEndpointDomain: WordBool;
 begin
   Result := DefaultInterface.CheckEndpointDomain;
 end;
 
-procedure TUASmartSessionParameters.Set_CheckEndpointDomain(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_CheckEndpointDomain(pRetVal: WordBool);
 begin
   DefaultInterface.CheckEndpointDomain := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_CheckNotificationMessage: WordBool;
+function TUASmartClientSessionParameters.Get_CheckNotificationMessage: WordBool;
 begin
   Result := DefaultInterface.CheckNotificationMessage;
 end;
 
-procedure TUASmartSessionParameters.Set_CheckNotificationMessage(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_CheckNotificationMessage(pRetVal: WordBool);
 begin
   DefaultInterface.CheckNotificationMessage := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_CheckSessionId: WordBool;
+function TUASmartClientSessionParameters.Get_CheckSessionId: WordBool;
 begin
   Result := DefaultInterface.CheckSessionId;
 end;
 
-procedure TUASmartSessionParameters.Set_CheckSessionId(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_CheckSessionId(pRetVal: WordBool);
 begin
   DefaultInterface.CheckSessionId := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_CloseTimeout: Integer;
+function TUASmartClientSessionParameters.Get_CloseTimeout: Integer;
 begin
   Result := DefaultInterface.CloseTimeout;
 end;
 
-procedure TUASmartSessionParameters.Set_CloseTimeout(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_CloseTimeout(pRetVal: Integer);
 begin
   DefaultInterface.CloseTimeout := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_DiagnosticsMasks: UADiagnosticsMasks;
+function TUASmartClientSessionParameters.Get_DiagnosticsMasks: UADiagnosticsMasks;
 begin
   Result := DefaultInterface.DiagnosticsMasks;
 end;
 
-procedure TUASmartSessionParameters.Set_DiagnosticsMasks(pRetVal: UADiagnosticsMasks);
+procedure TUASmartClientSessionParameters.Set_DiagnosticsMasks(pRetVal: UADiagnosticsMasks);
 begin
   DefaultInterface.DiagnosticsMasks := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_EndpointDescriptionChecks: _UAEndpointDescriptionChecks;
+function TUASmartClientSessionParameters.Get_EndpointDescriptionChecks: _UAEndpointDescriptionChecks;
 begin
   Result := DefaultInterface.EndpointDescriptionChecks;
 end;
 
-procedure TUASmartSessionParameters._Set_EndpointDescriptionChecks(const pRetVal: _UAEndpointDescriptionChecks);
+procedure TUASmartClientSessionParameters._Set_EndpointDescriptionChecks(const pRetVal: _UAEndpointDescriptionChecks);
 begin
   DefaultInterface.EndpointDescriptionChecks := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_EndpointSelectionPolicy: _UAEndpointSelectionPolicy;
+function TUASmartClientSessionParameters.Get_EndpointSelectionPolicy: _UAEndpointSelectionPolicy;
 begin
   Result := DefaultInterface.EndpointSelectionPolicy;
 end;
 
-procedure TUASmartSessionParameters._Set_EndpointSelectionPolicy(const pRetVal: _UAEndpointSelectionPolicy);
+procedure TUASmartClientSessionParameters._Set_EndpointSelectionPolicy(const pRetVal: _UAEndpointSelectionPolicy);
 begin
   DefaultInterface.EndpointSelectionPolicy := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_EndpointSelectionTimeout: Integer;
+function TUASmartClientSessionParameters.Get_EndpointSelectionTimeout: Integer;
 begin
   Result := DefaultInterface.EndpointSelectionTimeout;
 end;
 
-procedure TUASmartSessionParameters.Set_EndpointSelectionTimeout(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_EndpointSelectionTimeout(pRetVal: Integer);
 begin
   DefaultInterface.EndpointSelectionTimeout := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_KeepAliveInterval: Integer;
+function TUASmartClientSessionParameters.Get_KeepAliveInterval: Integer;
 begin
   Result := DefaultInterface.KeepAliveInterval;
 end;
 
-procedure TUASmartSessionParameters.Set_KeepAliveInterval(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_KeepAliveInterval(pRetVal: Integer);
 begin
   DefaultInterface.KeepAliveInterval := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_KeepAliveIntervalDebug: Integer;
+function TUASmartClientSessionParameters.Get_KeepAliveIntervalDebug: Integer;
 begin
   Result := DefaultInterface.KeepAliveIntervalDebug;
 end;
 
-procedure TUASmartSessionParameters.Set_KeepAliveIntervalDebug(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_KeepAliveIntervalDebug(pRetVal: Integer);
 begin
   DefaultInterface.KeepAliveIntervalDebug := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_LocaleId: WideString;
+function TUASmartClientSessionParameters.Get_LocaleId: WideString;
 begin
   Result := DefaultInterface.LocaleId;
 end;
 
-procedure TUASmartSessionParameters.Set_LocaleId(const pRetVal: WideString);
+procedure TUASmartClientSessionParameters.Set_LocaleId(const pRetVal: WideString);
 begin
   DefaultInterface.LocaleId := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_OperationTimeout: Integer;
+function TUASmartClientSessionParameters.Get_OperationTimeout: Integer;
 begin
   Result := DefaultInterface.OperationTimeout;
 end;
 
-procedure TUASmartSessionParameters.Set_OperationTimeout(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_OperationTimeout(pRetVal: Integer);
 begin
   DefaultInterface.OperationTimeout := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_MaximumReferencesPerBrowseNode: Integer;
+function TUASmartClientSessionParameters.Get_MaximumReferencesPerBrowseNode: Integer;
 begin
   Result := DefaultInterface.MaximumReferencesPerBrowseNode;
 end;
 
-procedure TUASmartSessionParameters.Set_MaximumReferencesPerBrowseNode(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_MaximumReferencesPerBrowseNode(pRetVal: Integer);
 begin
   DefaultInterface.MaximumReferencesPerBrowseNode := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_PendingMessagesLimit: Integer;
+function TUASmartClientSessionParameters.Get_PendingMessagesLimit: Integer;
 begin
   Result := DefaultInterface.PendingMessagesLimit;
 end;
 
-procedure TUASmartSessionParameters.Set_PendingMessagesLimit(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_PendingMessagesLimit(pRetVal: Integer);
 begin
   DefaultInterface.PendingMessagesLimit := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_PreselectedEndpointValidityPeriod: Integer;
+function TUASmartClientSessionParameters.Get_PreselectedEndpointValidityPeriod: Integer;
 begin
   Result := DefaultInterface.PreselectedEndpointValidityPeriod;
 end;
 
-procedure TUASmartSessionParameters.Set_PreselectedEndpointValidityPeriod(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_PreselectedEndpointValidityPeriod(pRetVal: Integer);
 begin
   DefaultInterface.PreselectedEndpointValidityPeriod := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_RequireMatchingServerSoftwareCertificates: WordBool;
+function TUASmartClientSessionParameters.Get_RequireMatchingServerSoftwareCertificates: WordBool;
 begin
   Result := DefaultInterface.RequireMatchingServerSoftwareCertificates;
 end;
 
-procedure TUASmartSessionParameters.Set_RequireMatchingServerSoftwareCertificates(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_RequireMatchingServerSoftwareCertificates(pRetVal: WordBool);
 begin
   DefaultInterface.RequireMatchingServerSoftwareCertificates := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_RequireNonEmptyServerSignature: WordBool;
+function TUASmartClientSessionParameters.Get_RequireNonEmptyServerSignature: WordBool;
 begin
   Result := DefaultInterface.RequireNonEmptyServerSignature;
 end;
 
-procedure TUASmartSessionParameters.Set_RequireNonEmptyServerSignature(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_RequireNonEmptyServerSignature(pRetVal: WordBool);
 begin
   DefaultInterface.RequireNonEmptyServerSignature := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_RequireServerEndpointsMatchDiscovery: WordBool;
+function TUASmartClientSessionParameters.Get_RequireServerEndpointsMatchDiscovery: WordBool;
 begin
   Result := DefaultInterface.RequireServerEndpointsMatchDiscovery;
 end;
 
-procedure TUASmartSessionParameters.Set_RequireServerEndpointsMatchDiscovery(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_RequireServerEndpointsMatchDiscovery(pRetVal: WordBool);
 begin
   DefaultInterface.RequireServerEndpointsMatchDiscovery := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_RequireTimestampsAsRequested: WordBool;
+function TUASmartClientSessionParameters.Get_RequireTimestampsAsRequested: WordBool;
 begin
   Result := DefaultInterface.RequireTimestampsAsRequested;
 end;
 
-procedure TUASmartSessionParameters.Set_RequireTimestampsAsRequested(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_RequireTimestampsAsRequested(pRetVal: WordBool);
 begin
   DefaultInterface.RequireTimestampsAsRequested := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_RequireUniqueAuthenticationToken: WordBool;
+function TUASmartClientSessionParameters.Get_RequireUniqueAuthenticationToken: WordBool;
 begin
   Result := DefaultInterface.RequireUniqueAuthenticationToken;
 end;
 
-procedure TUASmartSessionParameters.Set_RequireUniqueAuthenticationToken(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_RequireUniqueAuthenticationToken(pRetVal: WordBool);
 begin
   DefaultInterface.RequireUniqueAuthenticationToken := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_RequireUniqueServerNonce: WordBool;
+function TUASmartClientSessionParameters.Get_RequireUniqueServerNonce: WordBool;
 begin
   Result := DefaultInterface.RequireUniqueServerNonce;
 end;
 
-procedure TUASmartSessionParameters.Set_RequireUniqueServerNonce(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_RequireUniqueServerNonce(pRetVal: WordBool);
 begin
   DefaultInterface.RequireUniqueServerNonce := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_RequireValidAuthenticationToken: WordBool;
+function TUASmartClientSessionParameters.Get_RequireValidAuthenticationToken: WordBool;
 begin
   Result := DefaultInterface.RequireValidAuthenticationToken;
 end;
 
-procedure TUASmartSessionParameters.Set_RequireValidAuthenticationToken(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_RequireValidAuthenticationToken(pRetVal: WordBool);
 begin
   DefaultInterface.RequireValidAuthenticationToken := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_RequireValidServerNonce: WordBool;
+function TUASmartClientSessionParameters.Get_RequireValidServerNonce: WordBool;
 begin
   Result := DefaultInterface.RequireValidServerNonce;
 end;
 
-procedure TUASmartSessionParameters.Set_RequireValidServerNonce(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_RequireValidServerNonce(pRetVal: WordBool);
 begin
   DefaultInterface.RequireValidServerNonce := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_RetrialDelay: Integer;
+function TUASmartClientSessionParameters.Get_RetrialDelay: Integer;
 begin
   Result := DefaultInterface.RetrialDelay;
 end;
 
-procedure TUASmartSessionParameters.Set_RetrialDelay(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_RetrialDelay(pRetVal: Integer);
 begin
   DefaultInterface.RetrialDelay := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_SanitizeReferenceDescriptions: WordBool;
+function TUASmartClientSessionParameters.Get_SanitizeReferenceDescriptions: WordBool;
 begin
   Result := DefaultInterface.SanitizeReferenceDescriptions;
 end;
 
-procedure TUASmartSessionParameters.Set_SanitizeReferenceDescriptions(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_SanitizeReferenceDescriptions(pRetVal: WordBool);
 begin
   DefaultInterface.SanitizeReferenceDescriptions := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_SessionConnectTimeout: Integer;
+function TUASmartClientSessionParameters.Get_SessionConnectTimeout: Integer;
 begin
   Result := DefaultInterface.SessionConnectTimeout;
 end;
 
-procedure TUASmartSessionParameters.Set_SessionConnectTimeout(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_SessionConnectTimeout(pRetVal: Integer);
 begin
   DefaultInterface.SessionConnectTimeout := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_SessionTimeout: Integer;
+function TUASmartClientSessionParameters.Get_SessionTimeout: Integer;
 begin
   Result := DefaultInterface.SessionTimeout;
 end;
 
-procedure TUASmartSessionParameters.Set_SessionTimeout(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_SessionTimeout(pRetVal: Integer);
 begin
   DefaultInterface.SessionTimeout := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_SessionTimeoutDebug: Integer;
+function TUASmartClientSessionParameters.Get_SessionTimeoutDebug: Integer;
 begin
   Result := DefaultInterface.SessionTimeoutDebug;
 end;
 
-procedure TUASmartSessionParameters.Set_SessionTimeoutDebug(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_SessionTimeoutDebug(pRetVal: Integer);
 begin
   DefaultInterface.SessionTimeoutDebug := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_ShortestAllowedRevisedSessionTimeout: Double;
+function TUASmartClientSessionParameters.Get_ShortestAllowedRevisedSessionTimeout: Double;
 begin
   Result := DefaultInterface.ShortestAllowedRevisedSessionTimeout;
 end;
 
-procedure TUASmartSessionParameters.Set_ShortestAllowedRevisedSessionTimeout(pRetVal: Double);
+procedure TUASmartClientSessionParameters.Set_ShortestAllowedRevisedSessionTimeout(pRetVal: Double);
 begin
   DefaultInterface.ShortestAllowedRevisedSessionTimeout := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_UpdateEndpointBeforeConnect: WordBool;
+function TUASmartClientSessionParameters.Get_UpdateEndpointBeforeConnect: WordBool;
 begin
   Result := DefaultInterface.UpdateEndpointBeforeConnect;
 end;
 
-procedure TUASmartSessionParameters.Set_UpdateEndpointBeforeConnect(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_UpdateEndpointBeforeConnect(pRetVal: WordBool);
 begin
   DefaultInterface.UpdateEndpointBeforeConnect := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_UserIdentity: _UserIdentity;
+function TUASmartClientSessionParameters.Get_UserIdentity: _UserIdentity;
 begin
   Result := DefaultInterface.UserIdentity;
 end;
 
-procedure TUASmartSessionParameters._Set_UserIdentity(const pRetVal: _UserIdentity);
+procedure TUASmartClientSessionParameters._Set_UserIdentity(const pRetVal: _UserIdentity);
 begin
   DefaultInterface.UserIdentity := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_WriteNarrowestIntegerType: WordBool;
+function TUASmartClientSessionParameters.Get_WriteNarrowestIntegerType: WordBool;
 begin
   Result := DefaultInterface.WriteNarrowestIntegerType;
 end;
 
-procedure TUASmartSessionParameters.Set_WriteNarrowestIntegerType(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_WriteNarrowestIntegerType(pRetVal: WordBool);
 begin
   DefaultInterface.WriteNarrowestIntegerType := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_WriteNarrowestRealType: WordBool;
+function TUASmartClientSessionParameters.Get_WriteNarrowestRealType: WordBool;
 begin
   Result := DefaultInterface.WriteNarrowestRealType;
 end;
 
-procedure TUASmartSessionParameters.Set_WriteNarrowestRealType(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_WriteNarrowestRealType(pRetVal: WordBool);
 begin
   DefaultInterface.WriteNarrowestRealType := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_EnableStatusSubscription: WordBool;
+function TUASmartClientSessionParameters.Get_EnableStatusSubscription: WordBool;
 begin
   Result := DefaultInterface.EnableStatusSubscription;
 end;
 
-procedure TUASmartSessionParameters.Set_EnableStatusSubscription(pRetVal: WordBool);
+procedure TUASmartClientSessionParameters.Set_EnableStatusSubscription(pRetVal: WordBool);
 begin
   DefaultInterface.EnableStatusSubscription := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_ServerShutdownRetrialDelay: Integer;
+function TUASmartClientSessionParameters.Get_MaximumMonitoredItemsPerSubscription: Integer;
+begin
+  Result := DefaultInterface.MaximumMonitoredItemsPerSubscription;
+end;
+
+procedure TUASmartClientSessionParameters.Set_MaximumMonitoredItemsPerSubscription(pRetVal: Integer);
+begin
+  DefaultInterface.MaximumMonitoredItemsPerSubscription := pRetVal;
+end;
+
+function TUASmartClientSessionParameters.Get_ServerShutdownRetrialDelay: Integer;
 begin
   Result := DefaultInterface.ServerShutdownRetrialDelay;
 end;
 
-procedure TUASmartSessionParameters.Set_ServerShutdownRetrialDelay(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_ServerShutdownRetrialDelay(pRetVal: Integer);
 begin
   DefaultInterface.ServerShutdownRetrialDelay := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_StatusSubscriptionSamplingInterval: Integer;
+function TUASmartClientSessionParameters.Get_StatusSubscriptionSamplingInterval: Integer;
 begin
   Result := DefaultInterface.StatusSubscriptionSamplingInterval;
 end;
 
-procedure TUASmartSessionParameters.Set_StatusSubscriptionSamplingInterval(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_StatusSubscriptionSamplingInterval(pRetVal: Integer);
 begin
   DefaultInterface.StatusSubscriptionSamplingInterval := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_DormancyPeriod: Int64;
+function TUASmartClientSessionParameters.Get_DormancyPeriod: Int64;
 begin
   Result := DefaultInterface.DormancyPeriod;
 end;
 
-procedure TUASmartSessionParameters.Set_DormancyPeriod(pRetVal: Int64);
+procedure TUASmartClientSessionParameters.Set_DormancyPeriod(pRetVal: Int64);
 begin
   DefaultInterface.DormancyPeriod := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_DormancyPeriodDouble: Double;
+function TUASmartClientSessionParameters.Get_DormancyPeriodDouble: Double;
 begin
   Result := DefaultInterface.DormancyPeriodDouble;
 end;
 
-procedure TUASmartSessionParameters.Set_DormancyPeriodDouble(pRetVal: Double);
+procedure TUASmartClientSessionParameters.Set_DormancyPeriodDouble(pRetVal: Double);
 begin
   DefaultInterface.DormancyPeriodDouble := pRetVal;
 end;
 
-function TUASmartSessionParameters.Get_HoldPeriod: Integer;
+function TUASmartClientSessionParameters.Get_HoldPeriod: Integer;
 begin
   Result := DefaultInterface.HoldPeriod;
 end;
 
-procedure TUASmartSessionParameters.Set_HoldPeriod(pRetVal: Integer);
+procedure TUASmartClientSessionParameters.Set_HoldPeriod(pRetVal: Integer);
 begin
   DefaultInterface.HoldPeriod := pRetVal;
 end;
 
-function TUASmartSessionParameters.Equals(obj: OleVariant): WordBool;
+function TUASmartClientSessionParameters.Equals(obj: OleVariant): WordBool;
 begin
   Result := DefaultInterface.Equals(obj);
 end;
 
-function TUASmartSessionParameters.GetHashCode: Integer;
+function TUASmartClientSessionParameters.GetHashCode: Integer;
 begin
   Result := DefaultInterface.GetHashCode;
 end;
 
-function TUASmartSessionParameters.GetType: _Type;
+function TUASmartClientSessionParameters.GetType: _Type;
 begin
   Result := DefaultInterface.GetType;
 end;
 
-function TUASmartSessionParameters.Clone: OleVariant;
+function TUASmartClientSessionParameters.Clone: OleVariant;
 begin
   Result := DefaultInterface.Clone;
 end;
 
-procedure TUASmartSessionParameters.Reset;
+procedure TUASmartClientSessionParameters.Reset;
 begin
   DefaultInterface.Reset;
 end;
@@ -65180,12 +65432,12 @@ begin
   DefaultInterface.Differentiator := pRetVal;
 end;
 
-function TEasyUAClientSelector.Get_InstanceParameters: _EasyUAInstanceParameters;
+function TEasyUAClientSelector.Get_InstanceParameters: _EasyUAClientInstanceParameters;
 begin
   Result := DefaultInterface.InstanceParameters;
 end;
 
-procedure TEasyUAClientSelector._Set_InstanceParameters(const pRetVal: _EasyUAInstanceParameters);
+procedure TEasyUAClientSelector._Set_InstanceParameters(const pRetVal: _EasyUAClientInstanceParameters);
 begin
   DefaultInterface.InstanceParameters := pRetVal;
 end;
@@ -65200,12 +65452,12 @@ begin
   DefaultInterface.Isolated := pRetVal;
 end;
 
-function TEasyUAClientSelector.Get_IsolatedParameters: _EasyUAAdaptableParameters;
+function TEasyUAClientSelector.Get_IsolatedParameters: _EasyUAClientAdaptableParameters;
 begin
   Result := DefaultInterface.IsolatedParameters;
 end;
 
-procedure TEasyUAClientSelector._Set_IsolatedParameters(const pRetVal: _EasyUAAdaptableParameters);
+procedure TEasyUAClientSelector._Set_IsolatedParameters(const pRetVal: _EasyUAClientAdaptableParameters);
 begin
   DefaultInterface.IsolatedParameters := pRetVal;
 end;
@@ -69250,9 +69502,9 @@ begin
   Result := DefaultInterface.Clone;
 end;
 
-function TUAServiceResult.ToInt32: Integer;
+function TUAServiceResult.ToUACodeBits: UACodeBits;
 begin
-  Result := DefaultInterface.ToInt32;
+  Result := DefaultInterface.ToUACodeBits;
 end;
 
 class function CoUAStatusCode.Create: _UAStatusCode;
@@ -69341,12 +69593,12 @@ begin
   Result := DefaultInterface.ToString_3[format];
 end;
 
-function TUAStatusCode.Get_CodeBits: Integer;
+function TUAStatusCode.Get_CodeBits: UACodeBits;
 begin
   Result := DefaultInterface.CodeBits;
 end;
 
-procedure TUAStatusCode.Set_CodeBits(pRetVal: Integer);
+procedure TUAStatusCode.Set_CodeBits(pRetVal: UACodeBits);
 begin
   DefaultInterface.CodeBits := pRetVal;
 end;
@@ -70482,6 +70734,11 @@ begin
   Result := DefaultInterface.CertificateRequestParameters;
 end;
 
+function TAbstractEasyUAClientServerApplication.Get_HostNames: _StringCollection;
+begin
+  Result := DefaultInterface.HostNames;
+end;
+
 function TAbstractEasyUAClientServerApplication.Get_SupportsGds: WordBool;
 begin
   Result := DefaultInterface.SupportsGds;
@@ -70580,6 +70837,11 @@ end;
 function TAbstractEasyUAClientServerApplication.GetEffectiveApplicationManifest: _UAApplicationManifest;
 begin
   Result := DefaultInterface.GetEffectiveApplicationManifest;
+end;
+
+function TAbstractEasyUAClientServerApplication.GetEffectiveHostNames(alternateHostNames: OleVariant): _StringCollection;
+begin
+  Result := DefaultInterface.GetEffectiveHostNames(alternateHostNames);
 end;
 
 function TAbstractEasyUAClientServerApplication.GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single;
@@ -71190,6 +71452,11 @@ begin
   Result := DefaultInterface.CertificateRequestParameters;
 end;
 
+function TNetSdkEasyUAClientServerApplication.Get_HostNames: _StringCollection;
+begin
+  Result := DefaultInterface.HostNames;
+end;
+
 function TNetSdkEasyUAClientServerApplication.Get_SupportsGds: WordBool;
 begin
   Result := DefaultInterface.SupportsGds;
@@ -71288,6 +71555,11 @@ end;
 function TNetSdkEasyUAClientServerApplication.GetEffectiveApplicationManifest: _UAApplicationManifest;
 begin
   Result := DefaultInterface.GetEffectiveApplicationManifest;
+end;
+
+function TNetSdkEasyUAClientServerApplication.GetEffectiveHostNames(alternateHostNames: OleVariant): _StringCollection;
+begin
+  Result := DefaultInterface.GetEffectiveHostNames(alternateHostNames);
 end;
 
 function TNetSdkEasyUAClientServerApplication.GetPrivateKeyPasswordStrength(const certificateSubId: WideString): Single;
@@ -71983,6 +72255,11 @@ begin
   Result := DefaultInterface.ToList;
 end;
 
+function TUACertificateTypeElementCollection.TryGetValue(key: OleVariant; out Item: OleVariant): WordBool;
+begin
+  Result := DefaultInterface.TryGetValue(key, Item);
+end;
+
 function TUACertificateTypeElementCollection.Clone: OleVariant;
 begin
   Result := DefaultInterface.Clone;
@@ -72453,6 +72730,26 @@ begin
   DefaultInterface.updateTrustedPeerCertificates := pRetVal;
 end;
 
+function TUAObtainCertificateArguments.Get_HostNames: _StringCollection;
+begin
+  Result := DefaultInterface.HostNames;
+end;
+
+procedure TUAObtainCertificateArguments._Set_HostNames(const pRetVal: _StringCollection);
+begin
+  DefaultInterface.HostNames := pRetVal;
+end;
+
+function TUAObtainCertificateArguments.Get_HostNamesString: WideString;
+begin
+  Result := DefaultInterface.HostNamesString;
+end;
+
+procedure TUAObtainCertificateArguments.Set_HostNamesString(const pRetVal: WideString);
+begin
+  DefaultInterface.HostNamesString := pRetVal;
+end;
+
 function TUAObtainCertificateArguments.Get_Parameters: _UACertificateRequestParameters;
 begin
   Result := DefaultInterface.Parameters;
@@ -72606,6 +72903,26 @@ end;
 procedure TUACreateCertificateArguments.Set_updateTrustedPeerCertificates(pRetVal: WordBool);
 begin
   DefaultInterface.updateTrustedPeerCertificates := pRetVal;
+end;
+
+function TUACreateCertificateArguments.Get_HostNames: _StringCollection;
+begin
+  Result := DefaultInterface.HostNames;
+end;
+
+procedure TUACreateCertificateArguments._Set_HostNames(const pRetVal: _StringCollection);
+begin
+  DefaultInterface.HostNames := pRetVal;
+end;
+
+function TUACreateCertificateArguments.Get_HostNamesString: WideString;
+begin
+  Result := DefaultInterface.HostNamesString;
+end;
+
+procedure TUACreateCertificateArguments.Set_HostNamesString(const pRetVal: WideString);
+begin
+  DefaultInterface.HostNamesString := pRetVal;
 end;
 
 function TUACreateCertificateArguments.Get_MustNotExist: WordBool;
@@ -74236,6 +74553,11 @@ begin
   Result := DefaultInterface.ToBrowsePath;
 end;
 
+function TUANodeId.ToUABuiltInType: UABuiltInType;
+begin
+  Result := DefaultInterface.ToUABuiltInType;
+end;
+
 class function CoUANodeIdCollection.Create: _UANodeIdCollection;
 begin
   Result := CreateComObject(CLASS_UANodeIdCollection) as _UANodeIdCollection;
@@ -75057,11 +75379,11 @@ begin
     TUABrowsePath, TUABrowsePathElement, TUABrowsePathElementCollection, TUAModelClientException, TUAModellingException, 
     TUAModelNodeDescriptor, TUACertificateGroupElement, TUACertificateGroupElementCollection, TUAAttributeOperand, TUAContentFilterElement, 
     TUAFilterOperand, TUAFilterOperandCollection, TUALiteralOperand, TUASimpleAttributeOperand, TUASimpleAttributeOperandCollection, 
-    TUAClientAdaptableParameters, TUAClientServerEngineParameters, TEasyUAClientMode, TEasyUAInstanceParameters, TEasyUASharedParameters, 
-    TUACertificateAcceptancePolicy, TEasyUAAdaptableParameters, TUAClientEngineParameters, TUAClientMonitoredItemParameters, TUAClientServerApplicationParameters, 
-    TEasyUAEngineParameters, TUAClientSessionParameters, TUAClientSubscriptionParameters, TUADiscoveryParameters, TUAEndpointDescriptionChecks, 
-    TUAEndpointSelectionPolicy, TUAEngineException, TUAEnhancedSessionParameters, TUAHostParameters, TUASmartEngineParameters, 
-    TUASmartSessionParameters, TUAUserInteractionParameters, TUAApplicationElement, TUAApplicationDescription, TUAApplicationRecordDataType, 
+    TUAClientAdaptableParameters, TUAClientServerEngineParameters, TEasyUAClientInstanceParameters, TEasyUAClientMode, TEasyUAClientSharedParameters, 
+    TUACertificateAcceptancePolicy, TEasyUAClientAdaptableParameters, TUAClientEngineParameters, TUAClientMonitoredItemParameters, TUAClientServerApplicationParameters, 
+    TEasyUAClientEngineParameters, TUAClientSessionParameters, TUAClientSubscriptionParameters, TUADiscoveryParameters, TUAEndpointDescriptionChecks, 
+    TUAEndpointSelectionPolicy, TUAEngineException, TUAEnhancedClientSessionParameters, TUAHostParameters, TUASmartClientEngineParameters, 
+    TUASmartClientSessionParameters, TUAUserInteractionParameters, TUAApplicationElement, TUAApplicationDescription, TUAApplicationRecordDataType, 
     TUADiscoveryElement, TUADiscoveryElementCollection, TUAGlobalApplicationDiscoveryQuery, TUALocalApplicationDiscoveryQuery, TUALocalEndpointDiscoveryQuery, 
     TUANetworkServerDiscoveryQuery, TUAQueryApplicationsFilter, TUAServerOnNetwork, TUAEnumValue, TUADataTypeInfo, 
     TUAEnumDefinition, TUAEnumDescription, TUAEnumFieldInfo, TUAEnumTypeInfo, TUAEnumField, 
